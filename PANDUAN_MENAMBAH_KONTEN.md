@@ -131,8 +131,10 @@ https://www.youtube.com/embed/VIDEO_ID
    - URL: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
    - VIDEO_ID: `dQw4w9WgXcQ`
 
+   
+
 2. **Dari URL YouTube Disingkat:**
-   - URL: `https://youtu.be/dQw4w9WgXcQ`
+   - URL: `https://youtu.be/QADH7-SrxTQ`
    - VIDEO_ID: `dQw4w9WgXcQ`
 
 ### Contoh Lengkap dengan Video:

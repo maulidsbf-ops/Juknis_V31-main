@@ -99,14 +99,14 @@ export const menuData: MenuData = {
       id: 'inventory-rm',
       title: 'Inventory di Rekam Medis',
       items: [
-        //Maul-14/11/2025
+        /* Maul-14/11/2025 */ 
         'Prosedur Permintaan Barang ke Gudang Umum',
         'Prosedur Penerimaan Barang Gudang Umum'
-        //Maul-14/11/2025
+        /* Maul-14/11/2025 */ 
       ]
     },
     {
-      //Maul-14/11/2025
+      /* Maul-14/11/2025 */ 
       id: 'laporan-rj',
       title: 'Laporan Rawat Jalan',
       items: [
@@ -136,7 +136,7 @@ export const menuData: MenuData = {
         'Melihat Status TT yang Terisi Pasien yang Masih Dirawat'
       ]
     }
-    //Maul-14/11/2025
+    /* Maul-14/11/2025 */ 
   ],
   'perawat': [
     {

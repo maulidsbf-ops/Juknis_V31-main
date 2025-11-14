@@ -33,10 +33,10 @@ const Sidebar = ({ onMenuSelect, activeMenu, activeSubmenu }: SidebarProps) => {
         { id: 'cetak-bukti', label: 'Cara Cetak Bukti Transaksi IGD' },
         { id: 'memeriksa-pasien', label: 'Memeriksa Pasien Masuk dan Keluar Rawat Inap' },
         { id: 'inventory-rm', label: 'Inventory di Rekam Medis' },
-        //Maul-14/11/2025
+        /* Maul-14/11/2025 */ 
         { id: 'laporan-rj', label: 'Laporan Rawat Jalan' },
         { id: 'laporan-rwi', label: 'Laporan Rawat Inap' }
-        //Maul-14/11/2025
+        /* Maul-14/11/2025 */ 
       ]
     },
     {
