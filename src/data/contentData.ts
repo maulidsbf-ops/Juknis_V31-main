@@ -48,7 +48,7 @@ export const contentData: Record<string, ContentItem> = {
           'Maka akan tampil informasi “Registration saved successfully”',
           'Nomor MRN akan otomatis terbentuk oleh system',
           'Maka akan tampil preview sticker untuk pasien'
-        ]
+        ], image : '/images/1.png'
       }
     ]
   },
