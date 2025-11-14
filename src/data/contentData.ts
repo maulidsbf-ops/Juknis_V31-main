@@ -151,6 +151,64 @@ export const contentData: Record<string, ContentItem> = {
         
       }
     ]
+  },
+
+  'pendaftaran-rwj-bagi-pasien-yang-sudah-memiliki-janji': {
+    id: 'pendaftaran-rwj-bagi-pasien-yang-sudah-memiliki-janji',
+    menuKey: 'front-office',
+    submenuId: 'rawat-jalan',
+    itemTitle: 'Pendaftaran RWJ bagi pasien yang sudah memiliki janji',
+    steps: [
+      {
+        id: 'pendaftaran-rwj-bagi-pasien-yang-sudah-memiliki-janji-step-1',
+        number: 1,
+        title: 'Pendaftaran RWJ bagi pasien yang sudah memiliki janji',
+        description: 'Buka aplikasi dan pilih menu utama',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu appointment ',
+          'Masuk ke halaman Appointment List, cari pasien ',
+          'Klik tombol select pada ',
+          'Pilih confirm appointment',
+          'Muncul pesan “Appointment confirmed successfuly”',
+          'Status pasien akan berubah menjadi Confirmed',
+          'Klik select kembali',
+          'Klik Create encounter',
+          'Masuk ke halaman create encounter, isi informasi yang diperlukan',
+          'Klik tombol create encounter',
+          'Kemudian akan muncul bukti transaksi poliklinik'
+        ],
+      }
+    ]
+  },
+
+  'pendaftaran-rwj-bagi-pasien-yang-belum-memiliki-janji': {
+    id: 'pendaftaran-rwj-bagi-pasien-yang-belum-memiliki-janji',
+    menuKey: 'front-office',
+    submenuId: 'rawat-jalan',
+    itemTitle: 'Pendaftaran RWJ bagi pasien yang belum memiliki janji',
+    steps: [
+      {
+        id: 'pendaftaran-rwj-bagi-pasien-yang-belum-memiliki-janji-step-1',
+        number: 1,
+        title: 'Pendaftaran RWJ bagi pasien yang belum memiliki janji',
+        description: 'Buka aplikasi dan pilih menu utama',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu bay management',
+          'Pilih view patients',
+          'Masuk ke halaman out patient desk, klik tombol walkin',
+          'Masuk ke halaman create encounter',
+          'Cari nama pasien  untuk menampilkan data pasien walkin',
+          'Pilih departement, unit, consultant, dan consultant type dari menu dropdown',
+          'Select slot di kolom Encouter Slot ',
+          'Klik tombol create encounter',
+          'Kemudian akan muncul bukti transaksi poliklinik'
+        ],
+      }
+    ]
   }
+
+
   /* Maul-14/11/2025 */ 
 };
