@@ -67,13 +67,7 @@ const ContentArea = ({ menuKey, submenuId }: ContentAreaProps) => {
   if (selectedItem) {
     return (
       <div className="content-area">
-        <button
-          className="btn-back"
-          onClick={() => setSelectedItem(null)}
-        >
-          ← Kembali
-        </button>
-        <DetailedContent itemId={selectedItem} />
+        <DetailedContent itemId={selectedItem} onBack={() => setSelectedItem(null)} />
       </div>
     );
   }

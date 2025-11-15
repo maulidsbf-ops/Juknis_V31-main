@@ -1,11 +1,15 @@
+export interface DetailItem {
+  type: 'text' | 'image' | 'video';
+  content: string;
+  title?: string;
+}
+
 export interface ContentStep {
   id: string;
   number: number;
   title: string;
   description: string;
-  details?: string[];
-  image?: string;
-  video?: string;
+  details?: (string | DetailItem)[];
 }
 
 export interface ContentItem {
@@ -31,8 +35,23 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu utama',
         details: [
           'Pada menu Apps, pilih ambulatory care',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/1.png'
+          },
           'Pilih menu registration, klik registration',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/2.png'
+          },
           'Isi form selengkap-lengkapnya, kolom dengan tanda (*) wajib diisi',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/3.png'
+          },
           'Jika pasien menggunakan jaminan, maka lengkapi form pada bagian patient eligibility',
           'Lengkapi form pada kolom sebagai berikut :',
           '     Eligibility name',
@@ -43,12 +62,32 @@ export const contentData: Record<string, ContentItem> = {
           '     Billing order ',
           'Klik active',
           'Klik tombol add',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/4.png'
+          },
           'Maka data jaminan sudah tersimpan',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/5.png'
+          },
           'Klik tombol register',
           'Maka akan tampil informasi “Registration saved successfully”',
           'Nomor MRN akan otomatis terbentuk oleh system',
-          'Maka akan tampil preview sticker untuk pasien'
-        ], image : '/images/1.png'
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/6.png'
+          },
+          'Maka akan tampil preview sticker untuk pasien',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/7.png'
+          }
+        ]
       }
     ]
   },
@@ -66,16 +105,51 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu utama',
         details: [
           'Pada menu Apps, pilih ambulatory care',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/1.png'
+          },
           'Pilih menu registered patients list',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/2.png'
+          },
           'Maka akan tampil halaman registered patients list, cari pasien menggunakan MRN, kemudian klik select lalu pilih modify details',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/3.png'
+          },
           'Edit data yang ingin dilakukan perubahan',
           'Klik tombol save ',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/4.png'
+          },
           'Tampil form reason for modification',
           'Pilih reason yang sesuai',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/5.png'
+          },
           'Klik tombol save',
           'Maka akan tampil print reports',
           'Klik tombol close ',
-          'Maka akan tampil informasi “Registration Saved Successfully”'
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/6.png'
+          },
+          'Maka akan tampil informasi “Registration Saved Successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/7.png'
+          }
 
         ]
         
@@ -96,17 +170,42 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu utama',
         details: [
           'Pada menu Apps, Pilih Ambulatory Care',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_status_pasien_eksternal/1.png'
+          },
           'Pilih menu Registration pada sisi bilah kiri',
           'Pilih external patient list',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_status_pasien_eksternal/2.png'
+          },
           'Maka akan tampil halaman external patient list',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_status_pasien_eksternal/3.png'
+          },
           'Jika nama pasien tidak muncul, gunakan fitur search ',
           'Cari berdasarkan registration date',
           'Klik tombol search',
           'Setelah data pasien muncul, klik register',
           'Pilih General',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_status_pasien_eksternal/5.png'
+          },
           'Maka akan masuk ke halaman patient registration',
           'Cek kembali data pasien',
-          'Jika sudah sesuai klik tombol register'
+          'Jika sudah sesuai klik tombol register',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/mengubah_status_pasien_eksternal/5.png'
+          }
         ],
         
         
@@ -127,9 +226,24 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu utama',
         details: [
           'Pada menu Apps, pilih menu hospital account',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/1.png'
+          },
           'Pilih care plan pada sisi bilah kiri, ',
           'Klik patient policy details',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/2.png'
+          },
           'Cari pasien berdasarkan nama atau no.MRN',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
           'Sebelumnya pasien sudah mempunyai jaminan dan sekarang ingin menggunakan jaminan yang baru',
           'Lengkapi form pada kolom sebagai berikut :',
           'Plan name',
@@ -140,15 +254,24 @@ export const contentData: Record<string, ContentItem> = {
           'Klik pada kolom active',
           'Klik tombol save',
           'Maka akan tampil informasi “Policy details saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/4.png'
+          },
           'Sekarang pasien memiliki dua data jaminan, dan keduanya aktif. ',
           'Untuk menonaktifkan salah satu jaminan yaitu pilih salah satu data jaminan yang ingin dinonaktifkan',
           'Klik edit',
           'Hilangkan tanda centang pada kolom active',
           'Klik tombol save',
-          'Maka jaminan tersebut sudah tidak aktif'
+          'Maka jaminan tersebut sudah tidak aktif',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/5.png'
+          }
         ],
-        image :'/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/1.png'
-        
+                
       }
     ]
   },
@@ -207,8 +330,100 @@ export const contentData: Record<string, ContentItem> = {
         ],
       }
     ]
-  }
-
-
+  },
   /* Maul-14/11/2025 */ 
+
+
+  /* Maul-15/11/2025 */
+  'pendaftaran-rawat-inap': {
+    id: 'pendaftaran-rawat-inap',
+    menuKey: 'front-office',
+    submenuId: 'rawat-inap',
+    itemTitle: 'Pendaftaran Rawat Inap',
+    steps: [
+      {
+        id: 'pendaftaran-rawat-inap-step-1',
+        number: 1,
+        title: 'Pendaftaran Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu utama',
+        details: [
+          'Pada menu Apps, pilih inpatient',
+          'Kemudian pilih menu Admission ',
+          'Masuk ke halaman patient admission, klik new',
+          'Cari nama pasien berdasarkan nama atau no.MRN',
+          'Isi informasi selengkap-lengkapnya, kolom dengan tanda (*) wajib diisi',
+          'Untuk mengisi kolom Bed No klik icon kaca pembesar ',
+          'Masuk ke halaman bed browser, pilih kamar perawatan pada field ward',
+          'Klik tombol search',
+          'Tampil pilihan bed yang masih available',
+          'Klik pada bed yang akan dipilih',
+          'Klik tombol Block',
+          'Kembali ke halaman patient admission ',
+          'Ceklis pada bagian payment methode',
+          'Cek suggested advance amount, apakah service amount sudah sesuai, jika sudah klik tombol admit',
+          'Tampil notifikasi klik tombol yes',
+          'Maka akan muncul informasi "Patient Admission Saved Successfully"',
+          'Klik tombol print sticker',
+          'Maka akan tampil Sticker Rawat Inap',
+          'Klik tombol Print ',
+          'Maka akan tampil surat pernyataan persetujuan rawat inap'
+        ],
+      }
+    ]
+  },
+
+  'pendaftaran-rawat-inap-dari-poli-atau-igd': {
+    id: 'pendaftaran-rawat-inap-dari-poli-atau-igd',
+    menuKey: 'front-office',
+    submenuId: 'rawat-inap',
+    itemTitle: 'Pendaftaran Rawat Inap dari Poli atau IGD',
+    steps: [
+      {
+        id: 'pendaftaran-rawat-inap-dari-poli-atau-igd-step-1',
+        number: 1,
+        title: 'Pendaftaran Rawat Inap dari Poli atau IGD',
+        description: 'Buka aplikasi dan pilih menu utama',
+        details: [
+          'Pada menu Apps, pilih inpatient',
+          'Pilih menu admission request',
+          'Masuk ke halaman Admission Request Browser ',
+          'Cari pasien dengan status “Waiting List”',
+          'Klik select pilih modify',
+          'Untuk mengisi kolom Bed No klik ikon kaca pembesar pada field attach bed',
+          'Kemudian masuk ke halaman bed browser',
+          'Pilih kamar perawatan pada field ward',
+          'Klik tombol Search',
+          'Maka akan muncul pilihan kamar yang masih available',
+          'Klik bed yang akan dipilih',
+          'Setelah itu akan muncul form, klik tombol block',
+          'Maka akan masuk kembali ke halaman admission request',
+          'Klik tombol modify admission request',
+          'Maka akan muncul notifikasi  “Admission Request updated successfully” ',
+          'Klik tombol confirm',
+          'Maka akan muncul notifikasi “Admission Request Confirmed”',
+          'Klik tombol back',
+          'Kemudian pada kolom request status berubah menjadi Confirm',
+          'Klik tombol Tambah',
+          'Maka akan masuk ke patient admission',
+          'Lalu isi suggested advance amount sesuai jumlah nominal',
+          'Jika sudah klik tombol admit',
+          'Maka akan tampil informasi “Patient Admission Saved Successfully”',
+          'Klik tombol print sticker',
+          'Maka akan tampil sticker rawat inap',
+          'Klik tombol print ',
+          'Maka akan tampil Surat Pernyataan Persetujuan Rawat Inap',
+          'Kemudian kembali ke menu inpatient',
+          'Klik admission request',
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          },
+          'Pada kolom request status pasien sudah berubah menjadi processed'
+        ],
+      }
+    ]
+  }
+  /* Maul-15/11/2025 */
+  
 };
