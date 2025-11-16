@@ -19,7 +19,7 @@ const Sidebar = ({ onMenuSelect, activeMenu, activeSubmenu }: SidebarProps) => {
         { id: 'rawat-jalan', label: 'Rawat Jalan' },
         { id: 'rawat-inap', label: 'Rawat Inap' },
         { id: 'one-day-care', label: 'One Day Care' },
-        { id: 'igd', label: 'Instalasi Gawat Darurat' },
+        { id: 'front-office-igd', label: 'Instalasi Gawat Darurat' },
         { id: 'penjadwalan-janji', label: 'Penjadwalan Janji Kunjung Dokter' },
         { id: 'jadwal-dokter', label: 'Jadwal Dokter' }
       ]

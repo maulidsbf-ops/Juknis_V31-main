@@ -32,7 +32,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'pendaftaran-pasien-baru-step-1',
         number: 1,
         title: 'Pendaftaran Pasien Baru',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih ambulatory care',
           {
@@ -102,7 +102,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'mengubah-rincian-pasien-yang-sudah-teregistrasi-step-1',
         number: 1,
         title: 'Mengubah Rincian Pasien Yang sudah Teregistrasi',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih ambulatory care',
           {
@@ -167,7 +167,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'mengubah-status-pasien-eksternal-menjadi-pasien-reguler-step-1',
         number: 1,
         title: 'Mengubah Status Pasien Eksternal Menjadi Pasien Reguler',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, Pilih Ambulatory Care',
           {
@@ -223,7 +223,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'perubahan-jaminan-pasien-step-1',
         number: 1,
         title: 'Perubahan Jaminan Pasien',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih menu hospital account',
           {
@@ -286,7 +286,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'pendaftaran-rwj-bagi-pasien-yang-sudah-memiliki-janji-step-1',
         number: 1,
         title: 'Pendaftaran RWJ bagi pasien yang sudah memiliki janji',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih menu ambulatory care',
           'Pilih menu appointment ',
@@ -315,7 +315,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'pendaftaran-rwj-bagi-pasien-yang-belum-memiliki-janji-step-1',
         number: 1,
         title: 'Pendaftaran RWJ bagi pasien yang belum memiliki janji',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih menu ambulatory care',
           'Pilih menu bay management',
@@ -345,7 +345,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'pendaftaran-rawat-inap-step-1',
         number: 1,
         title: 'Pendaftaran Rawat Inap',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih inpatient',
           'Kemudian pilih menu Admission ',
@@ -382,7 +382,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'pendaftaran-rawat-inap-dari-poli-atau-igd-step-1',
         number: 1,
         title: 'Pendaftaran Rawat Inap dari Poli atau IGD',
-        description: 'Buka aplikasi dan pilih menu utama',
+        description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih inpatient',
           'Pilih menu admission request',
@@ -423,7 +423,218 @@ export const contentData: Record<string, ContentItem> = {
         ],
       }
     ]
-  }
+  },
   /* Maul-15/11/2025 */
+
+
+  /* Maul-15/11/2025 */
+
+  'pembatalan-rawat-inap': {
+    id: 'pembatalan-rawat-inap',
+    menuKey: 'front-office',
+    submenuId: 'rawat-inap',
+    itemTitle: 'Pembatalan Rawat Inap',
+    steps: [
+      {
+        id: 'pembatalan-rawat-inap-step-1',
+        number: 1,
+        title: 'Pembatalan Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pembatalan rawat inap, dengan kondisi belum diterima (receive) oleh perawatan',
+          'Apabila sudah dibatalkan, bed yang sudah diblok akan kembali available',
+          'Pada menu Apps, pilih inpatient',
+          'Pilih menu transactions pada sisi bilah kiri, ',
+          'Klik admission list',
+          'Cari nama pasien, klik select pilih view admission',
+          'Masuk ke halaman data pasien, klik cancel admission',
+          'Tampil form admission cancel, isi remarks lalu klik save',
+          'Maka akan tampil informasi “Admission cancelled successfully”',
+          'Kembali ke halaman admitted patients, maka status pasien tersebut sudah berubah menjadi “Cancelled”'
+        ],
+      }
+    ]
+  },
+
+  'pendaftaran-pasien-operasi-elektif': {
+    id: 'pendaftaran-pasien-operasi-elektif',
+    menuKey: 'front-office',
+    submenuId: 'rawat-inap',
+    itemTitle: 'Pendaftaran Pasien Operasi Elektif',
+    steps: [
+      {
+        id: 'pendaftaran-pasien-operasi-elektif-step-1',
+        number: 1,
+        title: 'Pendaftaran Pasien Operasi Elektif',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih inpatient',
+          'Pilih admission request',
+          'Masuk ke halaman admission request browser, klik create',
+          'Kemudian cari pasien berdasarkan nama atau no.MRN',
+          'Tampil data pasien, isi form selengkap-lengkapnya. Kolom dengan tanda (*) wajib diisi',
+          'Lengkapi form pada kolom sebagai berikut :',
+          'Pilih departement, ',
+          'Consulting doctor',
+          'Admission category',
+          'Surgery date',
+          'Est length of stay  ',
+          'Admission type',
+          'Untuk menjadwalkan operasi, pilih tanggal pada halaman OT availability',
+          'Tampil form schedule details, pilih procedure kemudian tentukan waktu penjadwalan operasi',
+          'Klik tombol schedule',
+          'Tampil jadwal operasi yang sudah ditentukan ',
+          'Klik create admision request',
+          'Maka akan tampil informasi  “Admission request saved successfully”'
+        ],
+      }
+    ]
+  },
+
+
+  'pendaftaran-pasien-odc': {
+    id: 'pendaftaran-pasien-odc',
+    menuKey: 'front-office',
+    submenuId: 'one-day-care',
+    itemTitle: 'Pendaftaran Pasien ODC',
+    steps: [
+      {
+        id: 'pendaftaran-pasien-odc-step-1',
+        number: 1,
+        title: 'Pendaftaran Pasien ODC',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih Ambulatory care',
+          'Klik appoitment, pada sisi bilah kiri pilih Daycare patient',
+          'Pilih New',
+          'Cari nama pasien berdasarkan no. MRN atau nama',
+          'Pilih departemen sesuai dengan spesialisasi',
+          'Pilih ward sesuai dengan ruang one day care',
+          'Pilih consulting doctor sesuai dengan DPJP',
+          'Cari bed, klik icon kaca pembesar',
+          'Pilih ward, bed status : available bed category : day care Gender (disesuaikan)',
+          'Klik tombol search',
+          'Kemudian klik bed yang tersedia',
+          'Lalu klik tombol block',
+          'Jika sudah memilih kamar, klik save',
+          'Maka akan tampil informasi “Record saved successfully”'
+        ],
+      }
+    ]
+  },
+
+  'penjadwalan-kunjung-pasien-lama': {
+    id: 'penjadwalan-kunjung-pasien-lama',
+    menuKey: 'front-office',
+    submenuId: 'penjadwalan-janji',
+    itemTitle: 'Penjadwalan Kunjung Pasien Lama',
+    steps: [
+      {
+        id: 'penjadwalan-kunjung-pasien-lama-step-1',
+        number: 1,
+        title: 'Penjadwalan Kunjung Pasien Lama',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih ambulatory care',
+          'Pilih menu appointments',
+          'Masuk ke halaman appointment list, klik schedule appointment',
+          'Klik schedule untuk memilih jenis jasa rawat jalan yang diperlukan',
+          'Klik tab slots, kemudian jadwal praktek  akan tampil ',
+          'Pilih from date, kemudian klik search agar slot jadwal praktek tampil sesuai dengan tanggal yang dipilih ',
+          'Pilih slot yang tersedia ',
+          'Isi nomor rekam medis atau nama pasien kemudian data pasien akan muncul',
+          'Apabila kesulitan dalam pencarian nama, dapat menggunakan mode search dengan klik tanda Loop',
+          'Kemudian cari berdasarkan nama dan tanggal lahir (atau kategori lainnya)',
+          'Klik tambah (+) untuk memilih pasien',
+          'Isi tambahan informasi di “Reason for visit” dan “Remarks”',
+          'Lakukan verifikasi terutama pada jam kunjungan yang tertera',
+          'Jika informasi sudah sesuai, klik tombol schedule untuk menyelesaikan pembuatan jam kunjung bagi pasien',
+          'Slot yang sudah dipilih akan hilang dari list yang tersedia',
+          'Klik tombol appointment list, untuk melihat keseluruhan appoitment yang ada',
+          'Kembali ke halaman appointment list,  klik select pilih generate token no ',
+          'Maka akan muncul informasi “Token number generated successfully”'
+        ],
+      }
+    ]
+  },
+
+
+  'pendaftaran-pasien-di-igd': {
+    id: 'pendaftaran-pasien-di-igd',
+    menuKey: 'front-office',
+    submenuId: 'front-office-igd',
+    itemTitle: 'Pendaftaran Pasien di IGD',
+    steps: [
+      {
+        id: 'pendaftaran-pasien-di-igd-step-1',
+        number: 1,
+        title: 'Pendaftaran Pasien di IGD',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih emergency',
+          'Pilih menu registration',
+          'Isi form selengkap-lengkapnya, kolom dengan tanda ( * ) wajib diisi',
+          'Klik tombol register',
+          'Nomor MRN akan otomatis terbentuk oleh sistem dan akan langsung mencetak sticker untuk pasien ',
+          'Maka akan tampil notifikasi “Registration Saved Successfully”',
+          'Kembali ke emergency, pilih menu emergency patient ',
+          'Data pasien yang sudah diregistrasi akan terlihat di tab emergency patient list',
+          'Klik walkin ER',
+          'Cari nama pasien berdasarkan nama atau no MRN',
+          'Lengkapi form pada kolom sebagai berikut :',
+          'Pilih service center dengan IGD',
+          'Pilih unit dengan IGD',
+          'Pilih consultant',
+          'Pilih triage category',
+          'Klik tombol walkin',
+          'Maka akan tampil notifikasi “The Patient Received Successfully”'
+        ],
+      }
+    ]
+  },
+
+  'penjadwalan-kunjung-pasien-baru': {
+    id: 'penjadwalan-kunjung-pasien-baru',
+    menuKey: 'front-office',
+    submenuId: 'penjadwalan-janji',
+    itemTitle: 'Penjadwalan Kunjung Pasien Baru',
+    steps: [
+      {
+        id: 'penjadwalan-kunjung-pasien-baru-step-1',
+        number: 1,
+        title: 'Penjadwalan Kunjung Pasien Baru',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih ambulatory care',
+          'Pilih menu appointments',
+          'Masuk ke halaman appointment list, lalu klik schedule appointment',
+          'Klik schedule untuk memilih jenis jasa rawat jalan yang diperlukan',
+          'Klik tab slots, kemudian slot jadwal praktek akan tampil ',
+          'Pilih from date, kemudian search agar slot jadwal praktek tampil sesuai dengan tanggal yang dipilih',
+          'Pilih slot yang tersedia',
+          'Klik new patient',
+          'Isi informasi kelengkapan data pasien',
+          'Klik create patient',
+          'Isi tambahan informasi di “Reason for visit” dan “Remarks”',
+          'Lakukan verifikasi pada tanggal dan jam kunjungan yang tertera',
+          'Jika informasi sudah sesuai, klik tombol schedule untuk menyelesaikan pembuatan jam kunjung bagi pasien',
+          'Slot yang sudah dipilih akan hilang dari list yang tersedia',
+          'Lalu klik tombol appointment list, untuk melihat keseluruhan appointment yang ada',
+          'Kembali ke appointment list, pasien baru akan memiliki warna “merah” dengan kode Rekam Medis sementara “EXTAPPO-…” ',
+          'Klik select pilih generate token no untuk mendapatkan nomor booking',
+          'Lakukan confirm appoitment',
+          'Pilih select, klik general agar pasien didaftarkan sebagai pasien Rumah Sakit',
+          'Kondisi Apabila Pasien Memiliki Nomor Rekam Medis ',
+          'Pilih select, kemudian klik Link MRN ',
+          'Isi nama pasien dengan lengkap, lalu pilih pasien ',
+          'Kemudian klik link MRN ',
+          'Lalu akan tampil informasi "Patient with MRN....... attached"',
+          'Search criteria berdasarkan MRN, klik select berdasarkan MRN pasien yang dituju ',
+          'Klik create encounter untuk proses pendaftaran poliklinik'
+        ],
+      }
+    ]
+  }
+/* Maul-15/11/2025 */
   
 };

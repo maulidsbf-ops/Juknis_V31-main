@@ -46,7 +46,7 @@ export const menuData: MenuData = {
       items: ['Pendaftaran Pasien ODC']
     },
     {
-      id: 'igd',
+      id: 'front-office-igd',
       title: 'Instalasi Gawat Darurat',
       items: ['Pendaftaran Pasien di IGD']
     },
