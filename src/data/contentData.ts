@@ -1075,10 +1075,875 @@ export const contentData: Record<string, ContentItem> = {
         ],
       }
     ]
+  },
+  /* Maul-17/11/2025 */
+
+  /* heru-17/11/2025 */
+
+  'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan': {
+    id: 'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-jalan',
+    itemTitle: 'Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih ambulatory care',
+          'Lalu pilih menu Bay management, klik View patients',
+          'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant ',
+          'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
+          'Jika sudah menemukan pasien tersebut,  lalu klik select, pilih Mark as Arrived',
+          'Kemudian akan muncul informasi “Patient Marked As Arrived”',
+          'Setelah itu klik select pada list pasien tersebut, lalu pilih patient chart ',
+          'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes ',
+          'Lalu pilih consultant pada form select encounter',
+          'Setelah itu tampil form isian notes perawat, Isi kolom title dan notes',
+          'Jika sudah klik tombol Save dan publish',
+          'Kemudian muncul notifikasi, klik tombol processed',
+          'Setelah itu akan tampil informasi “Clinical notes saved successfully”',
+          'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+          'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
+          'Lengkapi informasi pada form vital, jika sudah klik tombol save',
+          'Berikut tampilan informasi vitals yang sudah disave',
+          'Kemudian klik tombol tambah ( + ) pada menu Allergies',
+          'Lengkapi informasi pada form Allergy, jika sudah klik tombol save',
+          'Lalu akan muncul informasi “Allergen saved successfully”, ',
+          'Setelah itu klik Back to Patient List ',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+
+
+'prosedur-asisten-dokter-di-kamar-praktek-dokter': {
+    id: 'prosedur-asisten-dokter-di-kamar-praktek-dokter',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-jalan',
+    itemTitle: 'Prosedur Asisten Dokter di Kamar Praktek Dokter',
+    steps: [
+      {
+        id: 'prosedur-asisten-dokter-di-kamar-praktek-dokter-jalan-step-1',
+        number: 1,
+        title: 'Prosedur Asisten Dokter di Kamar Praktek Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih ambulatory care',
+          'Lalu pilih menu Bay management, klik View patients',
+          'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant',
+          'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
+          'Jika sudah menemukan pasien tersebut, kemudian klik ikon berwarna kuning untuk OnCall dokter',
+          'Kemudian akan muncul informasi “Patient is Called for consultation”',
+          'Setelah itu klik select, pilih patient Chart ',
+          'Pilih menu Orders, lalu klik tombol tambah ( + ) ',
+          'Lalu pilih consultant pada form select encounter',
+          'Setelah itu tampil form isian notes perawat, Isi kolom title dan notes',
+          {type : 'text', content : '1. Masuk ke halaman Add orders, pastikan nama dokter yang tercantum di kolom nama dokter pada kotak sudut kanan atas sesuai', level: 2 },
+          {type : 'text', content : '2. Isi kata kunci pada kolom pencarian', level: 2 },
+          {type : 'text', content : '3. Kemudian beri tanda centang pada item yang ingin dipilih', level: 2 },
+          'Kemudian cek kembali untuk item order yang sudah dipilih, ',
+          'Pastikan prefered service center seesuai dengan spesialisasi ',
+          'Jika sudah sesuai lalu klik tombol save ',
+          'Kemudian akan muncul informasi “Service Order saved successfully” ',
+          'Setelah itu klik Back to Patient List',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+ },
+
+  'prosedur-penerimaan-pasien-baru': {
+    id: 'prosedur-penerimaan-pasien-baru',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Prosedur Penerimaan Pasien Baru',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-pasien-baru-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Pasien Baru',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih menu Inpatients',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Masuk ke halaman Nursing work bench, kemudian klik search',
+            'Setelah itu cari pasien berdasarkan search criteria, pada patient status pilih Billing cleared',
+            'Lalu klik tombol search',
+            'Setelah pasien ditemukan kemudian klik Administrative, pilih Receive patient',
+            'Muncul form data pasien, isi remarks bila ada keterangan setelah itu klik tombol save',
+            'Lalu akan muncul informasi “Patient reported successfully”',
+            'Kembali ke halaman list patient, setelah itu lakukan kembali pencarian berdasarkan status pasien (patient status)',
+            'Pilih Under IP  lalu klik tombol search',
+            'Setelah pasien ditemukan lalu klik Clinical, pilih patient chart',
+            'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes',
+            'Setelah itu tampil form isian note perawat, Isi kolom title dan note',
+            'Jika sudah klik tombol Save dan publish',
+            'Kemudian muncul notifikasi, klik tombol processed',
+            'Setelah itu akan muncul informasi “Clinical notes saved successfully”',
+            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+            'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
+            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
+            'Berikut tampilan Vitalls keperawatan yang sudah disave',
+            'Selanjutnya pilih menu Allergies, lalu klik ikon tambah  ( + ) ',
+            'Lengkapi informasi pada form alergi jika sudah klik tombol save',
+            'Setelah itu klik Keperawatan pada menu CPPT',
+            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
+            'Jika sudah klik Save dan Publish',
+            'Kemudian muncul notifikasi, klik tombol processed',
+            'Setelah itu akan muncul informasi “Clinical note saved successfully”',
+            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+            'Setelah itu klik Back to patient list',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+  'serah-terima-antar-shift': {
+    id: 'serah-terima-antar-shift',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Serah Terima Antar Shift',
+    steps: [
+      {
+        id: 'serah-terima-antar-shift-step-1',
+        number: 1,
+        title: 'Serah Terima Antar Shift',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih menu Inpatients ',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Cari pasien setelah itu klik Clinical, pilih Patient Chart',
+            'Masuk ke halaman entry perawat, setelah itu klik Keperawatan pada menu CPPT',
+            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
+            'Jika sudah klik Save dan Publish',
+            'Muncul notifikasi publish options, klik tombol processed',
+            'Tampil informasi “Clinical note saved successfully”',
+            'Setelah itu pilih menu Vitals, lalu klik ikon tambah  ( + ) ',
+            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
+            'Tampil informasi “Vitals saved successfully”',
+            'Kembali ke halaman entry perawat, cek kembali data pasien jika sudah klik Back to patient list',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+  'prosedur-mendampingi-dokter-visit': {
+    id: 'prosedur-mendampingi-dokter-visit',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Prosedur Mendampingi Dokter Visit',
+    steps: [
+      {
+        id: 'prosedur-mendampingi-dokter-visit-step-1',
+        number: 1,
+        title: 'Prosedur Mendampingi Dokter Visit',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada halaman utama pilih tab inpatient',
+            'Pilih pasien, klik view EHR',
+            'Pilih widget clinical notes, klik icon tambah (+)',
+            'Lengkapi form add note, isi title dan note',
+            'Klik save & publish',
+            'Lalu klik processed',
+            'Maka akan tampil notifikasi “Clinical note saved successfully”',
+            'Pilih widget orders, klik icon tambah (+)',
+            'Cari nama order di kolom search',
+            'Kemudian akan tampil daftar order sesuai kata pencarian, beri tanda centang item order yang dipilih',
+            'Pastikan nama dokter yang tercantum di kolom nama dokter pada kotak sudut kanan atas sesuai',
+            'Pastikan service center untuk order yang dimaksud sesuai dengan lokasi yang dituju',
+            'Klik save',
+            'Maka akan tampil notifikasi “Service order saved successfully”',
+            'Pilih widget medications, klik icon tambah (+)',
+            'Pilih store, lalu klik prescription ',
+            'Cari nama order di kolom search',
+            'Kemudian akan tampil daftar order sesuai kata pencarian',
+            'Beri tanda centang item order yang dipilih',
+            'Setelah itu klik add instructions',
+            'Lengkapi form instructions, lalu klik select',
+            'Jika sudah klik add drugs',
+            'Maka akan tampil data item yang sudah diorder',
+            'Klik save',
+            'Lalu akan tampil notifikasi “Drug order saved”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+   'proses-pengosongan-kamar': {
+    id: 'proses-pengosongan-kamar',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Proses Pengosongan Kamar',
+    steps: [
+      {
+        id: 'proses-pengosongan-kamar-step-1',
+        number: 1,
+        title: 'Proses Pengosongan Kamar',
+        description: 'Tujuan : Penyelesaian proses pemulangan sehingga kamar yang selesai digunakan di ruang perawatan dapat dilihat sebagai kamar available oleh admisi rawat inap',
+        details: [
+            'Pada halaman home klik pending tasks',
+            'Kemudian klik form',
+            'Klik tombol discharge',
+            'Maka akan tampil informasi “Record saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'proses-unmark-for-discharge': {
+    id: 'proses-unmark-for-discharge',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Proses Unmark For Discharge',
+    steps: [
+      {
+        id: 'proses-unmark-for-discharge-step-1',
+        number: 1,
+        title: 'Proses Unmark For Discharge',
+        description: 'Tujuan : Apabila pasien yang sudah siap dipulangkan namun ada item service yang belum terinput dan proses pembayaran belum sampai ke kasir',
+        details: [
+            'Pada menu Apps pilih Inpatients',
+            'Pilih nursing work bench',
+            'Lalu klik search',
+            'Lakukan pencarian berdasarkan search criteria',
+            'Pada patien status pilih Marked for discharge',
+            'Klik search',
+            'Cari nama pasien, klik clinical',
+            'Pilih unmarked for discharge',
+            'Pilih reason, lalu klik yes',
+            'Maka akan tampil informasi bahwa pasien tersebut berhasil di un-marked for discharge ',
+            'Kemudian untuk memastikan kembali apakah pasien tersebut berhasil di unmarked for discharge',
+            'Yaitu search berdasarkan criteria. Pada patient status pilih under IP care',
+            'Klik search',
+            'Dan pasien tersebut berhasil di unmarked for discharge',
+            'Selanjutnya dapat dilakukannya dengan menginput order yang tertinggal atau melakukan validasi service order processor oleh perawat terkait',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'prosedur-pemulangan-pasien': {
+    id: 'prosedur-pemulangan-pasien',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Prosedur Pemulangan Pasien',
+    steps: [
+      {
+        id: 'prosedur-pemulangan-pasien-step-1',
+        number: 1,
+        title: 'Prosedur Pemulangan Pasien',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih menu Inpatients',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Masuk ke halaman Nursing work bench, kemudian cari nama pasien ',
+            'Setelah itu klik Clinical, pilih Patient Chart',
+            'Masuk ke halaman entry perawat, setelah itu klik Request',
+            'Kemudian cari service Order Processor',
+            'Masuk ke halaman service order processor, cari nama pasien',
+            'Setelah itu klik tanda centang pada kolom process, ',
+            'Kemudian klik save',
+            'Kemudian muncul form, pilih select employee dan departement',
+            'Setelah itu klik tombol tambah, lalu klik tombol OK',
+            'Muncul informasi “Orders are processed successfully” ',
+            'Kembali ke halaman service order processor, lalu cari nama pasien ',
+            'Klik Clinical, pilih Marked for discharge',
+            'Muncul form mark for discharge, kemudian pilih discharge type dan unit',
+            'Setelah itu klik tombol yes',
+            'Setelah pasien berhasil di marked for discharge, kemudian klik search untuk mencari pasien berdasarkan search criteria',
+            'Pada patient status pilih Marked for discharge, klik tombol search',
+            'Lalu akan tampil list pasien yang telah dilakukan marked for discharge',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+   'pembuatan-skl-birth-notifications': {
+    id: 'pembuatan-skl-birth-notifications',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Pembuatan SKL (Birth Notifications)',
+    steps: [
+      {
+        id: 'pembuatan-skl-birth-notifications-step-1',
+        number: 1,
+        title: 'Pembuatan SKL (Birth Notifications)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih menu Inpatients',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Masuk ke halaman nursing work bench, setelah itu search nama pasien',
+            'Kemudian klik administrative, pilih Birth notification',
+            'Isi form selengkap-lengkapnya, kolom dengan tanda bintang (*) wajib diisi',
+            'Klik tombol Update',
+            'Setelah itu klik tombol add ',
+            'Jika sudah klik tombol add muncul data yang sudah diadd',
+            'Lalu klik tombol save',
+            'Tampil informasi saved successfully',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+  'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan': {
+    id: 'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan',
+    steps: [
+      {
+        id: 'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan-step-1',
+        number: 1,
+        title: 'Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih menu Inpatients',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Kemudian cari nama pasien berdasarkan search criteria yaitu dengan',
+            'Patient status : Abscounded  dan No MRN pasien',
+            'Lalu klik tombol search',
+            'Jika nama pasien telah ditemukan, lalu klik administrative',
+            'Pilih Revert abscounding patient',
+            'Lalu akan muncul form, pilih reason',
+            'Setelah itu klik tombol yes',
+            'Maka akan muncul informasi pasien tersebut berhasil “Marked Abscounded”',
+            'Setelah itu lakukan pencarian berdasarkan criteria dengan patient status : Under IP',
+            'Klik tombol search',
+            'Maka status pasien sudah pindah kembali ke Under IP',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'service-order-processor-melalui-inpatient': {
+    id: 'service-order-processor-melalui-inpatient',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Service Order Processor Melalui Inpatient',
+    steps: [
+      {
+        id: 'service-order-processor-melalui-inpatient-step-1',
+        number: 1,
+        title: 'Service Order Processor Melalui Inpatient',
+        description: 'Tujuan Service order prosesor adalah melakukan validasi terhadap item service/tindakan yang sudah di order baik untuk mendapatkan kesesuaian nama dokter yang melakukan tindakan dan menerima honor dokternya (rendering doctor ). Prosedur ini dilakukan pada saat : A) Transfer pasien ke ruangan lain (perawat yang mengantar melakukan prosedur service order processor dan perawat yang menerima memastikan seluruh transaksi telah di verifikasi) ; B) Penerimaan pasien baru di ruang rawat inap (perawat yang melakukan verifikasi/  service order processor adalah perawat yang mengantar, sedangkan perawat yang menerima memastikan seluruh transaksi telah di verifikasi) ; C) Setiap akhir shift ; D)Saat pemulangan pasien',
+        details: [
+                  'Pada menu Apps, pilih Inpatient',
+                  'Pilih menu Nursing Work Bench',
+                  'Klik Search',
+                  'Cari pasien berdasarkan kriteria sebagai berikut :',
+                  'Patien status : Under IP',
+                  'Active patients : Active',
+                  'Service center : disesuaikan',
+                  'Klik tombol search',
+                  'Cari nama pasien, salin nomor MRN pasien tersebut',
+                  'Klik tanda panah pada sisi kiri',
+                  'Klik menu Transaction pada sisi bilah kiri',
+                  'Pilih service order processor',
+                  'Klik tab Pending sevice order',
+                  'Klik search',
+                  'Lakukan pencarian berdasarkan kriteria berikut :',
+                  'MRN : disesuaikan',
+                  'Visit Type : disesuaikan',
+                  'Klik tombol search',
+                  'Maka akan tampil data pasien tersebut bila ada transaksi yang belum di verifikasi',
+                  'Lakukan penyelesaian verifikasi setiap transaksi, dengan cara :',
+                  'Cek “Ordered  By” untuk memastikan nama dokter yang akan dilakukan verifikasi',
+                  'Checklist kotak pada kolom process di setiap transaksi (lakukan satu persatu)',
+                  'Klik save',
+                  'Pada bagian Rendering Employee isi nama dokter di pilihan select employee sesuai dengan nama dokter pada informasi kolom order by (contoh gambar pada bagian sebelumnya)',
+                  'Ketik ikon %%% untuk mencari nama dokter',
+                  'Setelah pilih nama dokter maka field departement secara otomatis akan terisi datanya',
+                  'Lalu klik ikon tambah (+)',
+                  'Untuk nama dokter sudah ditambahkan',
+                  'Klik Ok',
+                  'Maka akan tampil informasi “Order are processed successfully”',
+                  'Verifikasi transaksi atau service order processor telah berhasil dilakukan',
+                  'Lakukan langkah yang sama untuk transaksi yang lainnya sampai seluruh transaksi selesai dilakukan',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'service-order-processor-melalui-nursing-work-bench': {
+    id: 'service-order-processor-melalui-nursing-work-bench',
+    menuKey: 'perawat',
+    submenuId: 'perawat-rawat-inap',
+    itemTitle: 'Service Order Processor Melalui Nursing Work Bench',
+    steps: [
+      {
+        id: 'service-order-processor-melalui-nursing-work-bench-step-1',
+        number: 1,
+        title: 'Service Order Processor Melalui Nursing Work Bench',
+        description: 'Tujuan Service order prosesor adalah melakukan validasi terhadap item service/tindakan yang sudah di order baik untuk mendapatkan kesesuaian nama dokter yang melakukan tindakan dan menerima honor dokternya (rendering doctor )',
+        details: [
+            'Pada menu Apps, pilih Inpatient',
+            'Pilih menu Nursing Work Bench',
+            'Klik Search',
+            'Cari pasien berdasarkan kriteria sebagai berikut :',
+            'Patien status : Under IP',
+            'Active patients : Active',
+            'Service center : disesuaikan',
+            'Klik tombol search',
+            'Untuk mulai membuka menu service order processor dapat di lakukan melalui 2 langkah, yaitu :',
+            'Dapat melalui menu list pasien, yaitu klik “Clinical” pilih “Service Order Processor”',
+            'Pada halaman service order processor klik tab pending service order',
+            'Maka akan tampil data pasien yang akan dilakukan verifikasi transaksi',
+            '2. Melalui dashboard pasien, klik clinical pilih patient chart',
+            'Kemudian klik ”Request”” pilih “Service Order Processor”',
+            'Pada halaman service order processor klik tab pending service order',
+            'Maka akan tampil data pasien yang akan dilakukan verifikasi transaksi',
+            'Lakukan penyelesaian verifikasi setiap transaksi, dengan cara :',
+            'Cek “Ordered  By” untuk memastikan nama dokter yang akan dilakukan verifikasi',
+            'Check list kotak pada kolom process di setiap transaksi (lakukan satu persatu)',
+            'Klik save',
+            'Pada bagian Rendering Employee isi nama dokter di pilihan select employee sesuai dengan nama dokter pada informasi kolom order by (contoh gambar pada bagian sebelumnya)',
+            'Ketik ikon %%% untuk mencari nama dokter',
+            'Setelah pilih nama dokter maka field departement secara otomatis akan terisi data keterangan',
+            'Lalu klik ikon tambah (+)',
+            'Untuk nama dokter sudah ditambahkan',
+            'Klik Ok',
+            'Maka akan tampil informasi “Order are processed successfully”',
+            'Verifikasi transaksi atau service order processor telah berhasil dilakukan',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+  
+      'proses-transfer-antar-ruangan-alih-rawat': {
+    id: 'proses-transfer-antar-ruangan-alih-rawat',
+    menuKey: 'perawat',
+    submenuId: 'transfer-ruangan',
+    itemTitle: 'Proses Transfer Antar Ruangan Alih Rawat',
+    steps: [
+      {
+        id: 'proses-transfer-antar-ruangan-alih-rawat-step-1',
+        number: 1,
+        title: 'Proses Transfer Antar Ruangan Alih Rawat',
+        description: 'Proses Transfer  (Dilakukan oleh perawat yang mentransfer / ruangan asal)',
+        details: [
+            'Pada menu Apps pilih Inpatient',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Setelah itu klik search untuk mencari nama pasien berdasarkan search criteria',
+            'Jika nama pasien sudah ditemukan, Klik administrative, pilih patient transfer',
+            'Lalu klik tombol processed',
+            'Masuk ke halaman data pasien, kemudian klik ikon kaca pembesar untuk menambahkan bed',
+            'Masuk ke halaman Bed browser, pilih ward dan bed status',
+            'Kemudian Klik tombol search, maka bed yang tersedia akan muncul',
+            'Pilih bed yang tersedia',
+            'Lalu klik tombol block',
+            'Kembali ke halaman data pasien, kemudian isi kolom reason pada other details',
+            'Setelah itu klik transfer',
+            'Muncul informasi “Transfer request saved successfully” ',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-received-pindah-kamar': {
+    id: 'proses-received-pindah-kamar',
+    menuKey: 'perawat',
+    submenuId: 'transfer-ruangan',
+    itemTitle: 'Proses Received (Pindah Kamar)',
+    steps: [
+      {
+        id: 'proses-received-pindah-kamar-step-1',
+        number: 1,
+        title: 'Proses Received (Pindah Kamar)',
+        description: 'Proses Received (dilakukan oleh perawat yang menerima / ruangan tujuan)',
+        details: [
+            'Pada menu Apps, pilih menu Inpatient ',
+            'Kemudian pilih menu transactions, lalu klik Transfer request pada menu sisi bilah kiri',
+            'Masuk ke halaman transfer request, lalu klik search',
+            'Cari nama paien berdasarkan search criteria, lalu klik tombol search',
+            'Jika nama pasien sudah ditemukan lalu klik tombol edit ',
+            'Masuk ke halaman data pasien, lalu cek informasi data pasien tersebut jika sudah sesuai klik tombol receive',
+            'Tampil informasi “Transfer request accepted successfuly”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'proses-alih-rawat-pindah-dokter': {
+    id: 'proses-alih-rawat-pindah-dokter',
+    menuKey: 'perawat',
+    submenuId: 'transfer-ruangan',
+    itemTitle: 'Proses Alih Rawat (Pindah Dokter)',
+    steps: [
+      {
+        id: 'proses-alih-rawat-pindah-dokter-step-1',
+        number: 1,
+        title: 'Proses Alih Rawat (Pindah Dokter)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Inpatient',
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            'Masuk ke halaman nursing work bench, kemudian klik search',
+            'Cari nama pasien berdasarkan search criteria, pada patient status pilih under IP care',
+            'Lalu klik tombol search',
+            'Setelah nama pasien ditemukan, klik administrative lalu pilih patient transfer',
+            'Kemudian muncul form data pasien, klik tombol processed',
+            'Masuk ke halaman transfer request, lalu pilih primary consultant ',
+            'Isi kolom reason pada other details, kemudian klik tombol transfer',
+            'Muncul informasi “Record already saved"',
+            'Setelah itu klik transfer request kembali pada menu transaction',
+            'Setelah itu klik tombol search, cari nama pasien berdasarkan criteria ',
+            'Lalu klik tombol search',
+            'Jika sudah menemukan nama pasien tersebut klik tombol edit',
+            'Setelah itu masuk ke halaman data pasien, klik tombol receive',
+            'Muncul informasi”Transfer request accepted successfuly”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'proses-transfer-pasien-dari-kamar-perawatan-ke-kamar-operasi': {
+    id: 'proses-transfer-pasien-dari-kamar-perawatan-ke-kamar-operasi',
+    menuKey: 'perawat',
+    submenuId: 'transfer-ruangan',
+    itemTitle: 'Proses Transfer Pasien Dari Kamar Perawatan Ke Kamar Operasi',
+    steps: [
+      {
+        id: 'proses-transfer-pasien-dari-kamar-perawatan-ke-kamar-operasi-step-1',
+        number: 1,
+        title: 'Proses Transfer Pasien Dari Kamar Perawatan Ke Kamar Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu apps, pilih rawat inap (Inpatient)',
+            'Lalu pilih Meja perawat  (Nursing work bench)',
+            'Masuk ke halaman meja perawat, kemudian klik pencarian',
+            'Cari nama pasien berdasarkan search criteria, pada patient status pilih under IP care',
+            'Lalu klik tombol pencarian',
+            'Setelah nama pasien ditemukan kemudian klik administrative, pilih patient transfer',
+            'Kemudian muncul form data pasien, klik tombol processed',
+            'Masuk ke halaman transfer request, kemudian pilih Bed type and no, klik ikon kaca pembesar',
+            'Masuk ke halaman Bed browser, pilih ward dan bed status',
+            'Kemudian Klik tombol search, maka bed yang tersedia akan muncul',
+            'Pilih bed yang tersedia',
+            'Lalu klik tombol block',
+            'Kembali ke halaman data pasien, kemudian isi kolom reason pada other details',
+            'Setelah itu klik transfer',
+            'Tampil informasi “Transfer request saved successfully”',
+            'Kemudian klik transfer request pada menu transaksi pada sisi bilah kiri',
+            'Masuk ke halaman transfer request, cari nama pasien setelah itu klik tombol edit',
+            'Masuk ke halaman data pasien, lalu klik tombol receive',
+            'Muncul informasi “Transfer request accepted successfully”',
+            'Kemudian klik bed browser pada menu transaksi',
+            'Masuk ke halaman bed browser, lalu pilih ward dan bed status',
+            'Klik tombol search',
+            'Lalu pilih bed yang tersedia dengan mengklik tulisan block',
+            'Kemudian tampil form change bed status, pilih reason',
+            'Lalu klik tombol yes',
+            'Tampil informasi “Bed status changes successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'penjadwalan-operasi-di-rawat-jalan-rawat-inap-dan-igd': {
+    id: 'penjadwalan-operasi-di-rawat-jalan-rawat-inap-dan-igd',
+    menuKey: 'perawat',
+    submenuId: 'penjadwalan-operasi',
+    itemTitle: 'Penjadwalan Operasi di Rawat Jalan, Rawat Inap dan IGD',
+    steps: [
+      {
+        id: 'penjadwalan-operasi-di-rawat-jalan-rawat-inap-dan-igd-step-1',
+        number: 1,
+        title: 'Penjadwalan Operasi di Rawat Jalan, Rawat Inap dan IGD',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih Operation Theater',
+            'Kemudian pilih surgery request',
+            'Masuk ke halaman surgery request, kemudian cari pasien berdasarkan no MRN atau nama',
+            'Isi form selengkap-lengkapnya, field yg wajib diisi yaitu Chief surgeon, Surgery type dan Billing class',
+            'Kemudian pilih Departement dan isi kode prosedur ',
+            'Setelah itu klik add maka akan tampil rincian biaya',
+            'Untuk menjadwalkan operasi, klik ikon kaca pembesar pada operation date',
+            'Kemudian tampil OT scheduling, lalu pilih tanggal operasi',
+            'Selanjutnya akan tampil form event detail, lalu sesuaikan waktu untuk penjadwalan ',
+            'Jika sudah klik tombol schedule',
+            'Setelah itu tampil jadwal yang sudah disesuaikan pada form OT scheduling, ',
+            'Jika data pada operation schedule sudah sesuai, kemudian klik tombol request',
+            'Maka akan tampil informasi “Record saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'one-day-care': {
+    id: 'one-day-care',
+    menuKey: 'perawat',
+    submenuId: 'penjadwalan-operasi',
+    itemTitle: 'One Day Care',
+    steps: [
+      {
+        id: 'one-day-care-step-1',
+        number: 1,
+        title: 'One Day Care',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih Ambulatory care',
+            'Klik appoitment, pada sisi bilah kiri pilih Daycare patient',
+            'Cari nama pasien, kemudian klik select pilih patient chart',
+            'Pilih tab request, lalu pilih surgery request',
+            'Lakukan surgery sesuai dengan jadwal yang direncanakan',
+            'CATATAN :',
+            'Pasien ODC  yang pulang dari kamar operasi tidak melalui jalur “ADMISSION REQUEST”',
+            'Pasien ODC yang berubah kondisi menjadi rawat inap maka mengikuti alur “ADMISSION REQUEST”',
+            'Setelah selesai dalam modul OT billing, pasien diarahkan ke kasir untuk menyelesaikan pembayaran.',
+            'Pembayaran dilakukan dengan cara klik “Draft” pada modul hospital account',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'perubahan-atau-pemindahan-jadwal-operasi': {
+    id: 'perubahan-atau-pemindahan-jadwal-operasi',
+    menuKey: 'perawat',
+    submenuId: 'penjadwalan-operasi',
+    itemTitle: 'Perubahan atau Pemindahan Jadwal Operasi',
+    steps: [
+      {
+        id: 'perubahan-atau-pemindahan-jadwal-operasi-step-1',
+        number: 1,
+        title: 'Perubahan atau Pemindahan Jadwal Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Kemudian pilih view surgery request ',
+            'Masuk ke halaman surgery request browser',
+            'Pilih tanggal penjadwalan operasi, lalu isi nama pasien',
+            'Klik tombol search',
+            'Jika pasien sudah ditemukan klik select, pilih modify surgery request',
+            'Masuk ke halaman data pasien',
+            'Klik ikon kaca pembesar pada operation date',
+            'Tampil form OT scheduling, klik tombol 2 days (untuk menampilkan keterangan dua tanggal) ',
+            'Pilih sesuai kebutuhan',
+            'Maka akan tampil dua tanggal',
+            'Kemudian drag (pindahkan) jadwal operasi dari tanggal 10 Januari ke tanggal 11 Januari ',
+            'Maka jadwal operasi sebelumnya dari tanggal 10 Januari telah berpindah ke tanggal 11 Januari ',
+            'Jika sudah akan muncul inforamasi “OT Event update successfully”',
+            'Kembali ke halaman data pasien, lalu klik tombol modify',
+            'Kemudian tampil form reason for modification',
+            'Pilih alasan dari modifikasi data pasien tersebut, klik Ok',
+            'Maka akan muncul informasi “Record saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
   }
 
-
-
-  /* Maul-17/11/2025 */
+  /* heru-17/11/2025 */
 
 };
