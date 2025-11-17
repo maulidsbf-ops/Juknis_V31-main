@@ -78,22 +78,22 @@ export const menuData: MenuData = {
     {
       id: 'cara-mencari-info',
       title: 'Cara Mencari Info Pasien',
-      items: []
+      items: ['Cara Mencari Info Pasien']
     },
     {
       id: 'cara-mencari-brm',
       title: 'Cara Mencari BRM Lama Bila Tidak ada Data nya',
-      items: []
+      items: ['Cara Mencari BRM Lama Bila Tidak Ada Datanya']
     },
     {
       id: 'cetak-bukti',
       title: 'Cara Cetak Bukti Transaksi IGD',
-      items: []
+      items: ['Cara Cetak Bukti Transaksi IGD']
     },
     {
       id: 'memeriksa-pasien',
       title: 'Memeriksa Pasien Masuk dan Keluar Rawat Inap',
-      items: []
+      items: ['Memeriksa Pasien Masuk dan Keluar Rawat Inap']
     },
     {
       id: 'inventory-rm',
@@ -272,62 +272,57 @@ export const menuData: MenuData = {
     {
       id: 'terima-order',
       title: 'Terima Order',
-      items: []
+      items: ['Terima Order']
     },
     {
       id: 'terima-order-eksternal',
       title: 'Terima Order Pasien Eksternal',
-      items: []
+      items: ['Terima Order Pasien Eksternal']
     },
     {
       id: 'cetak-hasil',
       title: 'Cetak Hasil Radiologi',
-      items: []
+      items: ['Cetak Hasil Radiologi']
     }
   ],
   'fisioterapi': [
     {
       id: 'penerimaan-pendaftaran',
       title: 'Penerimaan Pendaftaran Pasien Rawat Jalan Fisioterapi dan KTK',
-      items: []
+      items: ['Penerimaan Pendaftaran Pasien Rawat Jalan Fisioterapi dan KTK']
     }
   ],
   'laboratorium': [
     {
       id: 'lab-terima-order',
-      title: 'Terima Order',
-      items: []
+      title: 'Terima Order Lab',
+      items: ['Terima Order Lab']
     },
     {
       id: 'cetak-hasil-lab',
       title: 'Mencetak Hasil Pemeriksaan Laboratorium',
-      items: []
+      items: ['Mencetak Hasil Pemeriksaan Laboratorium']
     },
     {
       id: 'rujuk-lab',
       title: 'Merujuk Pemeriksaan Lab Ke Luar Antar Cabang Hermina dan Lab Rujukan Lainnya',
-      items: []
+      items: ['Merujuk Pemeriksaan Lab Ke Luar Antar Cabang Hermina dan Lab Rujukan Lainnya']
     },
     {
       id: 'terima-order-lab-eksternal',
       title: 'Terima Order Pasien Eksternal',
-      items: []
+      items: ['Terima Order Pasien Eksternal']
     },
     {
-      id: 'laporan-jumlah-lab',
-      title: 'Laporan Jumlah Pemeriksaan Lab',
-      items: []
-    },
-    {
-      id: 'laporan-pending-lab',
-      title: 'Laporan Pemeriksaan yang Belum Selesai (Pending)',
-      items: []
-    },
-    {
-      id: 'laporan-tat',
-      title: 'Laporan Turn Around Time (TAT)',
-      items: []
+      id: 'laporan-lab',
+      title: 'Laporan Lab',
+      items: [
+        'Laporan Jumlah Pemeriksaan Lab',
+        'Laporan Pemeriksaan yang Belum Selesai (Pending)',
+        'Laporan Turn Around Time (TAT)'
+      ]
     }
+    
   ],
   'farmasi': [
     {
@@ -348,7 +343,7 @@ export const menuData: MenuData = {
     {
       id: 'pending-dispense',
       title: 'Pending Dispense Request',
-      items: []
+      items: ['Pending Dispense Request']
     },
     {
       id: 'laporan-farmasi',
@@ -374,7 +369,7 @@ export const menuData: MenuData = {
     {
       id: 'transfer-obat',
       title: 'Transfer Obat (Transfer Kode Barang)',
-      items: []
+      items: ['Transfer Obat (Transfer Kode Barang)']
     },
     {
       id: 'reorder-qty',
@@ -389,12 +384,12 @@ export const menuData: MenuData = {
     {
       id: 'stock-opname',
       title: 'Stock Opname',
-      items: []
+      items: ['Stock Opname']
     },
     {
       id: 'penyesuaian-barang',
       title: 'Penyesuaian Barang',
-      items: []
+      items: ['Penyesuaian Barang']
     },
     {
       id: 'laporan-inventory',
@@ -417,22 +412,22 @@ export const menuData: MenuData = {
     {
       id: 'purchase-request',
       title: 'Purchase Request',
-      items: []
+      items: ['Purchase Request']
     },
     {
       id: 'purchase-order',
       title: 'Purchase Order',
-      items: []
+      items: ['Purchase Order']
     },
     {
       id: 'good-receipt',
       title: 'Good Receipt Note',
-      items: []
+      items: ['Good Receipt Note']
     },
     {
       id: 'kriteria-po-grn',
       title: 'Kriteria Penginputan Purchase Order dan Good Receipt Note',
-      items: []
+      items: ['Kriteria Penginputan Purchase Order dan Good Receipt Note']
     }
   ],
   'keuangan': [
@@ -560,12 +555,12 @@ export const menuData: MenuData = {
     {
       id: 'update-bed',
       title: 'Update Bed Definition',
-      items: []
+      items: ['Update Bed Definition']
     },
     {
       id: 'data-karyawan',
       title: 'Pengisian Data Karyawan',
-      items: []
+      items: ['Pengisian Data Karyawan']
     }
   ]
 };

@@ -427,7 +427,7 @@ export const contentData: Record<string, ContentItem> = {
   /* Maul-15/11/2025 */
 
 
-  /* Maul-15/11/2025 */
+  /* Maul-16/11/2025 */
 
   'pembatalan-rawat-inap': {
     id: 'pembatalan-rawat-inap',
@@ -634,7 +634,270 @@ export const contentData: Record<string, ContentItem> = {
         ],
       }
     ]
+  },
+/* Maul-16/11/2025 */
+
+
+/* Maul-17/11/2025 */
+  'mengkonfirmasi-kedatangan-pasien': {
+    id: 'mengkonfirmasi-kedatangan-pasien',
+    menuKey: 'front-office',
+    submenuId: 'penjadwalan-janji',
+    itemTitle: 'Mengkonfirmasi Kedatangan Pasien',
+    steps: [
+      {
+        id: 'mengkonfirmasi-kedatangan-pasien-step-1',
+        number: 1,
+        title: 'Mengkonfirmasi Kedatangan Pasien',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu appointment',
+          'Masuk ke halaman appointment list, cari pasien yang sudah memiliki jadwal kunjung dan telah tiba di rumah sakit',
+          'Klik select pilih confirm appointment',
+          'Status pasien dari “Booked” menjadi “Confirmed”',
+          'Maka akan tampil informasi "Appointment confirmed successfully"'
+        ],
+      }
+    ]
+  },
+
+  'menjadwal-ulang-kunjungan-pasien': {
+    id: 'menjadwal-ulang-kunjungan-pasien',
+    menuKey: 'front-office',
+    submenuId: 'penjadwalan-janji',
+    itemTitle: 'Menjadwal Ulang Kunjungan Pasien',
+    steps: [
+      {
+        id: 'menjadwal-ulang-kunjungan-pasien-step-1',
+        number: 1,
+        title: 'Menjadwal Ulang Kunjungan Pasien',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu appointment',
+          'Masuk ke halaman appointment list, cari pasien yang akan dijadwal ulang',
+          'Klik select, pilih reschedule appointment',
+          'Tampil form schedule details ',
+          'Slot yang yang sudah terisi akan berwarna biru',
+          'Jika menjadwal ulang ke tanggal yang berbeda maka klik tombol “Reschedule to”',
+          'Pilih kolom yang diinginkan, isi remarks dan reason for visit',
+          'Klik reschedule / reschedule and print untuk menyelesaikan penjadwalan ulang',
+          'Status  jadwal pasien sekarang menjadi booked setelah di jadwal ulang'
+        ],
+      }
+    ]
+  },
+
+  'jadwal-kunjungan-berulang': {
+    id: 'jadwal-kunjungan-berulang',
+    menuKey: 'front-office',
+    submenuId: 'penjadwalan-janji',
+    itemTitle: 'Jadwal Kunjungan Berulang',
+    steps: [
+      {
+        id: 'jadwal-kunjungan-berulang-step-1',
+        number: 1,
+        title: 'Jadwal Kunjungan Berulang',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu appointment ',
+          'Klik schedule appointment',
+          'Kemudian pilih schedule',
+          'Klik tab slot, untuk memilih jadwal dokter ',
+          'Cari nama pasien lama, lalu akan muncul form schedule details',
+          'Jika pasien akan dijadwalkan untuk kunjungan berulang, maka klik kolom repeat dan pilih pola ulang yang diperlukan: “Daily” (Harian), “Weekly” (Mingguan) dan “Monthly” (Bulanan)',
+          'Klik Schedule untuk menyelesaikan penjadwalan pasien berulang kunjung',
+          'Kembali ke halaman schedule, klik tombol appointment list',
+          'Maka pasien tersebut berhasil dijadwal ulang kembali'
+        ],
+      }
+    ]
+  },
+
+  'pembatalan-appointment': {
+    id: 'pembatalan-appointment',
+    menuKey: 'front-office',
+    submenuId: 'penjadwalan-janji',
+    itemTitle: 'Pembatalan Appointment',
+    steps: [
+      {
+        id: 'pembatalan-appointment-step-1',
+        number: 1,
+        title: 'Pembatalan Appointment',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu appointment ',
+          'Masuk ke halaman Appointment List, pilih pasien klik select ',
+          'Pilih cancel appointment',
+          'Tampil form appointment, pilih reason ',
+          'Klik tombol cancel appointment'
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-jadwal-dokter': {
+    id: 'pembuatan-jadwal-dokter',
+    menuKey: 'front-office',
+    submenuId: 'jadwal-dokter',
+    itemTitle: 'Pembuatan Jadwal Dokter',
+    steps: [
+      {
+        id: 'pembuatan-jadwal-dokter-step-1',
+        number: 1,
+        title: 'Pembuatan Jadwal Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih ambulatory care',
+          'Pilih menu configuration pada sisi bilah kiri ',
+          'Klik consultant schedule definition',
+          'Pilih departement, klik view',
+          'Kemudian klik tombol new',
+          'Tampil form pengisian kalender dokter',
+          'Pilih hari, minggu setiap bulan, pilih blok waktu yang diinginkan',
+          'Pada consultation type pilih walkin jika ingin daftar langsung (tanpa perjanjian), appoitment (dengan penjadwalan) dan OT (operating theater)',
+          'Pilih service center, unit dan consultant yang tepat',
+          'Isi keterangan di kolom instruction',
+          'Klik tombol add',
+          'Maka jadwal telah tersimpan',
+          'Kemudian klik save ',
+          'Maka akan tampil informasi “Departement OPD Schedule is saved”'
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-jadwal-on-call-dokter': {
+    id: 'pembuatan-jadwal-on-call-dokter',
+    menuKey: 'front-office',
+    submenuId: 'jadwal-dokter',
+    itemTitle: 'Pembuatan Jadwal On Call Dokter',
+    steps: [
+      {
+        id: 'pembuatan-jadwal-on-call-dokter-step-1',
+        number: 1,
+        title: 'Pembuatan Jadwal On Call Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada pembuatan jadwal praktek (on call) preference harus diubah sesuai spesialisasi dokter',
+          'Klik tab preference',
+          'Pilih departement, klik ok',
+          'Maka akan tampil informasi “Preference updated successfully”',
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu configuration pada sisi bilah kiri',
+          'Klik consultant schedule definition',
+          'Masuk ke halaman OPD schedule, lalu klik tombol create',
+          'Pilih schedule type, kemudian klik new',
+          'Tampil form pengisian kalender dokter',
+          'Pilih hari, minggu setiap bulan, pilih blok waktu yang diinginkan',
+          'Pada consultation type pilih walkin jika ingin daftar langsung (tanpa perjanjian), appoitment (dengan penjadwalan dan OT (operating theater)',
+          'Pilih service center, unit dan consultant yang tepat',
+          'Isi keterangan di kolom instruction',
+          'Klik tombol add',
+          'Kemudian jadwal tersebut sudah tampil, pilih tanggal pada valid from',
+          'Lalu klik save',
+          'Maka akan tampil informasi “Departement OPD schedule is saved”'
+        ],
+      }
+    ]
+  },
+
+  'jadwal-dokter-pengganti': {
+    id: 'jadwal-dokter-pengganti',
+    menuKey: 'front-office',
+    submenuId: 'jadwal-dokter',
+    itemTitle: 'Jadwal Dokter Pengganti',
+    steps: [
+      {
+        id: 'jadwal-dokter-pengganti-step-1',
+        number: 1,
+        title: 'Jadwal Dokter Pengganti',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu ambulatory care',
+          'Pilih menu configuration pada bilah sisi kiri',
+          'Pilih menu consultant schedule definition',
+          'Masuk ke halaman OPD Schedule ',
+          'Pilih tombol select  untuk memilih poliklinik (our patient departement) ',
+          'Klik tombol Create',
+          'Jika sebelumnya telah ada konfigurasi dapat klik tombol view maka akan muncul informasi ',
+          'Pilih tanggal, klik tombol New',
+          'Tampil form pengisian kalender dokter / konsultan atau unit',
+          'Pilih data dokter yang ingin diganti jadwalnya',
+          'Klik tombol new ',
+          'Pilih hari yang akan dikonfigurasi',
+          'Pilih minggu dari setiap bulan ',
+          'Pilih blok waktu yang diinginkan',
+          'Pilih jika konfigurasi berlaku untuk (Unit) kelompok dokter atau hanya untuk (Konsultan) dokter tertentu ',
+          'Pilih jika konfigurasi berlaku untuk walkin (pasien tanpa perjanjian), Appointment (pasien dengan perjanjian) dan OT (Operating Theater) ',
+          'Pilih Service center, Unit dan Consultant yang tepat',
+          'Isi keterangan di kolom instruction',
+          'Klik tombol Add ',
+          'Jika sudah selesai maka klik tombol save',
+          'Maka akan muncul informasi “Departement OPD Schedule is saved”'
+        ],
+      }
+    ]
+  },
+
+  'penjadwalan-cuti-dokter': {
+    id: 'penjadwalan-cuti-dokter',
+    menuKey: 'front-office',
+    submenuId: 'jadwal-dokter',
+    itemTitle: 'Penjadwalan Cuti Dokter',
+    steps: [
+      {
+        id: 'penjadwalan-cuti-dokter-step-1',
+        number: 1,
+        title: 'Penjadwalan Cuti Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama, pilih preference untuk merubah departement sesuai departement spesialisasi dokter',
+          'Pilih menu Apps, pilih menu ambulatory care',
+          'Pilih menu transactions pada sisi bilah kiri ',
+          'Klik Un-Availability',
+          'Kemudian klik new',
+          'Tampil form create UnAvailability, lengkapi informasi dengan mengisi consultant, tanggal dan reason (alasan)',
+          'Jika sudah klik save',
+          'Maka akan tampil informasi “Record saved successfully”'
+        ],
+      }
+    ]
+  },
+
+
+  'perubahan-kuota-atau-slot-pasien-untuk-dokter': {
+    id: 'perubahan-kuota-atau-slot-pasien-untuk-dokter',
+    menuKey: 'front-office',
+    submenuId: 'jadwal-dokter',
+    itemTitle: 'Perubahan Kuota atau Slot Pasien untuk Dokter',
+    steps: [
+      {
+        id: 'perubahan-kuota-atau-slot-pasien-untuk-dokter-step-1',
+        number: 1,
+        title: 'Perubahan Kuota atau Slot Pasien untuk Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih ambulatory care',
+          'Pilih menu configuration pada sisi bilah kiri, ',
+          'Klik quota definition',
+          'Masuk ke halaman quota definition, klik search',
+          'Cari berdasarkan kriteria, pilih departement klik search',
+          'Kemudian klik edit',
+          'Masuk ke halaman quota definitions, pilih tab unit quotas, pilih unit yang dituju',
+          'Pada contoh ini pilih spesialis anak',
+          'Isi atau edit kolom new registration slot time dan follow up slot time',
+          'Jika sudah klik save',
+          'Kembali ke halaman quota definitions, lalu klik save',
+          'Maka akan tampil informasi “The departement quota is saved successfully”',
+        ],
+      }
+    ]
   }
-/* Maul-15/11/2025 */
-  
+
+  /* Maul-17/11/2025 */
+
 };
