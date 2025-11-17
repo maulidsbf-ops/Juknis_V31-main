@@ -63,10 +63,18 @@ const DetailedContent = ({ itemId, onBack }: DetailedContentProps) => {
                 {step.details && step.details.length > 0 && (
                   <div className="step-details">
                     {step.details.map((detail, idx) => {
+
+                      // DETAIL ITEM (OBJECT)
                       if (isDetailItem(detail)) {
                         if (detail.type === 'text') {
                           return (
-                            <div key={idx} className="detail-item">
+                            <div
+                              key={idx}
+                              className="detail-item"
+                              style={{
+                                marginLeft: `${(detail.level || 1) * 16}px`,
+                              }}
+                            >
                               <span className="detail-bullet">•</span>
                               <span className="detail-text">{detail.content}</span>
                             </div>
@@ -75,8 +83,12 @@ const DetailedContent = ({ itemId, onBack }: DetailedContentProps) => {
                           return (
                             <div key={idx} className="step-media detail-media">
                               <div className="media-label">{detail.title || 'Gambar:'}</div>
-                              <img src={detail.content} alt={detail.title} referrerPolicy="no-referrer" className="step-image" />
-
+                              <img
+                                src={detail.content}
+                                alt={detail.title}
+                                referrerPolicy="no-referrer"
+                                className="step-image"
+                              />
                             </div>
                           );
                         } else if (detail.type === 'video') {
@@ -95,8 +107,14 @@ const DetailedContent = ({ itemId, onBack }: DetailedContentProps) => {
                           );
                         }
                       }
+
+                      // DETAIL STRING BIASA
                       return (
-                        <div key={idx} className="detail-item">
+                        <div
+                          key={idx}
+                          className="detail-item"
+                          style={{ marginLeft: '16px' }} // default level 1
+                        >
                           <span className="detail-bullet">•</span>
                           <span className="detail-text">{detail}</span>
                         </div>

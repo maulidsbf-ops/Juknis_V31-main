@@ -2,6 +2,7 @@ export interface DetailItem {
   type: 'text' | 'image' | 'video';
   content: string;
   title?: string;
+  level?: number;
 }
 
 export interface ContentStep {
@@ -54,13 +55,13 @@ export const contentData: Record<string, ContentItem> = {
           },
           'Jika pasien menggunakan jaminan, maka lengkapi form pada bagian patient eligibility',
           'Lengkapi form pada kolom sebagai berikut :',
-          '     Eligibility name',
-          '     Group id/policy no',
-          '     Policy start date',
-          '     Policy valid until ',
-          '     Relationship',
-          '     Billing order ',
-          'Klik active',
+          { type: 'text', content: 'Eligibility name', level: 3 },
+          { type: 'text', content: 'Group id/policy no', level: 3 },
+          { type: 'text', content: 'Policy start date', level: 3 },
+          { type: 'text', content: 'Policy valid until', level: 3 },
+          { type: 'text', content: 'Relationship', level: 3 },
+          { type: 'text', content: 'Billing order', level: 3 },
+          { type: 'text', content: 'Checklist active', level: 3 },
           'Klik tombol add',
           {
             type: 'image',
@@ -892,11 +893,191 @@ export const contentData: Record<string, ContentItem> = {
           'Isi atau edit kolom new registration slot time dan follow up slot time',
           'Jika sudah klik save',
           'Kembali ke halaman quota definitions, lalu klik save',
-          'Maka akan tampil informasi “The departement quota is saved successfully”',
+          'Maka akan tampil informasi “The departement quota is saved successfully”'
+        ],
+      }
+    ]
+  },
+
+  'cara-mencari-info-pasien': {
+    id: 'cara-mencari-info-pasien',
+    menuKey: 'medical-record',
+    submenuId: 'cara-mencari-info',
+    itemTitle: 'Cara Mencari Info Pasien',
+    steps: [
+      {
+        id: 'cara-mencari-info-pasien-step-1',
+        number: 1,
+        title: 'Cara Mencari Info Pasien',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu Report',
+          'Pilih Admission and discharge reports',
+          'Pilih tanggal admission (from date - to date)',
+          'Pilih tanggal discharge (from date - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Di laporan ini terdapat keterangan pasien tersebut ke dokter spesialis tujuan',
+          'Kemudian juga terdapat informasi nama dokter, pembayaran dan keterangan berapa lama pasien tersebut dirawat'
+        ],
+      }
+    ]
+  },
+
+  'cara-mencari-brm-lama-bila-tidak-ada-datanya': {
+    id: 'cara-mencari-brm-lama-bila-tidak-ada-datanya',
+    menuKey: 'medical-record',
+    submenuId: 'cara-mencari-brm',
+    itemTitle: 'Cara Mencari BRM Lama Bila Tidak Ada Datanya',
+    steps: [
+      {
+        id: 'cara-mencari-brm-lama-bila-tidak-ada-datanya-step-1',
+        number: 1,
+        title: 'Cara Mencari BRM Lama Bila Tidak Ada Datanya',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama pilih Apps',
+          'Pada menu Apps, pilih Patient care',
+          'Pilih menu EMR',
+          'Ketik No MRN cari nama pasien ',
+          'Cocokkan nama pasien dengan nomor MRN',
+          'Jika nama pasien sudah tampil, klik Folder IP untuk melihat terakhir rawat  tanggal berapa.',
+          'Pilih Observations klik link observasi tersebut untuk melihat rawat inap terakhir ke dokter siapa',
+          'Jika sudah tampil pasien, klik Folder OP untuk melihat terakhir kunjungan tanggal berapa',
+          'Pilih Observations klik link observasi tersebut untuk melihat kunjungan terakhir ke dokter siapa'
+        ],
+      }
+    ]
+  },
+
+  'cara-cetak-bukti-transaksi-igd': {
+    id: 'cara-cetak-bukti-transaksi-igd',
+    menuKey: 'medical-record',
+    submenuId: 'cetak-bukti',
+    itemTitle: 'Cara Cetak Bukti Transaksi IGD',
+    steps: [
+      {
+        id: 'cara-cetak-bukti-transaksi-igd-step-1',
+        number: 1,
+        title: 'Cara Cetak Bukti Transaksi IGD',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama pilih Apps',
+          'Pilih menu Emergency',
+          'Pilih Emergency patients',
+          'Pada halaman emergency pilih tab Emergency OP patients',
+          'Cari nama pasiennya, klik select pilih Case sheet print',
+          'Maka akan tampil laporan sebagai berikut :'
+        ],
+      }
+    ]
+  },
+
+  'memeriksa-pasien-masuk-dan-keluar-rawat-inap': {
+    id: 'memeriksa-pasien-masuk-dan-keluar-rawat-inap',
+    menuKey: 'medical-record',
+    submenuId: 'memeriksa-pasien',
+    itemTitle: 'Memeriksa Pasien Masuk dan Keluar Rawat Inap',
+    steps: [
+      {
+        id: 'memeriksa-pasien-masuk-dan-keluar-rawat-inap-step-1',
+        number: 1,
+        title: 'Memeriksa Pasien Masuk dan Keluar Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih klik tab Reports',
+          'Pilih modul inpatient pada sisi bilah kiri',
+          'Klik menu Reports',
+          'Pilih Admission and discharge report',
+          'Pilih tanggal admission dan tanggal discharge',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Perhatikan pada kolom patient name dan MRN',
+          'Admission date atau tanggal masuk, admission status atau keterangan keluar dan discharge date atau tanggal keluar',
+          'Ward /dirawat dimana, Consultant/ DPJP dan plan/ penjamin',
+          'Admission category / catatan dirawat dan admission note menjelaskan'
+        ],
+      }
+    ]
+  },
+
+  'prosedur-permintaan-barang-ke-gudang-umum': {
+    id: 'prosedur-permintaan-barang-ke-gudang-umum',
+    menuKey: 'medical-record',
+    submenuId: 'inventory-rm',
+    itemTitle: 'Prosedur Permintaan Barang ke Gudang Umum',
+    steps: [
+      {
+        id: 'memeriksa-pasien-masuk-dan-keluar-rawat-inap-step-1',
+        number: 1,
+        title: 'Prosedur Permintaan Barang ke Gudang Umum',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik Apps',
+          'Pilih menu Inventory',
+          'Pilih menu stock indent',
+          'Klik New',
+          'Isi Request store/Location : GU_Medical Record ',
+          'Isi Issue store/Location : Gudang Umum',
+          'Isi Remarks',
+          'Klik Add line items',
+          'Pilih item, isi quantity',
+          'Klik add',
+          'Maka akan tampil informasi bahwa item tersebut sudah berhasil ditambahkan',
+          'Jika sudah sesuai, klik Send for approval',
+          'Maka akan tampil informasi “Stock indent sent for approval”',
+          'Proses Approval',
+          'Pada menu Apps pilih Inventory',
+          'Pilih menu stock indent',
+          'Cari no dokumen yang akan dipilih',
+          'Klik select pilih edit',
+          'Cek data kembali, jika sudah sesuai klik Approve',
+          'Maka akan tampil informasi “Stock indent approved”'
+        ],
+      }
+    ]
+  },
+
+  'prosedur-penerimaan-barang-gudang-umum': {
+    id: 'prosedur-penerimaan-barang-gudang-umum',
+    menuKey: 'medical-record',
+    submenuId: 'inventory-rm',
+    itemTitle: 'Prosedur Penerimaan Barang Gudang Umum',
+    steps: [
+      {
+        id: 'memeriksa-pasien-masuk-dan-keluar-rawat-inap-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Barang Gudang Umum',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik Apps',
+          'Pilih menu Inventory',
+          'Pilih menu stock receipt',
+          'Klik New',
+          'Pilih convert from stock issue',
+          'Isi Receipt store/location : GU_Medical Record',
+          'Isi Issue store/location : Gudang Umum',
+          'Klik Convert From',
+          'Pada convert from pilih stock issue',
+          'Pilih document number (ceklis no dokumen tujuan)',
+          'Tampil item, klik select all',
+          'Klik Ok',
+          'Cek data kembali, jika sudah sesuai klik send for approval',
+          'Maka akan tampil informasi “Stock receipt sent for approval',
+          'Proses Approval',
+          'Pada menu Apps pilih Inventory',
+          'Pilih menu stock receipt',
+          'Cari no dokumen, klik select pilih edit',
+          'Cek data kembali, jika sudah sesuai klik Approve',
+          'Maka akan tampil informasi “Stock receipt approved”'
         ],
       }
     ]
   }
+
+
 
   /* Maul-17/11/2025 */
 
