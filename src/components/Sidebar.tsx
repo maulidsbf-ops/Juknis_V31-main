@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useEffect } from "react";
+import { Sun, Moon } from "lucide-react";
 import {
   Home,
   Building,
@@ -23,6 +25,34 @@ interface SidebarProps {
 
 const Sidebar = ({ onMenuSelect, activeMenu, activeSubmenu }: SidebarProps) => {
   const [expandedMenu, setExpandedMenu] = useState<string>('');
+
+  const [isDark, setIsDark] = useState(false);
+
+useEffect(() => {
+  const saved = localStorage.getItem("theme");
+  const dark = saved === "dark";
+
+  setIsDark(dark);
+  if (dark) document.body.classList.add("dark-mode");
+}, []);
+
+const toggleTheme = () => {
+  document.body.classList.toggle("dark-mode");
+
+  const darkNow = document.body.classList.contains("dark-mode");
+  setIsDark(darkNow);
+
+  localStorage.setItem("theme", darkNow ? "dark" : "light");
+};
+
+
+  <button
+  className="theme-toggle-modern"
+  onClick={toggleTheme}
+>
+  {isDark ? <Sun size={18} /> : <Moon size={18} />}
+</button>
+
 
   const menus = [
     { key: 'home', label: 'Home', icon: Home, submenus: [] },
@@ -102,7 +132,7 @@ const Sidebar = ({ onMenuSelect, activeMenu, activeSubmenu }: SidebarProps) => {
     {
       key: 'laboratorium',
       label: 'Laboratorium',
-      icon: FlaskConical, // 🧪 Ikon laboratorium
+      icon: FlaskConical,
       submenus: [
         { id: 'lab-terima-order', label: 'Terima Order' },
         { id: 'cetak-hasil-lab', label: 'Mencetak Hasil Pemeriksaan Laboratorium' },
@@ -186,45 +216,73 @@ const Sidebar = ({ onMenuSelect, activeMenu, activeSubmenu }: SidebarProps) => {
     }
   };
 
-  const handleSubmenuClick = (menuKey: string, submenuId: string) => {
-    onMenuSelect(menuKey, submenuId);
-  };
-
   return (
-    <div className="sidebar">
-      <div className="sidebar-header">
-        <h4 className="text-center py-3 mb-0">JUKNIS</h4>
-      </div>
+    <nav className="sidebar" aria-label="Sidebar navigation">
+      <div className="sidebar-header" role="banner">
+  <h4 className="text-center py-3 mb-0"></h4>
 
-      <div className="menu-list">
+  {/* ===== THEME TOGGLE BUTTON ===== */}
+  <button
+    className="theme-toggle-btn"
+    onClick={() => {
+      document.body.classList.toggle("dark-mode");
+
+      if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+    }}
+    aria-label="Toggle theme"
+  >
+    {document.body.classList.contains("dark-mode") ? (
+      <Sun size={20} />
+    ) : (
+      <Moon size={20} />
+    )}
+  </button>
+</div>
+
+
+      <div className="menu-list" role="menu">
         {menus.map((menu) => {
           const Icon = menu.icon;
+          const isActiveMenu = activeMenu === menu.key;
 
           return (
-            <div key={menu.key} className="menu-item">
+            <div key={menu.key} className="menu-item" role="none">
+              {/* MAIN MENU BUTTON */}
               <button
-                className={`menu-button ${activeMenu === menu.key ? 'active' : ''}`}
+                role="menuitem"
+                aria-expanded={expandedMenu === menu.key}
+                aria-current={isActiveMenu ? 'true' : undefined}
+                className={`menu-button ${isActiveMenu ? 'active' : ''}`}
                 onClick={() => handleMenuClick(menu.key)}
+                title={menu.label}
               >
-                <Icon size={18} className="mr-2" />
-                {menu.label}
+                <div className="d-flex" style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                  <Icon size={18} aria-hidden />
+                  <span>{menu.label}</span>
+                </div>
 
-                {menu.submenus?.length > 0 && (
-                  <span className="menu-arrow">
-                    {expandedMenu === menu.key ? '▼' : '▶'}
+                {menu.submenus.length > 0 && (
+                  <span className="menu-arrow" aria-hidden>
+                    {expandedMenu === menu.key ? '▾' : '▸'}
                   </span>
                 )}
               </button>
 
+              {/* SUBMENU */}
               {expandedMenu === menu.key && menu.submenus.length > 0 && (
-                <div className="submenu-list">
+                <div className="submenu-list" role="group" aria-label={`${menu.label} submenu`}>
                   {menu.submenus.map((submenu) => (
                     <button
                       key={submenu.id}
+                      role="menuitem"
                       className={`submenu-button ${
-                        activeMenu === menu.key && activeSubmenu === submenu.id ? 'active' : ''
+                        isActiveMenu && activeSubmenu === submenu.id ? 'active' : ''
                       }`}
-                      onClick={() => handleSubmenuClick(menu.key, submenu.id)}
+                      onClick={() => onMenuSelect(menu.key, submenu.id)}
                     >
                       {submenu.label}
                     </button>
@@ -235,7 +293,7 @@ const Sidebar = ({ onMenuSelect, activeMenu, activeSubmenu }: SidebarProps) => {
           );
         })}
       </div>
-    </div>
+    </nav>
   );
 };
 

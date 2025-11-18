@@ -100,7 +100,7 @@ export const menuData: MenuData = {
       title: 'Inventory di Rekam Medis',
       items: [
         /* Maul-14/11/2025 */ 
-        'Prosedur Permintaan Barang ke Gudang Umum',
+        'Prosedur Permintaan Barang ke Gudang Umum di MR',
         'Prosedur Penerimaan Barang Gudang Umum'
         /* Maul-14/11/2025 */ 
       ]
@@ -129,9 +129,9 @@ export const menuData: MenuData = {
         'Cara Melihat Pasien Keluar Rawat Inap',
         'Cara Menghitung Jumlah Total IGD dan Pasien Naik Rawat Inap dari IGD Rawat Inap',
         'Cara Menghitung Lama Rawat Pasien',
-        'Melihat Angka Persalinan dan Kelahiran SC & Normal',
+        'Melihat Angka Persalinan dan Kelahiran SC dan Normal',
         'Melihat Daftar Pasien Rawat Inap, Melihat Kelas Kamar TT dan Dokter yang Merawat Rawat Inap',
-        'Melihat Jumlah IGD, Hari Rawat , Kelahiran per Bulan',
+        'Melihat Jumlah IGD, Hari Rawat, Kelahiran per Bulan',
         'Melihat Jumlah Pasien Pulang',
         'Melihat Status TT yang Terisi Pasien yang Masih Dirawat'
       ]

@@ -1,12 +1,12 @@
 :root {
-  --orange-pastel: #f27d2e;
-  --orange-light: #faf2ec;
-  --orange-dark: #fe7723;
+  --orange-pastel: #b2fcff;
+  --orange-light: #dafffd;
+  --orange-dark: #046e77;
   --orange-darker: #e36319;
   --white: #ffffff;
   --gray-light: #ffffff;
-  --gray-medium: #000000;
-  --gray-dark: #3d4246;
+  --gray-medium: #2d2a2a;
+  --gray-dark: #000000;
   --text-dark: #000000;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -35,25 +35,25 @@ body {
 
 .app-header {
   background: linear-gradient(135deg, var(--orange-pastel) 0%, var(--orange-dark) 100%);
-  color: var(--white);
+  color: #504e4e;
   padding: 1rem 0;
   box-shadow: var(--shadow);
   z-index: 100;
 }
 
 .header-icon {
-  color: var(--white);
+  color:#504e4e;
 }
 
 .header-title {
   font-size: 1.75rem;
   font-weight: 700;
-  color: var(--white);
+  color:#504e4e;
 }
 
 .header-subtitle {
   font-size: 0.875rem;
-  color: var(--white);
+  color:#504e4e;
   opacity: 0.95;
 }
 
@@ -110,7 +110,7 @@ body {
 
 .menu-button.active {
   background-color: var(--orange-pastel);
-  color: var(--white);
+  color: var(--black);
   font-weight: 700;
 }
 
@@ -619,3 +619,139 @@ body {
     font-size: 0.875rem;
   }
 }
+
+/* =========================================================
+   ===============   DARK MODE THEME   ======================
+   ========================================================= */
+   body.dark-mode {
+    --orange-pastel: #14545a;
+    --orange-light: #0e3b3f;
+    --orange-dark: #0a2b2e;
+    --orange-darker: #ffb774;
+  
+    --white: #1c1c1c;
+    --gray-light: #1b1b1b;
+    --gray-medium: #2b2b2b;
+    --gray-dark: #e4e4e4;
+    --text-dark: #f6f6f6;
+  
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  body.dark-mode .app-header {
+    background: linear-gradient(135deg, var(--orange-dark) 0%, var(--orange-pastel) 100%);
+  }
+  
+  body.dark-mode .sidebar {
+    background-color: var(--white);
+    border-color: var(--gray-medium);
+  }
+  
+  body.dark-mode .sidebar-header {
+    background: linear-gradient(135deg, var(--orange-dark) 0%, var(--orange-pastel) 100%);
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .menu-button {
+    background-color: var(--white);
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .menu-button:hover {
+    background-color: var(--orange-light);
+    color: var(--orange-darker);
+  }
+  
+  body.dark-mode .submenu-list {
+    background-color: var(--gray-light);
+  }
+  
+  body.dark-mode .submenu-button {
+    color: var(--gray-dark);
+  }
+  
+  body.dark-mode .submenu-button:hover {
+    background-color: var(--orange-light);
+    color: var(--orange-darker);
+  }
+  
+  body.dark-mode .content-area {
+    background-color: var(--gray-light);
+  }
+  
+  body.dark-mode .welcome-section,
+  body.dark-mode .content-body,
+  body.dark-mode .step-card,
+  body.dark-mode .step-media {
+    background-color: var(--white);
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .content-header {
+    background: linear-gradient(135deg, var(--orange-dark) 0%, var(--orange-pastel) 100%);
+  }
+  
+  body.dark-mode .list-group-item {
+    background-color: var(--white);
+    border-color: var(--gray-medium);
+  }
+  
+  body.dark-mode .list-group-item:hover {
+    background-color: var(--orange-light);
+    border-color: var(--orange-dark);
+  }
+  
+  body.dark-mode .detail-item {
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .step-header {
+    background-color: var(--white);
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .step-content {
+    background-color: var(--gray-light);
+  }
+  
+  body.dark-mode .placeholder-section,
+  body.dark-mode .empty-content {
+    color: var(--gray-dark);
+  }
+  
+  body.dark-mode .btn-back {
+    background-color: var(--gray-light);
+    color: var(--text-dark);
+  }
+
+  /* ==========================================
+   THEME TOGGLE BUTTON (SUN / MOON)
+   ========================================== */
+
+.theme-toggle-btn {
+  width: 42px;
+  height: 42px;
+  background: var(--white);
+  border: 1px solid var(--gray-medium);
+  border-radius: 50%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .25s ease;
+  box-shadow: var(--shadow);
+}
+
+.theme-toggle-btn:hover {
+  background: var(--orange-light);
+  color: var(--orange-darker);
+  transform: scale(1.05);
+}
+
+.dark-mode .theme-toggle-btn {
+  background: var(--gray-light);
+  border-color: var(--gray-medium);
+  color: var(--text-dark);
+}
+

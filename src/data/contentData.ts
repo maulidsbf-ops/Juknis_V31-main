@@ -1003,16 +1003,16 @@ export const contentData: Record<string, ContentItem> = {
     ]
   },
 
-  'prosedur-permintaan-barang-ke-gudang-umum': {
-    id: 'prosedur-permintaan-barang-ke-gudang-umum',
+  'prosedur-permintaan-barang-ke-gudang-umum-di-mr': {
+    id: 'prosedur-permintaan-barang-ke-gudang-umum-di-mr',
     menuKey: 'medical-record',
     submenuId: 'inventory-rm',
-    itemTitle: 'Prosedur Permintaan Barang ke Gudang Umum',
+    itemTitle: 'Prosedur Permintaan Barang ke Gudang Umum di MR',
     steps: [
       {
-        id: 'memeriksa-pasien-masuk-dan-keluar-rawat-inap-step-1',
+        id: 'prosedur-permintaan-barang-ke-gudang-umum-di-mr-step-1',
         number: 1,
-        title: 'Prosedur Permintaan Barang ke Gudang Umum',
+        title: 'Prosedur Permintaan Barang ke Gudang Umum di MR',
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada halaman utama klik Apps',
@@ -1942,8 +1942,497 @@ export const contentData: Record<string, ContentItem> = {
         ],
       }
     ]
-  }
+  },
 
   /* heru-17/11/2025 */
+
+
+  /* Maul-18/11/2025 */
+
+  'cara-menghitung-diagnosa-rawat-jalan': {
+    id: 'cara-menghitung-diagnosa-rawat-jalan',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menghitung Diagnosa Rawat Jalan',
+    steps: [
+      {
+        id: 'cara-menghitung-diagnosa-rawat-jalan-step-1',
+        number: 1,
+        title: 'Cara Menghitung Diagnosa Rawat Jalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu ambulatory care pada sisi bilah kiri',
+          'Klik menu Report',
+          'Pilih Diagnosis reports',
+          'Pilih tanggal (from date - to date) dalam waktu 1 hari',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan diagnosa sebagai berikut :',
+          'Hanya dapat melihat final diagnosa'
+        ],
+      }
+    ]
+  },
+
+  'cara-menghitung-jumlah-per-dokter-per-spesialis': {
+    id: 'cara-menghitung-jumlah-per-dokter-per-spesialis',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menghitung Jumlah per Dokter per Spesialis',
+    steps: [
+      {
+        id: 'cara-menghitung-jumlah-per-dokter-per-spesialis-step-1',
+        number: 1,
+        title: 'Cara Menghitung Jumlah per Dokter per Spesialis',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu ambulatory care pada sisi bilah kiri',
+          'Klik menu Report',
+          'Pilih Visit reports',
+          'Pilih tanggal (from - to)',
+          'Pilih departement (disesuaikan)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : kolom consultant name',
+          'Tampil list nama dokter dan jumlah kunjungan ke dokter tersebut',
+          'Kembali ke halaman visit report',
+          'Pilih departement name kembali ',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : kolom consultant name',
+          'Tampil list nama dokter dan jumlah kunjungan ke dokter tersebut'
+        ],
+      }
+    ]
+  },
+
+  'cara-menghitung-kunjungan-pasien-baru-dan-lama-per-dokter': {
+    id: 'cara-menghitung-kunjungan-pasien-baru-dan-lama-per-dokter',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menghitung Kunjungan Pasien Baru dan Lama per Dokter',
+    steps: [
+      {
+        id: 'cara-menghitung-kunjungan-pasien-baru-dan-lama-per-dokter-step-1',
+        number: 1,
+        title: 'Cara Menghitung Kunjungan Pasien Baru dan Lama per Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu ambulatory care pada sisi bilah kiri',
+          'Klik menu report',
+          'Pilih registration list ',
+          'Pilih tanggal registration (from - to) per - 1 hari',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : registration type',
+          'Kemudian akan tampil tipe pendaftaran pasien sebagai berikut :',
+          {type : 'text', content : 'emergency - IGD : 2 pasien', level: 3 },
+          {type : 'text', content : 'general - umum : 29', level: 3 },
+          {type : 'text', content : 'new born - bayi baru lahir : 2', level: 3 },
+          {type : 'text', content : 'total keseluruhan menjadi : 33', level: 3 },
+          'Kembali ke halaman registration list report',
+          'Pilih menu bay management report pada sisi bilah kiri',
+          'Pilih tanggal (start date - end date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : kolom doctor',
+          'Tampil list nama dokter dan jumlah kunjungan ke dokter tersebut'
+        ],
+      }
+    ]
+  },
+  
+  'cara-menghitung-pasien-batal': {
+    id: 'cara-menghitung-pasien-batal',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menghitung Pasien Batal',
+    steps: [
+      {
+        id: 'cara-menghitung-pasien-batal-step-1',
+        number: 1,
+        title: 'Cara Menghitung Pasien Batal',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu ambulatory care pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih pending appoitment register',
+          'Pilih tanggal (from - to)',
+          'Pilih departement name',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Kembali ke halaman pending appoitment register',
+          'Pilih departement name',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+        ],
+      }
+    ]
+  },
+
+  'cara-menghitung-pasien-masuk-hari-rawat-dan-pasien-pulang': {
+    id: 'cara-menghitung-pasien-masuk,-hari-rawat-dan-pasien-pulang',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menghitung Pasien Masuk, Hari Rawat dan Pasien Pulang',
+    steps: [
+      {
+        id: 'cara-menghitung-pasien-masuk,-hari-rawat-dan-pasien-pulang-step-1',
+        number: 1,
+        title: 'Cara Menghitung Pasien Masuk, Hari Rawat dan Pasien Pulang',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu Reports',
+          'Pilih Hospital census',
+          'Pilih tanggal',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          {type : 'text', content : 'Keterangan :', level: 3 },
+          {type : 'text', content : 'New admission : pasien masuk', level: 3 },
+          {type : 'text', content : 'Transfer in : kondisi pasien masih di rawat', level: 3 },
+          {type : 'text', content : 'Transfer out : pasien pindah kelas', level: 3 },
+          {type : 'text', content : 'Marked for discharge : pasien rencana pulang', level: 3 },
+          'Dari laporan hospital census terdapat data hari rawat dan BOR  dari ruang perawatan masing-masing ',
+          {type : 'text', content : 'Contoh : perawat kbbl, perawat anak, perawat obsygn sudah sesuai kamar kelas dan BPJS', level: 3 },
+          'Berikut data di ruang pelayanan intensif',
+          'Berikut data untuk rencana operasi (kamar bedah)',
+          'Yang perlu dihitung adalah new admission (pasien masuk), normal discharge dan deaths'
+        ],
+      }
+    ]
+  },
+
+  'cara-menghitung-pasien-rawat-jalan-menjadi-pasien-masuk-rawat-inap': {
+    id: 'cara-menghitung-pasien-rawat-jalan-menjadi-pasien-masuk-rawat-inap',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menghitung Pasien Rawat Jalan Menjadi Pasien Masuk Rawat Inap',
+    steps: [
+      {
+        id: 'cara-menghitung-pasien-rawat-jalan-menjadi-pasien-masuk-rawat-inap-step-1',
+        number: 1,
+        title: 'Cara Menghitung Pasien Rawat Jalan Menjadi Pasien Masuk Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu ambulatory care pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih conversion list',
+          'Pilih tanggal (from - to)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+        ],
+      }
+    ]
+  },
+
+  'cara-menyiapkan-brm-pasien-appointment': {
+    id: 'cara-menyiapkan-brm-pasien-appointment',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Cara Menyiapkan BRM Pasien Appointment',
+    steps: [
+      {
+        id: 'cara-menyiapkan-brm-pasien-appointment-step-1',
+        number: 1,
+        title: 'Cara Menyiapkan BRM Pasien Appointment',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu ambulatory care pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih appoitment report',
+          'Pilih tanggal yang sama  (from - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : kolom departement name',
+          'Contoh : Ingin melihat BRM spesialis anak',
+          'Berikut data BRM untuk spesialis anak',
+          'Contoh : Ingin melihat BRM spesialis kebidanan dan kandungan',
+          'Berikut data BRM untuk spesialis kebidanan dan kandungan'
+                  ]
+      }
+    ]
+  },
+
+  'melihat-jumlah-kunjungan-rawat-jalan-per-dokter': {
+    id: 'melihat-jumlah-kunjungan-rawat-jalan-per-dokter',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rj',
+    itemTitle: 'Melihat Jumlah  Kunjungan Rawat Jalan Per Dokter',
+    steps: [
+      {
+        id: 'melihat-jumlah-kunjungan-rawat-jalan-per-dokter-step-1',
+        number: 1,
+        title: 'Melihat Jumlah  Kunjungan Rawat Jalan Per Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih Daily patient census',
+          'Pilih tanggal (from date - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                  ]
+      }
+    ]
+  },
+
+  'cara-melihat-data-kelahiran-bayi': {
+    id: 'cara-melihat-data-kelahiran-bayi',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Cara Melihat Data Kelahiran Bayi',
+    steps: [
+      {
+        id: 'cara-melihat-data-kelahiran-bayi-step-1',
+        number: 1,
+        title: 'Cara Melihat Data Kelahiran Bayi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih birth notification report',
+          'Pilih tanggal (from - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                  ]
+      }
+    ]
+  },
+
+  'cara-melihat-lama-rawat-per-dokter': {
+    id: 'cara-melihat-lama-rawat-per-dokter',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Cara Melihat Lama Rawat per Dokter',
+    steps: [
+      {
+        id: 'cara-melihat-lama-rawat-per-dokter-step-1',
+        number: 1,
+        title: 'Cara Melihat Lama Rawat per Dokter',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih ALOS report',
+          'Pilih tanggal (mark for discharge from date - to date)',
+          'Pilih departement',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : kolom duration (disesuaikan)',
+          'Contoh : memilih duration (2)',
+          'Lakukan filter pada kolom : consultant',
+          'Contoh : konsultasi ke dr Arief Gunadi'
+                  ]
+      }
+    ]
+  },
+
+  'cara-melihat-pasien-keluar-rawat-inap': {
+    id: 'cara-melihat-pasien-keluar-rawat-inap',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Cara Melihat Pasien Keluar Rawat Inap',
+    steps: [
+      {
+        id: 'cara-melihat-pasien-keluar-rawat-inap-step-1',
+        number: 1,
+        title: 'Cara Melihat Pasien Keluar Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu Reports',
+          'Pilih Speciality wise discharge type summary ',
+          'Pilih tanggal (From date - To date) dalam waktu sehari',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                  ]
+      }
+    ]
+  },
+
+  'cara-menghitung-jumlah-total-igd-dan-pasien-naik-rawat-inap-dari-igd-rawat-inap': {
+    id: 'cara-menghitung-jumlah-total-igd-dan-pasien-naik-rawat-inap-dari-igd-rawat-inap',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Cara Menghitung Jumlah Total IGD dan Pasien Naik Rawat Inap dari IGD Rawat Inap',
+    steps: [
+      {
+        id: 'cara-menghitung-jumlah-total-igd-dan-pasien-naik-rawat-inap-dari-igd-rawat-inap-step-1',
+        number: 1,
+        title: 'Cara Menghitung Jumlah Total IGD dan Pasien Naik Rawat Inap dari IGD Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu Reports ',
+          'Pilih emergency patient list ',
+          'Pilih tanggal (From date - To date) dalam waktu sehari',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter pada data tersebut : kolom visit number'
+                            ]
+      }
+    ]
+  },
+
+  
+  'cara-menghitung-lama-rawat-pasien': {
+    id: 'cara-menghitung-lama-rawat-pasien',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Cara Menghitung Lama Rawat Pasien',
+    steps: [
+      {
+        id: 'cara-menghitung-lama-rawat-pasien-step-1',
+        number: 1,
+        title: 'Cara Menghitung Lama Rawat Pasien',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu Reports ',
+          'Pilih ALOS Report ',
+          'Pilih tanggal mark for discharge (From date - To date) dalam waktu sehari',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Lakukan filter data pada kolom duration'
+                            ]
+      }
+    ]
+  },
+
+  'melihat-daftar-pasien-rawat-inap-melihat-kelas-kamar-tt-dan-dokter-yang-merawat-rawat-inap': {
+    id: 'melihat-daftar-pasien-rawat-inap-melihat-kelas-kamar-tt-dan-dokter-yang-merawat-rawat-inap',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Melihat Daftar Pasien Rawat Inap, Melihat Kelas Kamar TT dan Dokter yang Merawat Rawat Inap',
+    steps: [
+      {
+        id: 'melihat-daftar-pasien-rawat-inap-melihat-kelas-kamar-tt-dan-dokter-yang-merawat-rawat-inap-step-1',
+        number: 1,
+        title: 'Melihat Daftar Pasien Rawat Inap, Melihat Kelas Kamar TT dan Dokter yang Merawat Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik report',
+          'Pilih speciality wise admission list',
+          'Pilih tanggal (From date - To date) dalam waktu sehari',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                            ]
+      }
+    ]
+  },
+
+  'melihat-jumlah-igd-hari-rawat-kelahiran-per-bulan': {
+    id: 'melihat-jumlah-igd-hari-rawat-kelahiran-per-bulan',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Melihat Jumlah IGD, Hari Rawat , Kelahiran per Bulan',
+    steps: [
+      {
+        id: 'melihat-jumlah-igd-hari-rawat-kelahiran-per-bulan-step-1',
+        number: 1,
+        title: 'Melihat Jumlah IGD, Hari Rawat , Kelahiran per Bulan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih monthly patient census',
+          'Pilih tanggal (from date - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                            ]
+      }
+    ]
+  },
+
+  'melihat-jumlah-pasien-pulang': {
+    id: 'melihat-jumlah-pasien-pulang',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Melihat Jumlah Pasien Pulang',
+    steps: [
+      {
+        id: 'melihat-jumlah-pasien-pulang-step-1',
+        number: 1,
+        title: 'Melihat Jumlah Pasien Pulang',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih Discharge Tat Report',
+          'Pilih tanggal (discharge from date - to date)',
+          'Pilih tanggal (mark for discharge from date - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                            ]
+      }
+    ]
+  },
+
+  'melihat-status-tt-yang-terisi-pasien-yang-masih-dirawat': {
+    id: 'melihat-status-tt-yang-terisi-pasien-yang-masih-dirawat',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Melihat Status TT yang Terisi Pasien yang Masih Dirawat',
+    steps: [
+      {
+        id: 'melihat-status-tt-yang-terisi-pasien-yang-masih-dirawat-step-1',
+        number: 1,
+        title: 'Melihat Status TT yang Terisi Pasien yang Masih Dirawat',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih bed wise status report',
+          'Pilih branch (disesuaikan)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                            ]
+      }
+    ]
+  },
+
+  'melihat-angka-persalinan-dan-kelahiran-sc-dan-normal': {
+    id: 'melihat-angka-persalinan-dan-kelahiran-sc-dan-normal',
+    menuKey: 'medical-record',
+    submenuId: 'laporan-rwi',
+    itemTitle: 'Melihat Angka Persalinan dan Kelahiran SC dan Normal',
+    steps: [
+      {
+        id: 'melihat-angka-persalinan-dan-kelahiran-sc-dan-normal-step-1',
+        number: 1,
+        title: 'Melihat Angka Persalinan dan Kelahiran SC dan Normal',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik tab reports',
+          'Pilih menu inpatient pada sisi bilah kiri',
+          'Klik menu reports',
+          'Pilih birth notification report',
+          'Pilih tanggal (from - to date)',
+          'Klik ikon ms Excel maka data akan otomatis tersimpan di komputer',
+          'Maka akan tampil laporan sebagai berikut :'
+                            ]
+      }
+    ]
+  }
+
+  /* Maul-18/11/2025 */
 
 };
