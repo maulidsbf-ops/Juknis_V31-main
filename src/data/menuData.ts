@@ -245,19 +245,19 @@ export const menuData: MenuData = {
         'Pembuatan Resep Paten',
         'Dokter Admission Request',
         'Mendaftarkan Pasien Perjanjian di Poli Dokter',
-        'Resume Rawat Jalan(Encounter Summary)'
+        'Resume Rawat Jalan Encounter Summary'
       ]
     },
     {
       id: 'dokter-rawat-inap',
       title: 'Rawat Inap',
-      items: ['Pasien di Rawat Inap (Dokter Ruangan)']
+      items: ['Pasien di Rawat Inap Dokter Ruangan']
     },
     {
       id: 'dokter-igd',
       title: 'IGD',
       items: [
-        'Pasien Rawat Jalan IGD / VK',
+        'Pasien Rawat Jalan IGD VK',
         'Memindahkan Pasien emergency Menjadi IP emergency',
         'Merencanakan Pasien di Rawat Dari IP Emergency'
       ]
@@ -265,7 +265,7 @@ export const menuData: MenuData = {
     {
       id: 'dokter-kamar-operasi',
       title: 'Kamar Operasi',
-      items: ['Pengisian Laporan Operasi(Operation Note)']
+      items: ['Pengisian Laporan Operasi Operation Note']
     }
   ],
   'radiologi': [

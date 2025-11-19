@@ -1959,7 +1959,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-diagnosa-rawat-jalan-step-1',
         number: 1,
         title: 'Cara Menghitung Diagnosa Rawat Jalan',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu ambulatory care pada sisi bilah kiri',
@@ -1984,7 +1984,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-jumlah-per-dokter-per-spesialis-step-1',
         number: 1,
         title: 'Cara Menghitung Jumlah per Dokter per Spesialis',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu ambulatory care pada sisi bilah kiri',
@@ -2017,7 +2017,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-kunjungan-pasien-baru-dan-lama-per-dokter-step-1',
         number: 1,
         title: 'Cara Menghitung Kunjungan Pasien Baru dan Lama per Dokter',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu ambulatory care pada sisi bilah kiri',
@@ -2054,7 +2054,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-pasien-batal-step-1',
         number: 1,
         title: 'Cara Menghitung Pasien Batal',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu ambulatory care pada sisi bilah kiri',
@@ -2083,7 +2083,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-pasien-masuk,-hari-rawat-dan-pasien-pulang-step-1',
         number: 1,
         title: 'Cara Menghitung Pasien Masuk, Hari Rawat dan Pasien Pulang',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2117,7 +2117,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-pasien-rawat-jalan-menjadi-pasien-masuk-rawat-inap-step-1',
         number: 1,
         title: 'Cara Menghitung Pasien Rawat Jalan Menjadi Pasien Masuk Rawat Inap',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu ambulatory care pada sisi bilah kiri',
@@ -2141,7 +2141,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menyiapkan-brm-pasien-appointment-step-1',
         number: 1,
         title: 'Cara Menyiapkan BRM Pasien Appointment',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu ambulatory care pada sisi bilah kiri',
@@ -2170,7 +2170,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'melihat-jumlah-kunjungan-rawat-jalan-per-dokter-step-1',
         number: 1,
         title: 'Melihat Jumlah  Kunjungan Rawat Jalan Per Dokter',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2194,7 +2194,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-melihat-data-kelahiran-bayi-step-1',
         number: 1,
         title: 'Cara Melihat Data Kelahiran Bayi',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2218,7 +2218,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-melihat-lama-rawat-per-dokter-step-1',
         number: 1,
         title: 'Cara Melihat Lama Rawat per Dokter',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2247,7 +2247,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-melihat-pasien-keluar-rawat-inap-step-1',
         number: 1,
         title: 'Cara Melihat Pasien Keluar Rawat Inap',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2271,7 +2271,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-jumlah-total-igd-dan-pasien-naik-rawat-inap-dari-igd-rawat-inap-step-1',
         number: 1,
         title: 'Cara Menghitung Jumlah Total IGD dan Pasien Naik Rawat Inap dari IGD Rawat Inap',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2297,7 +2297,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'cara-menghitung-lama-rawat-pasien-step-1',
         number: 1,
         title: 'Cara Menghitung Lama Rawat Pasien',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2322,7 +2322,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'melihat-daftar-pasien-rawat-inap-melihat-kelas-kamar-tt-dan-dokter-yang-merawat-rawat-inap-step-1',
         number: 1,
         title: 'Melihat Daftar Pasien Rawat Inap, Melihat Kelas Kamar TT dan Dokter yang Merawat Rawat Inap',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2346,7 +2346,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'melihat-jumlah-igd-hari-rawat-kelahiran-per-bulan-step-1',
         number: 1,
         title: 'Melihat Jumlah IGD, Hari Rawat , Kelahiran per Bulan',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2370,7 +2370,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'melihat-jumlah-pasien-pulang-step-1',
         number: 1,
         title: 'Melihat Jumlah Pasien Pulang',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2395,7 +2395,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'melihat-status-tt-yang-terisi-pasien-yang-masih-dirawat-step-1',
         number: 1,
         title: 'Melihat Status TT yang Terisi Pasien yang Masih Dirawat',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2419,7 +2419,7 @@ export const contentData: Record<string, ContentItem> = {
         id: 'melihat-angka-persalinan-dan-kelahiran-sc-dan-normal-step-1',
         number: 1,
         title: 'Melihat Angka Persalinan dan Kelahiran SC dan Normal',
-        description: 'Buka aplikasi dan pilih menu Apps',
+        description: 'Login ke aplikasi SIMRS Hinai',
         details: [
           'Pada halaman utama klik tab reports',
           'Pilih menu inpatient pada sisi bilah kiri',
@@ -2431,8 +2431,1321 @@ export const contentData: Record<string, ContentItem> = {
                             ]
       }
     ]
-  }
+  },
 
   /* Maul-18/11/2025 */
+
+  /* heru-18/11/2025 */
+  'melihat-jadwal-operasi-dari-ruang-ok': {
+    id: 'melihat-jadwal-operasi-dari-ruang-ok',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Melihat Jadwal Operasi Dari Ruang OK',
+    steps: [
+      {
+        id: 'melihat-jadwal-operasi-dari-ruang-ok-step-1',
+        number: 1,
+        title: 'Melihat Jadwal Operasi Dari Ruang OK',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request',
+            'Kemudian cek di kolom scheduled date & time',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  }, 
+
+       'proses-pelaksanaan-operasi': {
+    id: 'proses-pelaksanaan-operasi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Proses Pelaksanaan Operasi',
+    steps: [
+      {
+        id: 'proses-pelaksanaan-operasi-step-1',
+        number: 1,
+        title: 'Proses Pelaksanaan Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih Operation Theater',
+            'Setelah itu pilih view surgery request',
+            'Masuk ke halaman surgery request browser, kemudian cari nama pasien',
+            'Setelah itu klik select pilih modify surgery request',
+            'Masuk ke halaman data pasien, lalu cek kembali  prosedur tindakan yang akan dilakukan dan waktu tindakan operasi, apabila ada perubahan dapat langsung diperbaiki',
+            'Kemudian klik pada bagian operasi team, pilih category dan employee code name',
+            'Jika sudah klik tombol add',
+            'Lakukan langkah yang sama hingga semua tim operasi tercatat pada field operation team',
+            'Jika sudah selesai klik modify, kemudian tampil notifikasi reason for modification',
+            'Pilih reason lalu klik ikon ( + ), setelah itu klik ok',
+            'Maka akan tampil informasi “Record saved successfully”',
+            'Setelah itu klik tombol back',
+            'Kembali ke halaman surgery request browser, cari nama pasien ',
+            'Kemudian klik select, pilih validate surgery request',
+            'Setelah itu klik tombol validate, jika sudah klik tombol back',
+            'Kembali ke halaman surgery request browser, cari nama pasien',
+            'Setelah itu klik select, pilih PreAnesthesia Checkup',
+            'Masuk ke halaman data pasien, lengkapi informasi selengkap-lengkapnya',
+            'Jika sudah klik tombol save,',
+            'Kembali ke halaman surgery request browser, cari nama pasien',
+            'Lalu klik ikon segitiga hijau "start surgery"',
+            'Setelah itu klik Anasthesia record entry',
+            'Masuk ke halaman Anasthesia record entry, lengkapi data',
+            'Jika sudah klik tombol validate',
+            'Maka akan muncul informasi “Anasthesia record for OT request validated”',
+            'Setelah itu cari nama pasien, kemudian klik select pilih Operation Request Entry',
+            'Masuk ke halaman operation request entry, kemudian cek kembali data tersebut',
+            'Jika sudah sesuai klik save generate entry',
+            'Maka akan muncul informasi “General operation record entry saved successfully”',
+            'Setelah itu klik operation theater, lalu pilih menu view surgery request',
+            'Masuk ke halaman view surgery request, cari nama pasien',
+            'Kemudian klik select, pilih surgery timer',
+            'Masuk ke halaman surgery timer, isi kolom sponge count',
+            'Kemudian klik tombol save surgery timer',
+            'Maka akan muncul informasi “OT Timer saved successfully” ',
+            'Setelah itu klik operation theater, pilih menu view surgery request, ',
+            'Kemudian klik ikon segitiga (surgery completed)',
+            'Setelah itu klik select, pilih Billing',
+            'Masuk ke halaman surgery billing, cek total amount jika sudah sesuai klik tombol validate',
+            'Maka data akan tervalidasi',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'transfer-pasien-pasca-operasi-ke-ruang-perawatan': {
+    id: 'transfer-pasien-pasca-operasi-ke-ruang-perawatan',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Transfer Pasien Pasca Operasi ke Ruang Perawatan',
+    steps: [
+      {
+        id: 'transfer-pasien-pasca-operasi-ke-ruang-perawatan-step-1',
+        number: 1,
+        title: 'Transfer Pasien Pasca Operasi ke Ruang Perawatan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Inpatient',
+            'Setelah itu pilih menu Nursing Work Bench',
+            'Kemudian klik search setelah itu cari nama pasien berdasarkan search criteria',
+            'Pada patient status pilih under IP care, kemudian klik tombol search',
+            'Jika nama pasien sudah ditemukan lalu klik “Related documents”, pilih patient transactions ',
+            'Masuk ke halaman transaction log, untuk mengecek kamar sebelumnya',
+            'Kemudian klik tombol back',
+            'Kembali ke halaman list pasien, lalu klik search setelah itu search nama pasien berdasarkan search criteria',
+            'Pada patient status pilih under IP care, kemudian klik tombol search',
+            'Jika nama pasien sudah ditemukan lalu klik administrative, pilih patient transfer',
+            'Tampil halaman form pending orders, lalu klik tombol processed',
+            'Masuk ke halaman transfer request, lalu klik ikon kaca pembesar pada kolom bed type and no',
+            'Kemudian lakukan pembebasan kamar (unblock) pada kamar pasien selanjutnya dengan cara pilih ward sesuai kelas kamar pasien sebelumnya dan pilih status bed "All"',
+            'Lalu cari kamar pasien yang akan dilakukan pembebasan atau unblock (kamar pasien sebelumnya)',
+            'setelah itu klik unblock',
+            'Lalu tampil notifikasi, “Do you want to release selected bed?” Klik tombol Yes',
+            'Maka akan muncul informasi “Bed released successfully”',
+            'Selanjutnya lakukan proses pemesanan kamar (block pada kamar tersebut) dengan cara pilih ward sesuai dengan status "Available"',
+            'Setelah itu pilih kembali bed type tersebut (keterangan sebelumnya unblock) sekarang sudah Available',
+            'Lalu klik tombol block',
+            'Kemudian kembali ke halaman transfer request, maka akan muncul keterangan kamar yang sudah dipilih yaitu pada kolom Bed type dan no.',
+            'Setelah itu lengkapi kolom reason, klik tombol transfer',
+            'Maka akan muncul informasi “Transfer request saved successfully”',
+            'Selanjutnya, klik menu transactions pada menu sisi bilah kiri lalu pilih transfer request',
+            'Lalu akan muncul data pasien sudah berhasil ditransfer dari kamar operasi ke kamar perawatan',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'pengkajian-pra-anasthesi': {
+    id: 'pengkajian-pra-anasthesi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Pengkajian Pra Anasthesi',
+    steps: [
+      {
+        id: 'pengkajian-pra-anasthesi-step-1',
+        number: 1,
+        title: 'Pengkajian Pra Anasthesi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request ',
+            'Pada halaman surgery request browser, cari nama pasien',
+            'Setelah itu klik select, pilih PreAnesthesia Checkup',
+            'Masuk ke halaman data pasien, lengkapi informasi selengkap-lengkapnya',
+            'Jika sudah klik tombol save',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'tindakan-operasi-dilakukan': {
+    id: 'tindakan-operasi-dilakukan',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Tindakan Operasi Dilakukan',
+    steps: [
+      {
+        id: 'tindakan-operasi-dilakukan-step-1',
+        number: 1,
+        title: 'Tindakan Operasi Dilakukan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request',
+            'Cari nama pasien, lalu klik ikon segitiga untuk melakukan start surgery ',
+            'Setelah itu klik Anasthesia record entry',
+            'Masuk ke halaman Anasthesia record entry, lengkapi data',
+            'Jika sudah klik tombol validate',
+            'Maka akan muncul informasi “Anasthesia record for OT request validated” ',
+            'Setelah itu cari nama pasien, kemudian klik select pilih Operation Request Entry ',
+            'Masuk ke halaman operation request entry, kemudian cek kembali data tersebut',
+            'Jika sudah sesuai klik save generate entry',
+            'Maka akan muncul informasi “General operation record entry saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'tindakan-operasi-yang-dilakukan-lebih-dari-1-dokter-dan-lebih-dari-1-tindakan-incision-type': {
+    id: 'tindakan-operasi-yang-dilakukan-lebih-dari-1-dokter-dan-lebih-dari-1-tindakan-incision-type',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Tindakan Operasi yang Dilakukan Lebih Dari 1 Dokter dan Lebih dari 1 Tindakan (Incision Type)',
+    steps: [
+      {
+        id: 'tindakan-operasi-yang-dilakukan-lebih-dari-1-dokter-dan-lebih-dari-1-tindakan-incision-type-step-1',
+        number: 1,
+        title: 'Tindakan Operasi yang Dilakukan Lebih Dari 1 Dokter dan Lebih dari 1 Tindakan (Incision Type)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih Operation Theater',
+                  'Setelah itu pilih view surgery request',
+                  'Masuk ke halaman surgery request browser, kemudian cari pasien',
+                  'Setelah itu klik select pilih modify surgery request',
+                  'Masuk ke halaman data pasien',
+                  'Tentukan nama tindakan (procedure name)',
+                  'Pilih yang akan menjadi tindakan utama (beri tanda centang pada kolom primary procedure)',
+                  'Cek kesesuaian data pasien dan tim yang melakukan tindakan dengan mengklik  nama tindakan di setiap barisnya (pada kolom procedur name) dan memastikan nama operator, nama dokter anestesi, nama dr asisten, dan atau dr anak pendamping tindakan persalinan dengan sc sesuai dengan nama dokter tersebut',
+                  'Bila semua informasi sudah sesuai, klik tombol validate',
+                  'Maka akan tampil informasi “OT Request validated”',
+                  'Klik view all',
+                  'Lakukan langkah yang sama pada saat pelaksanaan operasi',
+                  'PreAnasthesia Checkup (Pengkajian PreAnasthesia)',
+                  'Start Surgery (Tindakan operasi dilakukan)',
+                  'Anasthesia record entry ',
+                  'Operation request entry',
+                  'Surgery timer (Validasi jadwal operasi yang diterima petugas kamar operasi)',
+                  'Surgery completed (Tindakan operasi selesai dilakukan)',
+                  'Selanjutnya yang perlu diperhatikan pada langkah ini adalah ketika akan melakukan validasi transaksi di kamar operasi',
+                  'Klik select, pilih billing',
+                  'Pilih Incision type',
+                  'Pada tindakan yang kedua pilih single 50% Multiple 25%  ',
+                  'Karena tindakan yang kedua dinilai 50% dari operasi yang ada',
+                  'Pilih single 50% Multiple 25%',
+                  'Selanjutnya pada planned procedures tindakan kedua dipilih departement type nya',
+                  'Pada contoh ini : tindakan debridement kecil',
+                  'Pilih single, karena di tindakan kedua pada incision type sebelumnya memilih single 50%',
+                  'Kemudian pada tindakan kamar operasi pilih departemen type : single',
+                  'Maka nilai pada kolom unitrate dan amount akan berubah setelah pilih single ',
+                  'Perfome procedure tindakannya harus dipilih dengan memberikan tanda centang',
+                  'Jika sudah selesai, klik save',
+                  'Maka akan tampil informasi “OT Billing saved successfully”',
+                  'Setelah itu klik select pilih billing kembali',
+                  'Cek data pasien, jika sudah sesuai klik validate',
+                  'Maka akan tampil informasi “OT Billing validated successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'validasi-jadwal-operasi-yang-diterima-petugas-kamar-operasi': {
+    id: 'validasi-jadwal-operasi-yang-diterima-petugas-kamar-operasi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Validasi Jadwal Operasi yang Diterima Petugas Kamar Operasi',
+    steps: [
+      {
+        id: 'validasi-jadwal-operasi-yang-diterima-petugas-kamar-operasi-step-1',
+        number: 1,
+        title: 'Validasi Jadwal Operasi yang Diterima Petugas Kamar Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater ',
+            'Setelah itu pilih view surgery request ',
+            'Masuk ke halaman view surgery request, cari nama pasien',
+            'Kemudian klik select, pilih surgery timer',
+            'Masuk ke halaman surgery timer, lengkapi informasi dan isi kolom sponge count',
+            'Klik tombol save surgery timer',
+            'Maka akan muncul informasi “OT Timer saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  
+    'validasi-transaksi-di-kamar-operasi': {
+    id: 'validasi-transaksi-di-kamar-operasi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Validasi Transaksi Di Kamar Operasi',
+    steps: [
+      {
+        id: 'validasi-transaksi-di-kamar-operasi-step-1',
+        number: 1,
+        title: 'Validasi Transaksi Di Kamar Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request',
+            'Cari nama pasien',
+            'Lalu klik ikon segitiga (surgery completed)',
+            'Setelah itu klik select, pilih Billing',
+            'Masuk ke halaman surgery billing, cek total amount ',
+            'Jika sudah sesuai klik tombol validate',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'prosedur-penerimaan-pasien-di-igd-atau-vk-op-emergency': {
+    id: 'prosedur-penerimaan-pasien-di-igd-atau-vk-op-emergency',
+    menuKey: 'perawat',
+    submenuId: 'perawat-igd',
+    itemTitle: 'Prosedur Penerimaan Pasien Di IGD atau VK (OP Emergency)',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-pasien-di-igd-atau-vk-op-emergency-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Pasien Di IGD atau VK (OP Emergency)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Emergency',
+            'Kemudian pilih menu Emergency patients',
+            'Masuk ke halaman emergency, kemudian klik modify pada kolom triage',
+            'Pilih warna triage sesuai penilaian kondisi pasien kemudian klik tombol save',
+            'Setelah itu klik select pilih Receive OP ER',
+            'Masuk ke halaman emergency patient details, pada kolom service center pilih IGD',
+            'Setelah itu pilih Unit dan Consultant (sesuai kebutuhan)',
+            'Kemudian klik tombol Receive',
+            'Maka akan muncul informasi “The patient is received successfully”',
+            'Lalu klik tombol back',
+            'Kembali ke halaman emergency, klik tab Emergency OP Patients',
+            'Kemudian cari nama pasien, setelah itu klik select lalu pilih patient chart',
+            'Masuk ke halaman entry perawat, kemudian pilih menu clinical notes klik ikon tambah ( + )  ',
+            'Kemudian select encounter ',
+            'Lengkapi form add note isi title dan note',
+            'Jika sudah klik tombol save & publish',
+            'Tampil notifikasi publish options, klik processed',
+            'Tampil notifikasi clinical saved successfully,',
+            'Kemudian pilih menu Vitals, lalu klik ikon tambah (+)',
+            'Lengkapi informasi pada form vital, jika sudah klik save',
+            'Tampil informasi vital saved successfully',
+            'Jika sudah selesai klik back to emergency',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-rawat-inap-dari-emergency': {
+    id: 'prosedur-rawat-inap-dari-emergency',
+    menuKey: 'perawat',
+    submenuId: 'perawat-igd',
+    itemTitle: 'Prosedur Rawat Inap Dari Emergency',
+    steps: [
+      {
+        id: 'prosedur-rawat-inap-dari-emergency-step-1',
+        number: 1,
+        title: 'Prosedur Rawat Inap Dari Emergency',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Keadaan Darurat (Emergency)',
+            'Lalu pilih menu Emergency Patients',
+            'Masuk ke halaman emergency, kemudian klik tab Pasien OP darurat (emergency)',
+            'Cari nama pasien lalu klik select, pilih Mark for IP (Pastikan admission request sudah dilakukan oleh dokter dan seluruh order sudah ditransaksi)',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'pemulangan-dari-op-emergency': {
+    id: 'pemulangan-dari-op-emergency',
+    menuKey: 'perawat',
+    submenuId: 'perawat-igd',
+    itemTitle: 'Pemulangan Dari OP Emergency',
+    steps: [
+      {
+        id: 'pemulangan-dari-op-emergency-step-1',
+        number: 1,
+        title: 'Pemulangan Dari OP Emergency',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Emergency',
+            'Kemudian pilih menu Emergency patients',
+            'Masuk ke halaman emergency, klik tab emergency OP patients',
+            'cari nama pasien kemudian klik select pilih patient chart',
+            'Setelah itu cek data pasien tersebut pada menu Orders',
+            'Jika sudah sesuai kembali ke halaman emergency',
+            'Masuk ke halaman emergency, klik tab emergency OP patients ',
+            'cari nama pasien, kemudian klik select pilih close visit status',
+            'Tampil notifikasi untuk mengisi reason for close, lalu klik tombol yes ',
+            'Jika sudah diconfirm untuk close visit status, maka pilhan select pada nama pasien tersebut akan hilang',          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'proses-input-pemakaian-obat-ruangan': {
+    id: 'proses-input-pemakaian-obat-ruangan',
+    menuKey: 'perawat',
+    submenuId: 'farmasi-keperawatan',
+    itemTitle: 'Proses Input Pemakaian Obat Ruangan',
+    steps: [
+      {
+        id: 'proses-input-pemakaian-obat-ruangan-step-1',
+        number: 1,
+        title: 'Proses Input Pemakaian Obat Ruangan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Rawat Inap (Inpatient)',
+            'Kemudian pilih menu Meja Perawat (Nursing work bench)',
+            'Cek data pasien, setelah itu pilih menu pharmacy pada sisi bilah kiri',
+            'Masuk ke halaman pharmacy, lalu klik menu transactions pada sisi bilah kiri',
+            'Pilih issue on demand',
+            'Setelah itu klik tombol issue on demand ',
+            'Masuk ke halaman issue drugs, cari data pasien berdasarkan nama atau no MRN',
+            'Pilih store, cari item name (untuk mencari item obat tambahkan simbol %)',
+            'Kemudian klik item obat tersebut',
+            'Jika sudah sesuai kemudian klik Confirm Dispense ',
+            'Lalu tampil informasi “Drugs dispensed successfully”',          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'proses-retur-obat-ke-farmasi': {
+    id: 'proses-retur-obat-ke-farmasi',
+    menuKey: 'perawat',
+    submenuId: 'farmasi-keperawatan',
+    itemTitle: 'Proses Retur Obat Ke Farmasi',
+    steps: [
+      {
+        id: 'proses-retur-obat-ke-farmasi-step-1',
+        number: 1,
+        title: 'Proses Retur Obat Ke Farmasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih rawat inap (Inpatient)',
+                  'Kemudian pilih menu Meja Perawat (Nursing work bench) ',
+                  'Masuk ke halaman rawat inap, lalu klik search',
+                  'Setelah itu cari pasien berdasarkan kriteria pencarian (search criteria)',
+                  'Pada patient status pilih Under IP care, klik pencarian (search)',
+                  'Kemudian cari data pasien',
+                  'Setelah itu pilih menu pharmacy pada sisi bilah kiri, pilih Drug Return request ',
+                  'Kemudian klik tombol Create return request',
+                  'Masuk ke halaman drug return request, kemudian cari pasien berdasarkan nama atau no. MRN',
+                  'Lalu pilih return store, klik tambahkan (add)',
+                  'Pada form dispensed items, klik ikon tambah (+)',
+                  'Kemudian klik close',
+                  'Lalu isi Drug return reason, lalu klik create reason request ',
+                  'Setelah itu muncul informasi “Return request saved successfully”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'proses-retur-obat-pemakaian-ruangan': {
+    id: 'proses-retur-obat-pemakaian-ruangan',
+    menuKey: 'perawat',
+    submenuId: 'farmasi-keperawatan',
+    itemTitle: 'Proses Retur Obat Pemakaian Ruangan',
+    steps: [
+      {
+        id: 'proses-retur-obat-pemakaian-ruangan-step-1',
+        number: 1,
+        title: 'Proses Retur Obat Pemakaian Ruangan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Pharmacy pada sisi bilah kiri,',
+          'Kemudian pilih menu pengembalian obat langsung (Direct drug return)',
+          'Cari pasien berdasarkan nama atau no MRN',
+          'Lalu pilih toko retur (store) kemudian klik tombol tambahkan (add)',
+          'Lalu klik ikon tambah (+) jika sudah klik tombol tutup (close) ',
+          'Kemudian isi alasan pengembalian obat (Reason), lalu klik Simpan (Save) ',
+          'Lalu akan tampil informasi “Pengembalian Obat berhasil disimpan"',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-permintaan-barang-ke-gudang-umum': {
+    id: 'prosedur-permintaan-barang-ke-gudang-umum',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Permintaan Barang Ke Gudang Umum',
+    steps: [
+      {
+        id: 'prosedur-permintaan-barang-ke-gudang-umum-step-1',
+        number: 1,
+        title: 'Prosedur Permintaan Barang Ke Gudang Umum',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu apps pilih menu inventory, lalu pilih stock indent',
+            'Masuk ke halaman Stock indent, klik new ',
+            'Pilih request store / location, issue store / location dan isi Remarks',
+            'Setelah itu klik Add line items',
+            'Tampil form add stock indent line item, isi form selengkapnya dan kolom dengan tanda bintang (*) wajib diisi',
+            'Lalu klik tombol Add, maka akan tampil informasi bahwa Added item telah ditambahkan',
+            'Jika sudah selesai klik tombol close',
+            'Kemudian akan tampil item yang sudah ditambahkan melalui add line item',
+            'Lalu klik Send for approval',
+            'Maka akan tampil informasi “Stock indent sent for approval',
+            'Lalu cek pada kolom approval status, jika keterangannya masih tertunda (pending) klik pilih lalu edit',
+            'Cek kembali data tersebut, jika sudah sesuai lalu klik Approval',
+            'Maka akan tampil informasi “Stock Indent Approved”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-permintaan-obat-ruangan-ke-farmasi': {
+    id: 'prosedur-permintaan-obat-ruangan-ke-farmasi',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Permintaan Obat Ruangan Ke Farmasi',
+    steps: [
+      {
+        id: 'prosedur-permintaan-obat-ruangan-ke-farmasi-step-1',
+        number: 1,
+        title: 'Prosedur Permintaan Obat Ruangan Ke Farmasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Inventory',
+            'Kemudian pilih stock indent pada menu transaction di sisi bilah kiri',
+            'Masuk ke halaman stock indent, lalu klik new',
+            'Pilih request store / location, issue store / location dan isi Remarks',
+            'Setelah itu klik Add line items',
+            'Tampil form add stock indent line item, isi form selengkapnya dan kolom dengan tanda bintang (*) wajib diisi',
+            'Lalu klik tombol Add, maka akan tampil informasi bahwa Added item telah ditambahkan',
+            'Jika sudah selesai klik tombol close',
+            'Kemudian akan tampil item yang sudah ditambahkan melalui add line item',
+            'Lalu klik Send for approval',
+            'Maka akan tampil informasi “Stock indent sent for approval',
+            'Lalu cek pada kolom approval status, jika keterangannya masih pending, klik select lalu pilih edit',
+            'Cek kembali data tersebut, jika sudah sesuai lalu klik Approval',
+            'Maka akan tampil informasi “Stock Indent Approved”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  
+        'prosedur-penerimaan-barang-farmasi-atau-gudang-umum': {
+    id: 'prosedur-penerimaan-barang-farmasi-atau-gudang-umum',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Penerimaan Barang Farmasi atau Gudang Umum',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-barang-farmasi-atau-gudang-umum-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Barang Farmasi atau Gudang Umum',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih Inventory ',
+          'Pilih stock receipt ',
+          'Cari no.document yang telah di create sebelumnya',
+          'Lalu klik edit',
+          'Maka akan tampil keterangan item yang telah diterima (stock receipt items)',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'prosedur-pengeluaran-bmhp': {
+    id: 'prosedur-pengeluaran-bmhp',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Pengeluaran BMHP',
+    steps: [
+      {
+        id: 'prosedur-pengeluaran-bmhp-step-1',
+        number: 1,
+        title: 'Prosedur Pengeluaran BMHP',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih Inventaris (Inventory)',
+          'Lalu pilih menu stock consumption',
+          'Masuk ke halaman stock consumption, klik New',
+          'Lengkapi informasi yaitu Pilih store, consumption departement, dan isi remarks',
+          'Jika sudah klik Add line items',
+          'Tampil form add line item, isi form selengkapnya dan kolom dengan tanda bintang (*) wajib diisi',
+          'Lalu klik tombol Add, maka akan tampil informasi bahwa Added item telah ditambahkan',
+          'Jika sudah selesai klik tombol close',
+          'Kemudian akan tampil item yang sudah ditambahkan melalui add line item',
+          'Lalu klik Send for approval',
+          'Maka akan tampil informasi “Stock consumption sent for approval',
+          'Lalu cek keterangan pada kolom approval status, jika keterangannya masih tertunda (pending) klik edit',
+          'Cek kembali data tersebut, jika sudah sesuai lalu klik Approval',
+          'Maka akan tampil informasi “Stock consumption Approved”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'service-order-status-report': {
+    id: 'service-order-status-report',
+    menuKey: 'perawat',
+    submenuId: 'laporan-perawat',
+    itemTitle: 'Service Order Status Report',
+    steps: [
+      {
+        id: 'service-order-status-report-step-1',
+        number: 1,
+        title: 'Service Order Status Report',
+        description: 'Tujuan : Untuk pencocokan jumlah kunjungan rawat jalan',
+        details: [
+          'Pada halaman utama klik Report ',
+          'Pada sisi bilah kiri pilih menu Billing',
+          'Klik Reports',
+          'Pilih service order status report',
+          'Pada halaman service order status report pilih tanggal pada pilihan from - to date (disesuaikan)',
+          'Untuk melihat laporan klik ikon excel (disarankan)',
+          'Maka akan tampilan laporan sebagai berikut :',
+          'Lakukan filtering dengan melakukan blocking pada judul kolom (kolom A - kolom P)',
+          'Klik tombol filter',
+          'Pilih visit type : OP',
+          'Klik OK',
+          'Pada kolom P yang berjudul status order terdapat beberapa status kategori yaitu:',
+          'Order		 : Apabila masih di sisi user yang melakukan permintaan',
+          'Processed	 : Apabila sudah dilakukan finance clearance/settle invoice (ada invoice no)',
+          'In progress : Apabila order dalam proses pengerjaan oleh unit lain dan belum selesai (certified)',
+          'Lakukan pemilahan untuk kolom-kolom yang diperlukan, antara lain :',
+          {type : 'text', content : '1. MRN', level: 2 },
+          {type : 'text', content : '2. Patient name', level: 2 },
+          {type : 'text', content : '3. Visit type', level: 2 },
+          {type : 'text', content : '4. Order Number', level: 2 },
+          {type : 'text', content : '5. Order type', level: 2 },
+          {type : 'text', content : '6. Order item', level: 2 },
+          {type : 'text', content : '7. Ordered from', level: 2 },
+          {type : 'text', content : '8. Requested by', level: 2 },
+          {type : 'text', content : '9. Employee name', level: 2 },
+          {type : 'text', content : '10. Ordered date', level: 2 },
+          {type : 'text', content : '11. Processed date', level: 2 },
+          {type : 'text', content : '12. Invoice number', level: 2 },
+          {type : 'text', content : '13. Order status', level: 2 },
+          'Copy dan simpan file dengan diberi nama dokter terkait dan tanggal report dilakukan',
+          'Kirim file melalui email / whatsapp dengan hasil print',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'cocokan-transaksi-dokter-di-rawat-jalan': {
+    id: 'cocokan-transaksi-dokter-di-rawat-jalan',
+    menuKey: 'perawat',
+    submenuId: 'laporan-perawat',
+    itemTitle: 'Cocokan Transaksi Dokter Di Rawat Jalan',
+    steps: [
+      {
+        id: 'cocokan-transaksi-dokter-di-rawat-jalan-step-1',
+        number: 1,
+        title: 'Cocokan Transaksi Dokter Di Rawat Jalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik Report',
+          'Pilih menu Inpatient',
+          'Klik menu report',
+          'Pilih Processed service order',
+          'Pilih tanggal order (from - to date) ',
+          'Untuk processed date (from - to date) dilakukan clean / dikosongkan',
+          'Setelah dilakukan clean tanggal proses maka akan tampil sebagai berikut',
+          'Untuk melihat laporan klik ikon excel (disarankan)',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Blok header excel dan pilih auto filter',
+          'Filter list dengan visit type : OP',
+          'Pilih nama consultant (dokter) yang diinginkan',
+          'Filter nama dokter',
+          'Klik OK',
+          'Setelah dipilih nama yang diinginkan, block semua field dan dicopy ke new sheet',
+          'Save as new file',
+          'Kirim file melalui email / whatsapp dokter atau diprint dan diserahkan ke dokter setelah selesai praktek',
+
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-18/11/2025 */
+
+
+  /* Maul-19/11/2025 */
+  'dokter-di-rawat-jalan': {
+    id: 'dokter-di-rawat-jalan',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Dokter di Rawat Jalan',
+    steps: [
+      {
+        id: 'dokter-di-rawat-jalan-step-1',
+        number: 1,
+        title: 'Dokter di Rawat Jalan',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Patient Care ',
+          'Pilih menu Patient Chart ',
+          'Masuk ke halaman Consultation Desk, pilih tab Out Patient',
+          'Pilih pasien di tab Pending, lalu klik tanda panah ke bawah di sisi kanan dan pilih Start consultation',
+          'Masuk ke halaman entry dokter, kemudian klik tombol Create Consultation Note, pilih New ',
+          'Masuk ke halaman Consultation Note, kemudian isi Chief complaint, Social History, Past medical history dan untuk isi Allergy record klik tombol Add ',
+          'Tampil form Add allergy, isi informasi lalu klik tombol save ',
+          'Kembali ke halaman Consultation Note, kemudian isi Vital sign details dengan memilih tombol Add pada sisi sebelah kanan',
+          'Tampil form Vital sign details, isi informasi lalu klik tombol Save ',
+          'Kembali ke halaman Consultation Note, kemudian isi Encounter diagnosis dengan memilih tombol Add pada sisi sebelah kanan layar (Pengisian diagnosa sesuai dengan penamaan pada ICD 10)',
+          'Tampil form Add diagnosis, cari diagnosa sesuai dengan penamaan pada ICD 10',
+          'Setelah itu pilih penggolongan diagnosa berdasarkan primary, secondary, comorbid atau complication',
+          'Pilih diagnosa yang dibuat apakah sebagai diagnosa awal/akhir/diagnosa banding',
+          'Setelah informasi diagnosa yang dipilih sesuai, klik save',
+          'Kembali ke halaman Consultation Note, Kemudian Isi kolom Notes dengan :',
+          {type : 'text', content : 'Title : CPPT', level: 3 } ,
+	        {type : 'text', content : 'Section mapping : medis', level: 3 }  ,
+	        {type : 'text', content : 'Note : informasi klinis pasien', level: 3 }  ,
+	        {type : 'text', content : 'Klik tombol save', level: 3 }  ,
+          'Kembali ke halaman Consultation Note, pilih widget Order, klik tombol Add, ',
+          'Tampil halaman Order',
+          'Lakukan pencarian tindakan yang akan diorder (sesuai dengan jenis pelayanan dan kategori dokter yang melakukan input)',
+          'Jika sudah sesuai untuk tindakan order yang diperlukan, klik checklist ',
+          'Pilih lokasi pelayanan sesuai dengan lokasi pelayanan dilakukan (poli spesialis/eksekutif)',
+          'Jika informasi sudah sesuai, klik tombol done',
+          'Kembali ke halaman Consultation note, pada kolom prescription klik add',
+          'Masuk ke halaman Drug Order, kemudian pilih store (sesuai dengan sponsor pasien) yaitu :',
+          {type : 'text', content : 'Store Farmasi executive untuk pasien non BPJS non Inhealth', level: 3 }  ,
+          {type : 'text', content : 'Store farmasi inhealth   untuk pasien Inhealth', level: 3 }  ,
+          {type : 'text', content : 'Store reguler untuk pasien BPJS', level: 3 }  ,
+          'Klik sediaan obat yang akan diorder (Prescription atau mixture disesuaikan)',
+	        {type : 'text', content : 'Prescription untuk sediaan obat jadi', level: 3 }  ,
+	        {type : 'text', content : 'Add mixture untuk sediaan obat racik', level: 3 }  ,
+          'Lakukan pencarian obat yang akan diorder dengan stok yang masih tersedia (informasi stok ada di kanan nama obat yang dipilih)',
+          'Kemudian checklist untuk obat yang  akan diorder',
+          'Apabila ketersediaan obat tersebut kosong, akan ada notifikasi merah pada bawah layar',
+          'Klik Add instructions',
+          'Kemudian muncul form instruction builder, ',
+          'Pilih informasi yang diperlukan pada kolom yang tersedia atau ketik informasi instruksi obat yang diberikan (free text) ',
+          'Lalu klik tombol select di sudut kanan layar',
+          'Kembali ke halaman Drug Order, ',
+          'Cek data kembali jika sudah sesuai klik tombol Add Drugs',
+          'Lalu data yang sudah diadd drugs akan muncul pada halaman Prescription Order,  Kemudian klik Done',
+          'Kembali ke halaman Consultation Note, jika data sudah lengkap kemudian klik Save ',
+          'Akan muncul pesan “Record saved successfully”',
+          'Kembali ke halaman Data dokter, kemudian data dari setiap kolom widget sudah lengkap lalu klik back to dashboard',
+          'Kembali ke halaman Consultation Desk, lalu perhatikan di tab Inprogress nama pasien tersebut sudah pindah di tab In Progress, kemudian klik tanda panah di sisi kanan lalu pilih Complete Consultation ',
+          'Setelah itu nama pasien tersebut sudah berada di tab Completed',
+        ],
+      }
+    ]
+  },
+
+  'cross-consultation': {
+    id: 'cross-consultation',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Cross Consultation',
+    steps: [
+      {
+        id: 'cross-consultation-step-1',
+        number: 1,
+        title: 'Cross Consultation',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Patient Care ',
+          'Pilih menu Patient Chart ',
+          'Masuk ke halaman Consultion Desk, pilih tab Our Patient',
+          'Kemudian pilih pasien lalu klik tanda panah ke bawah di sisi kanan dan pilih Cross consultation',
+          'Masuk ke halaman entry dokter, kemudian klik tombol Cross Consultation ',
+          'Masuk ke halaman cross consultation request, Isi form, kolom dengan tanda ( * ) wajib diisi',
+          'Klik tombol save',
+          'Muncul notifikasi “Cross Consultation saved successfully”',
+          'Kemudian klik tombol Close'
+        ],
+      }
+    ]
+  },
+
+  'request-surgery': {
+    id: 'request-surgery',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Request Surgery',
+    steps: [
+      {
+        id: 'request-surgery-step-1',
+        number: 1,
+        title: 'Request Surgery',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Operation Theater',
+          'Pilih menu Surgery Request',
+          'Masuk ke halaman Surgery Request, cari nama pasien lalu isi informasi yang diperlukan',
+          'Pada saat mengisi kolom Operation Schedule, klik Operation Date',
+          'Tampil halaman OT Scheduling, klik ruangan dan waktu yang akan dijadwalkan',
+          'Setelah itu tampil form Event Details, isi informasi lalu klik tombol Schedule',
+          'Kembali ke halaman OT Scheduling, tampil jadwal yang sudah ditentukan',
+          'Kemudian ke halaman surgery request, informasi di Operation Scheduling akan terisi setelah itu klik tombol Request',
+          'Muncul informasi “Record saved successfully”',
+          'Klik tombol back kemudian masuk ke halaman Surgery request browser, tampil data pasien secara details'
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-resep-racik': {
+    id: 'pembuatan-resep-racik',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Pembuatan Resep Racik',
+    steps: [
+      {
+        id: 'pembuatan-resep-racik-step-1',
+        number: 1,
+        title: 'Pembuatan Resep Racik',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada halaman utama dokter, klik salah satu nama pasien',
+          'Kemudian pilih view EHR',
+          'Pilih widget medications, kemudian klik ikon tambah (+)',
+          'Pilih store : Farmasi (disesuaikan)',
+          'Klik add mixture ',
+          'Isi kolom combinational drug order',
+          'Lalu klik add instruction',
+          'Lengkapi form instruction, lalu klik mixture instruction',
+          'Kemudian klik Add',
+          'Maka akan tampil data obat yang sudah ditambahkan sebelumnya',
+          'Cari nama item obat pada kolom search',
+          'Kemudian akan tampil daftar order sesuai kata pencarian',
+          'Beri tanda centang item order yang dipilih',
+          'Klik add mixture',
+          'Kemudian klik save',
+          'Maka akan tampil notifikasi “Drug order saved” '
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-resep-paten': {
+    id: 'pembuatan-resep-paten',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Pembuatan Resep Paten',
+    steps: [
+      {
+        id: 'pembuatan-resep-paten-step-1',
+        number: 1,
+        title: 'Pembuatan Resep Paten',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada halaman utama dokter, klik salah satu nama pasien',
+          'Kemudian pilih view EHR',
+          'Pilih widget medications, kemudian klik ikon tambah (+)',
+          'Pilih store : Farmasi (disesuaikan)',
+          'Klik prescription',
+          'Cari nama item obat pada kolom search',
+          'Kemudian akan tampil daftar order sesuai kata pencarian',
+          'Beri tanda centang item order yang dipilih',
+          'Klik add instruction',
+          'Lengkapi form instruction',
+          'Klik tombol select',
+          'Jika sudah selesai klik Add drugs ',
+          'Maka akan tampil data obat yang sudah dipilih',
+          'Lalu klik done'
+        ],
+      }
+    ]
+  },
+
+  'dokter-admission-request': {
+    id: 'dokter-admission-request',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Dokter Admission Request',
+    steps: [
+      {
+        id: 'dokter-admission-request-step-1',
+        number: 1,
+        title: 'Dokter Admission Request',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Patient Care',
+          'Pilih menu Patient Chart ',
+          'Masuk ke halaman Consultation Desk, pilih tab Our Patient',
+          'Kemudian pilih pasien di tab Inprogress, lalu klik tanda panah ke bawah di sisi kanan dan pilih Admission Request',
+          'Masuk ke halaman entry dokter, lalu pilih tab request setelah itu klik Admission request',
+          'Masuk ke halaman Admission request, isi informasi yang diperlukan setelah itu klik tombol Create admission request',
+          'Muncul notifikasi Select open orders, lalu klik Yes',
+          'Kemudian klik Create admission request kembali, lalu muncul pesan “Admission request saved successfully”',
+          'Kembali ke halaman Consultation Desk, Kemudian pilih pasien tersebut di tab Inprogress, lalu klik tanda panah ke bawah di sisi kanan dan pilih Complete consultation ',
+          'Lalu muncul informasi “Consultation Completed” dan pasien tersebut sudah pindah di tab completed'
+        ],
+      }
+    ]
+  },
+
+  'mendaftarkan-pasien-perjanjian-di-poli-dokter': {
+    id: 'mendaftarkan-pasien-perjanjian-di-poli-dokter',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Mendaftarkan Pasien Perjanjian di Poli Dokter',
+    steps: [
+      {
+        id: 'mendaftarkan-pasien-perjanjian-di-poli-dokter-step-1',
+        number: 1,
+        title: 'Mendaftarkan Pasien Perjanjian di Poli Dokter',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Patient Care',
+          'Pilih menu Patient Chart',
+          'Masuk ke halaman Consultation Desk, pilih tab Our Patient',
+          'Kemudian pilih pasien di tab Pending, lalu klik tanda panah ke bawah di sisi kanan dan pilih Start consultation',
+          'Masuk ke halaman data dokter, pilih tab Appointment',
+          'Tampil form Appointment kemudian pilih tanggal',
+          'Pilih waktu untuk penjadwalan, kemudian isi Remarks untuk keterangan lalu klik tombol Save',
+          'Muncul informasi “Appointments saved successfully”',
+        ],
+      }
+    ]
+  },
+
+  'resume-rawat-jalan-encounter-summary': {
+    id: 'resume-rawat-jalan-encounter-summary',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-jalan',
+    itemTitle: 'Resume Rawat Jalan(Encounter Summary)',
+    steps: [
+      {
+        id: 'resume-rawat-jalan-encounter-summary-step-1',
+        number: 1,
+        title: 'Resume Rawat Jalan(Encounter Summary)',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Klik menu Apps, pilih patient care',
+          'Pilih patient chart',
+          'Tampil halaman consultation desk',
+          'Lakukan pencarian nama pasien',
+          'Berikut tampilan EMR Hinai',
+          'Isi data widget EMR secara lengkap',
+          'Klik menu summary,  pilih encounter summary',
+          'Tampil halaman encounter',
+          'Pilih encounter yang akan diprint',
+          'Ceklis atau pilih encounter yang ingin dicetak ',
+          'Klik tombol print',
+          'Maka akan tampil resume rawat jalan (encounter summary) sebagai berikut :'
+        ],
+      }
+    ]
+  },
+
+  'pasien-di-rawat-inap-dokter-ruangan': {
+    id: 'pasien-di-rawat-inap-dokter-ruangan',
+    menuKey: 'dokter',
+    submenuId: 'dokter-rawat-inap',
+    itemTitle: 'Pasien di Rawat Inap (Dokter Ruangan)',
+    steps: [
+      {
+        id: 'pasien-di-rawat-inap-dokter-ruangan-step-1',
+        number: 1,
+        title: 'Pasien di Rawat Inap (Dokter Ruangan)',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Patient Care',
+          'Pilih menu Patient Chart',
+          'Masuk ke halaman Consultation Desk, pilih tab Inpatient',
+          'Kemudian pilih pasien, lalu klik tanda panah ke bawah di sisi kanan lalu Pilih View EHR',
+          'Masuk ke halaman entry dokter, kemudian pilih Clinical Notes dan klik tombol tambah',
+          'Tampil halaman Add note, isi form setelah itu klik tombol save & publish',
+          'Tampil publish options, klik tombol processed',
+          'Kembali ke halaman Entry Dokter, lalu pilih menu Orders klik tombol Tambah',
+          'Masuk ke halaman Add order, lalu cari enter service name ',
+          'Jika sudah klik tombol save',
+          'Kembali ke halaman Entry Dokter, lalu pilih menu Medications klik tambah',
+          'Pilih prescription, klik tombol Add',
+          'Tampil halaman Drug Orders, lalu cari Enter drug name',
+          'Klik add instructions',
+          'Isi informasi yang diperlukan, jika sudah klik tombol select',
+          'Kembali ke halaman Drug Orders, jika informasi sudah sesuai klik tombol Add Drugs',
+          'Lalu klik tombol save ',
+          'Maka akan tampil informasi “Drug Orders Saved”'
+        ],
+      }
+    ]
+  },
+
+  'pasien-rawat-jalan-igd-vk': {
+    id: 'pasien-rawat-jalan-igd-vk',
+    menuKey: 'dokter',
+    submenuId: 'dokter-igd',
+    itemTitle: 'Pasien Rawat Jalan IGD / VK',
+    steps: [
+      {
+        id: 'pasien-rawat-jalan-igd-vk-step-1',
+        number: 1,
+        title: 'Pasien Rawat Jalan IGD / VK',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Emergency',
+          'Pilih Emergency Patiens',
+          'Masuk ke halaman Emergency patients, lalu pilih tab Emergency patients list ',
+          'Klik Modify pada kolom Triage',
+          'Pilih Triage category, klik Save',
+          'Kembali ke menu halaman Emergency patients, klik select pada kolom action',
+          'Pilih Receive OP ER',
+          'Masuk ke halaman Emergency Patient Details, kemudian isi informasi yang diperlukan (Consultant dan Service Center)',
+          'Klik tombol Receive',
+          'Tampil informasi “The patients is received successfully”',
+          'Kembali ke halaman Emergency patient details, kemudian pilih tab Emergency OP Patients',
+          'Cari pasien kemudian klik select pada kolom action, lalu pilih Patient chart',
+          'Masuk ke halaman patient chart, lalu klik Create Consultation Note pilih New',
+          'Masuk ke halaman Consultation Note, kemudian isi Chief complaint, Social History, Past medical history',
+          'Kembali ke halaman Consultation Note, kemudian isi Vital sign details dengan memilih tombol Add pada sisi sebelah kanan',
+          'Kemudian klik add pada encounter diagnosis',
+          'Tampil form Add diagnosis, isi informasi lalu klik tombol Done',
+          'Kembali ke halaman Consultation Note, Kemudian isi Order Klik tombol Add pada sisi sebelah kanan',
+          'Tampil form Order, cari selected order kemudian checked untuk data order yang dibutuhkan, kemudian pilih konsultasi dokter setelah itu klik tombol Done',
+          'Kembali ke halaman Consultation Note, Kemudian isi Prescription klik tombol Add pada sisi sebelah kanan',
+          'Tampil form Prescription, kemudian klik tombol Add (+) pada menu Prescription',
+          'Masuk ke halaman Drug Order, kemudian Enter drug name to search cari drug order kemudian checked untuk data drug order yang dibutuhkan',
+          'Klik Add instructions',
+          'Kemudian muncul form instruction builder pilih informasi yang diperlukan lalu klik tombol select',
+          'Kembali ke halaman Drug Order, cek data kembali jika sudah sesuai klik tombol Add Drugs',
+          'Lalu data yang sudah diadd drugs akan muncul pada halaman Prescription Order',
+          'Kemudian klik Done',
+          'Kembali ke halaman Consultation Note, jika data sudah lengkap kemudian klik Save Consultation Note',
+          'Akan muncul pesan “Record saved successfully”',
+          'Kembali ke halaman Entry dokter, pilih Back to emergency',
+          'Cari pasien kemudian klik select pada kolom action, lalu pilih Close Visit Status',
+          'Tampil notifikasi close visit status, pilih Reason for close, klik tombol Yes',
+          'Kembali ke halaman Emergency OP Patients, cari pasien kemudian tulisan select di kolom action akan menghilang'
+        ],
+      }
+    ]
+  },
+
+  'memindahkan-pasien-emergency-menjadi-ip-emergency': {
+    id: 'memindahkan-pasien-emergency-menjadi-ip-emergency',
+    menuKey: 'dokter',
+    submenuId: 'dokter-igd',
+    itemTitle: 'Memindahkan Pasien emergency Menjadi IP emergency',
+    steps: [
+      {
+        id: 'memindahkan-pasien-emergency-menjadi-ip-emergency-step-1',
+        number: 1,
+        title: 'Memindahkan Pasien emergency Menjadi IP emergency',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, pilih menu emergency',
+          'Pilih emergency patients ',
+          'Pada emergency patient list, search patient lalu klik select',
+          'Pilih Receive IP ER',
+          'Pilih service center : IGD Unit : Dokter umum',
+          'Pilih Bed yang tersedia',
+          'Klik Receive',
+          'Maka akan tampil informasi “The patient is receive successfully”',
+          'Klik Back',
+          'Pilih tab emergency IP patients, klik select',
+          'Pilih patient chart',
+          'Pilih widget orders, lalu klik ikon tambah (+) ',
+          'Cari nama item obat pada kolom search',
+          'Kemudian akan tampil daftar order sesuai kata pencarian',
+          'Beri tanda centang item order yang dipilih',
+          'Kemudian klik save ',
+          'Maka akan muncul notifikasi “Service order saved successfully”',
+          'Klik back to emergency'
+        ],
+      }
+    ]
+  },
+
+  'merencanakan-pasien-di-rawat-dari-ip-emergency': {
+    id: 'merencanakan-pasien-di-rawat-dari-ip-emergency',
+    menuKey: 'dokter',
+    submenuId: 'dokter-igd',
+    itemTitle: 'Merencanakan Pasien di Rawat Dari IP Emergency',
+    steps: [
+      {
+        id: 'merencanakan-pasien-di-rawat-dari-ip-emergency-step-1',
+        number: 1,
+        title: 'Merencanakan Pasien di Rawat Dari IP Emergency',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, pilih menu emergency',
+          'Pilih emergency patients',
+          'Pilih tab Emergency IP patients',
+          'Klik select, pilih admission request',
+          'Lengkapi form admission request, kolom dengan tanda bintang (*) wajib diisi',
+          'Pilih departement, consulting doctor, admission category, est length of stay dan admission type',
+          'Klik create admission request',
+          'Maka akan tampil informasi “Admission Request saved successfully” ',
+          'Kembali ke halaman Emergency',
+          'Pilih tab Emergency IP patients, klik select',
+          'Pilih Mark for IP',
+          'Maka akan tampil informasi “Patient is Mark for IP”'
+        ],
+      }
+    ]
+  },
+
+  'pengisian-laporan-operasi-operation-note': {
+    id: 'pengisian-laporan-operasi-operation-note',
+    menuKey: 'dokter',
+    submenuId: 'dokter-igd',
+    itemTitle: 'Pengisian Laporan Operasi(Operation Note)',
+    steps: [
+      {
+        id: 'pengisian-laporan-operasi-operation-note-step-1',
+        number: 1,
+        title: 'Pengisian Laporan Operasi(Operation Note)',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Klik Apps, pilih Operation Theater',
+          'Pilih view surgery request',
+          'Cari nama pasien',
+          'Klik select, pilih Operation Record Entry',
+          'Masuk ke halaman operation record entry',
+          'Pilih menu operation note',
+          'Pilih form names dengan Laporan operasi (operation notes)',
+          'Klik tombol confirm form name untuk konfirmasi pada nama form yang dipilih',
+          'Maka akan tampil notifikasi "Form saved successfully"',
+          'Selanjutnya pengisian data pada kolom-kolom laporan operasi (operation notes) oleh dokter operator',
+          'Jika data-data di kolom telah diisi lengkap ',
+          'Klik Submit agar form laporan operasi dapat disimpan dan diprint',
+          'Klik ikon print untuk cetak ',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Hal-hal yang perlu diperhatikan : ',
+          {type : 'text', content : 'Data pasien operasi harus diisi dan diperiksa pada', level: 3 },
+          {type : 'text', content : 'Operation Record Entry', level: 3 },
+          {type : 'text', content : 'Anesthesia Record Entry', level: 3 },
+          {type : 'text', content : 'Operation Record Entry', level: 3 },
+          {type : 'text', content : 'Anesthesia Record Entry', level: 3 },
+          {type : 'text', content : 'Operation Record Entry', level: 3 },
+          {type : 'text', content : 'Operation Record Entry', level: 3 }
+        ],
+      }
+    ]
+  }
+
+
+  /* Maul-19/11/2025 */
 
 };
