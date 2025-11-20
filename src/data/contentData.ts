@@ -3743,9 +3743,1072 @@ export const contentData: Record<string, ContentItem> = {
         ],
       }
     ]
-  }
+  },
 
 
   /* Maul-19/11/2025 */
+
+  /* heru-19/11/2025 */
+  'terima-order': {
+    id: 'terima-order',
+    menuKey: 'radiologi',
+    submenuId: 'terima-order',
+    itemTitle: 'Terima Order',
+    steps: [
+      {
+        id: 'terima-order-step-1',
+        number: 1,
+        title: 'Terima Order',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih menu RIS',
+                  'Lalu pilih Service Center Manager pada sisi bilah kiri',
+                  'Masuk ke halaman service center manager, kemudian pilih tanggal',
+                  'Pilih order status : Order  Lalu klik search',
+                  'Cari nama pasien kemudian klik icon berwarna biru, pilih accept patient',
+                  'Lalu pilih order status : Checked in  setelah itu klik tombol search',
+                  'Maka akan muncul nama pasien yang sebelumnya telah di accept,',
+                  'Klik icon berwarna biru lalu pilih start test',
+                  'Setelah itu pilih order status : In-progress',
+                  'Klik tombol search',
+                  'Klik icon berwarna biru, pilih Fill report',
+                  'Masuk ke halaman data pasien, isi field catch no',
+                  'Klik tombol save',
+                  'Lalu muncul sebuah form, lengkapi performing employee dan rendering employee',
+                  'Jika sudah memilih employee tersebut kemudian klik ikon tambah berwarna hijau',
+                  'Setelah itu klik tombol ok',
+                  'Lalu akan muncul informasi “Report is saved”',
+                  'Setelah itu klik tombol close',
+                  'Kembali ke halaman service center manager, kemudian klik upload (masih pada pasien yang sama)',
+                  'Kemudian tampil form upload details, isi keterangan pada field document name',
+                  'Kemudian klik tombol add untuk memilih foto',
+                  'Jika sudah klik tombol upload',
+                  'Jika foto sudah terupload, klik save',
+                  'Lalu klik tombol close',
+                  'Kembali ke halaman service center manager, kemudian klik icon berwarna biru pilih Fill report kembali (masih pada pasien yang sama)',
+                  'Masuk ke halaman data pasien, lalu klik Fill report',
+                  'Tampil form untuk catatan dokter, klik modify ',
+                  'Lengkapi catatan, setelah itu klik save',
+                  'Kembali ke halaman data pasien, lalu klik tombol close ',
+
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'terima-order-pasien-eksternal': {
+    id: 'terima-order-pasien-eksternal',
+    menuKey: 'radiologi',
+    submenuId: 'terima-order-pasien-eksternal',
+    itemTitle: 'Terima Order Pasien Eksternal',
+    steps: [
+      {
+        id: 'terima-order-pasien-eksternal-step-1',
+        number: 1,
+        title: 'Terima Order Pasien Eksternal',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih patient care',
+          'Pilih menu CPOE Ordering',
+          'Cari pasien berdasarkan informasi nama atau no MRN',
+          'Pilih departement dengan : Radiologi',
+          'Beri tanda centang pada kolom Eksternal Consultant',
+          'Isi kolom Consulting Doctor',
+          'Klik New orders',
+          'Tampil form service order',
+          'Departement dan service center pilih : All',
+          'Cari service name : disesuaikan',
+          'Tanggal order : disesuaikan dengan tanggal order pasein',
+          'Setelah tampil item yang dicari pilih item tersebut',
+          'Klik Add service',
+          'Maka akan tampil data yang telah ditambahkan service pada halaman CPOE entry',
+          'Setelah itu klik save',
+          'Maka akan tampil informasi “Record is saved successfully”',
+          'Untuk melihat order radiologi pasien eksternal kembali ke menu Apps',
+          'Pilih RIS',
+          'Pada sisi bilah kiri klik menu RIS',
+          'Pilih Service center manager',
+          'Pada halaman service center manager ',
+          'Pilih order status : Ordered',
+          'Tanggal order : disesuaikan',
+          'Klik search',
+          'Maka akan tampil data order pasien eksternal',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+              'cetak-hasil-radiologi': {
+    id: 'cetak-hasil-radiologi',
+    menuKey: 'radiologi',
+    submenuId: 'cetak-hasil-radiologi',
+    itemTitle: 'Cetak Hasil Radiologi',
+    steps: [
+      {
+        id: 'cetak-hasil-radiologi-step-1',
+        number: 1,
+        title: 'Cetak Hasil Radiologi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu RIS',
+          'Lalu pilih Service Center Manager pada sisi bilah kiri',
+          'Masuk ke halaman service center manager, isi field ordered to location : Radiologi',
+          'Pilih order status : Processed kemudian klik tombol search',
+          'Cari nama pasien, kemudian klik ikon biru pilih Fill report',
+          'Masuk ke halaman data pasien, lalu klik view report',
+          'Lalu akan tampil Report seperti berikut:',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'terima-order-lab': {
+    id: 'terima-order-lab',
+    menuKey: 'laboratorium',
+    submenuId: 'terima-order-lab',
+    itemTitle: 'Terima Order Lab',
+    steps: [
+      {
+        id: 'terima-order-lab-step-1',
+        number: 1,
+        title: 'Terima Order Lab',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Laboratory',
+          'Kemudian pilih menu Collect Sample',
+          'Cari pasien berdasarkan no.MRN, kemudian pilih status : Ordered',
+          'Pilih tanggal kemudian klik search',
+          'Setelah itu klik Generate',
+          'Kemudian tampil form print barcode labels, jika ingin mencetak klik print jika tidak klik close',
+          'Setelah itu pilih status : Sample generated klik search',
+          'Lalu klik collect',
+          'Maka akan muncul informasi “Sample collected successfully”',
+          'Kemudian pilih status : Sample collected klik search',
+          'Setelah itu klik send',
+          'Maka akan muncul “Sample sent successfully” ',
+          'Kemudian pilih Status : Sample send lalu klik search',
+          'Kemudian klik Accept sample ',
+          'Maka akan muncul informasi “Sample accepted successfully”',
+          'Kembali ke menu Apps, pilih Laboratory',
+          'Klik menu Perform Test',
+          'Cari pasien berdasarkan no.MRN, kemudian pilih status : Result Pending',
+          'Pilih Order date lalu klik search',
+          'Kemudian Isi hasil pada kolom result, jika sudah klik Result entered',
+          'Maka akan muncul informasi “Result saved successfully”',
+          'Pilih status : Result entered, klik search',
+          'Maka akan tampil keterangan dari nilai result yang sudah diisi sebelumnya',
+          'Lalu klik certify',
+          'Isi Certifying employee, kemudian klik certify',
+          'Maka akan muncul informasi “Result certified successfully”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'mencetak-hasil-pemeriksaan-laboratorium': {
+    id: 'mencetak-hasil-pemeriksaan-laboratorium',
+    menuKey: 'laboratorium',
+    submenuId: 'mencetak-hasil-pemeriksaan-laboratorium',
+    itemTitle: 'Mencetak Hasil Pemeriksaan Laboratorium',
+    steps: [
+      {
+        id: 'mencetak-hasil-pemeriksaan-laboratorium-step-1',
+        number: 1,
+        title: 'Mencetak Hasil Pemeriksaan Laboratorium',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Laboratory',
+          'Kembali ke menu Apps, pilih Laboratory',
+          'Klik menu Perform Test ',
+          'Cari pasien berdasarkan no.MRN, pilih status : Result Pending',
+          'Pilih ordered date lalu klik search',
+          'Jika data pasien sudah ditemukan, lakukan isi hasil lab',
+          'Klik tombol result entered , maka data berhasil disimpan',
+          'Lakukan pencarian pasien sebelumnya yang sudah dilakukan isi hasil',
+          'Pilih status : Result certified, klik tombol search',
+          'Klik ceklis pada data pasien',
+          'Klik tombol certify, maka akan tampil pilihan certification employee',
+          'Pilih dokter lalu klik certify',
+          'Jika data sudah dilakukan certified, lakukan cetak hasil pemeriksaan',
+          'Klik ceklis pada data pasien, pilih tombol print',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai': {
+    id: 'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai',
+    menuKey: 'laboratorium',
+    submenuId: 'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai',
+    itemTitle: 'Rujuk ke Laboratorium Antar cabang pengguna HINAI',
+    steps: [
+      {
+        id: 'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai-step-1',
+        number: 1,
+        title: 'Rujuk ke Laboratorium Antar cabang pengguna HINAI',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Laboratory',
+                  'Kemudian pilih Collect Sample',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Ordered',
+                  'Pilih tanggal kemudian klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Klik tombol Generate',
+                  'Kemudian tampil form print barcode labels, ',
+                  'Jika ingin mencetak klik print, jika tidak klik close',
+                  'Setelah itu pilih status : Sample generated',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik collect',
+                  'Maka akan tampil informasi “Sample collected successfully”',
+                  'Setelah itu pilih status : Sample collected',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik send',
+                  'Maka akan tampil informasi “Sample sent successfully”',
+                  'Setelah itu pilih status : Sample send ',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik Accept sample',
+                  'Maka akan tampil informasi “Sample accepted successfully”',
+                  'Setelah itu pilih status : Sample received',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Kembali ke menu Apps, pilih Laboratory',
+                  'Klik menu Perform Test',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Result Pending',
+                  'Pilih Order date lalu klik search',
+                  'Tampil data pasien, klik tanda centang',
+                  'Klik Mark for External Sample',
+                  'Maka akan tampil informasi “Record is saved successfully”',
+                  'Kemudian klik sisi bilah kiri pilih menu transactions',
+                  'Klik external sample',
+                  'Setelah tampil data pasien, lalu klik tanda centang',
+                  'Klik send to external lab',
+                  'Kemudian lengkapi form yaitu isi sending remarks dan pilih site (rumah sakit)',
+                  'Maka akan tampil informasi “Record is successfully”',
+                  'Bagi RS penerima rujukan lakukan proses penerimaan sampel :',
+                  'Pada menu Laboratory pilih Perform Test',
+                  'Pilih External sampel pada Menu Transactions',
+                  'Ganti External status menjadi External Sample',
+                  'Klik Receive Sample',
+                  'Kemudian kembali ke Perform Test',
+                  'Masukan no MRN pasien dan rubah status menjadi Pending',
+                  'Klik search dan isi hasil',
+                  'Lakukan certify',
+                  'Maka akan muncul “Result Certified Successfully"',
+                  'Ganti status menjadi “Result Certified”',
+                  'Download hasil dan simpan sebagai dokumen, berikan nama file sesuai nama pasien, jenis pemeriksaan dan tanggal periksa pasien tersebut',
+                  'Pada kolom Action pilih File Upload',
+                  'Isi nama dokumen',
+                  'Klik Add',
+                  'Masukkan file yang sudah di download',
+                  'Klik Upload kemudian klik Save',
+                  'Akan muncul tampilan',
+                  'Klik Close',
+                  'Pada rumah sakit pengirim rujukan dapat langsung melihat hasil pasien pada EMR pasien tersebut, untuk PPA selain dokter dan perawat :',
+                  'Masukkan MRN pasien',
+                  'Pilih investigation',
+                  'Pilih laboratorium Patologi Klinik',
+                  'Klik View All',
+                  'Klik upload file',
+                  'Klik pada kolom yang berisi nama pasien untuk mengunduh hasil',
+                  'Pada rumah sakit pengirim rujukan dapat langsung melihat hasil pasien pada Patient Chart pasien tersebut, untuk PPA dokter dan perawat :',
+                  'Pada Menu Lab Result buka “Document”',
+                  'Klik file yang akan dilihat hasilnya',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya': {
+    id: 'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya',
+    menuKey: 'laboratorium',
+    submenuId: 'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya',
+    itemTitle: 'Rujuk ke Laboratorium Antar Cabang Bukan Pengguna HINAI dan Lab Rujukan Lainnya',
+    steps: [
+      {
+        id: 'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya-step-1',
+        number: 1,
+        title: 'Rujuk ke Laboratorium Antar Cabang Bukan Pengguna HINAI dan Lab Rujukan Lainnya',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Laboratory',
+                  'Kemudian pilih Collect Sample',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Ordered',
+                  'Pilih tanggal kemudian klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Klik tombol Generate',
+                  'Kemudian tampil form print barcode labels',
+                  'Jika ingin mencetak klik print, jika tidak klik close',
+                  'Setelah itu pilih status : Sample generated ',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik collect',
+                  'Maka akan tampil informasi “Sample collected successfully”',
+                  'Setelah itu pilih status : Sample collected',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik send',
+                  'Maka akan tampil informasi “Sample sent successfully”',
+                  'Setelah itu pilih status : Sample send ',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik Accept sample',
+                  'Maka akan tampil informasi “Sample accepted successfully”',
+                  'Setelah itu pilih status : Sample received',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Kembali ke menu Apps, pilih Laboratory',
+                  'Klik menu Perform Test',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Result Pending',
+                  'Pilih Order date lalu klik search',
+                  'Tampil data pasien, klik tanda centang',
+                  'Isi hasil “TERLAMPIR”',
+                  'Lakukan Certify',
+                  'Muncul “Result Certified Successfully”',
+                  'Ganti status menjadi “Result Certified”',
+                  'Download hasil dan simpan sebagai dokumen, berikan nama file sesuai nama pasien, jenis pemeriksaan dan tanggal periksa pasien tersebut',
+                  'Pada kolom Action pilih File Upload ',
+                  'Isi nama dokumen',
+                  'Klik Add',
+                  'Masukkan file yang sudah di download',
+                  'Klik Upload kemudian klik Save',
+                  'Bila akan melihat hasil maka pilih File Upload pada kolom Action, klik pada “Dokument Name”',
+                  'Untuk PPA selain dokter dan perawat bisa melihat hasil pasien pada EMR pasien tersebut dengan cara :',
+                  'Masukkan MRN pasien',
+                  'Pilih investigation',
+                  'Pilih laboratorium Patologi Klinik',
+                  'Klik View All',
+                  'Klik upload file',
+                  'Klik pada kolom yang berisi nama pasien untuk mengunduh hasil',
+                  'Untuk PPA dokter dan perawat dapat melihat hasil pasien pada Menu Patient Chart : ',
+                  'Pada Menu Lab Result buka “Document”',
+                  'Klik file yang akan dilihat hasilnya',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+
+    'terima-order-lab-pasien-eksternal': {
+    id: 'terima-order-lab-pasien-eksternal',
+    menuKey: 'laboratorium',
+    submenuId: 'terima-order-lab-eksternal',
+    itemTitle: 'Terima Order Lab Pasien Eksternal',
+    steps: [
+      {
+        id: 'terima-order-lab-pasien-eksternal-step-1',
+        number: 1,
+        title: 'Terima Order Lab Pasien Eksternal',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih Patient Care',
+                  'Pilih Menu CPOE Ordering',
+                  'Cari pasien berdasarkan informasi nama lengkap / MRN',
+                  'Lakukan identifikasi ke pasien dengan meminta pasien menyebutkan nama lengkap dan tanggal lahir',
+                  'Lihat pada kolom yang berada dibawah Existing Service Order,  bila ada status “Ordered” dengan Service name pemeriksaan laboratorium ',
+                        'perhatikan pada kolom action berikut :',
+                  'A.  Jika terdapat tanda lingkar merah  berarti pasien belum melakukan pembayaran, maka pasien dipersilahkan ke kasir untuk melakukan pembayaran',
+                  'B.   Jika tidak ada tanda lingkar merah, cek status pembayaran pada kolom action pada gambar kertas dan pencil dengan billing status “Invoiced”',
+                  'Kemudian persilahkan pasien masuk untuk dilakukan pengambilan sampel',
+                  'Bila tidak ada permintaan pemeriksaan dari dokter pengirim, lakukan :',
+                  'Pilih departement dengan : Laboratorium',
+                  'Beri tanda centang pada kolom Eksternal Consultant',
+                  'Isi kolom Consulting Doctor',
+                  'Klik New orders',
+                  'Tampil form service order',
+                  'Departement dan service center pilih : All',
+                  'Cari service name : disesuaikan',
+                  'Tanggal order : disesuaikan dengan tanggal order pasien',
+                  'Setelah tampil item yang dicari pilih item tersebut',
+                  'Klik Add service',
+                  'Maka akan tampil data yang telah ditambahkan service pada halaman CPOE entry',
+                  'Setelah itu klik save',
+                  'Maka akan tampil informasi “Record is saved successfully”',
+                  'Kembali ke menu Apps, pilih Laboratory',
+                  'Pilih collect sample',
+                  'Pada halaman lab orders',
+                  'Pilih status : Ordered',
+                  'Tanggal order : disesuaikan',
+                  'Klik search',
+                  'Maka akan tampil data order pasien eksternal',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+
+      'laporan-jumlah-pemeriksaan-lab': {
+    id: 'laporan-jumlah-pemeriksaan-lab',
+    menuKey: 'laboratorium',
+    submenuId: 'laporan-jumlah-pemeriksaan-lab',
+    itemTitle: 'Laporan Jumlah Pemeriksaan Lab',
+    steps: [
+      {
+        id: 'laporan-jumlah-pemeriksaan-lab-step-1',
+        number: 1,
+        title: 'Laporan Jumlah Pemeriksaan Lab',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (Home) klik tab Report',
+          'Klik choose module',
+          'Kemudian pilih LAB',
+          'Klik menu Report',
+          'Pilih Test Count',
+          'Pilih tanggal sesuai dengan periode yang dibutuhkan (sampai dengan 31 hari)',
+          'Klik View Report',
+          'Pindahkan ke tampilan Excel dengan memilih ikon excel',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'laporan-pemeriksaan-yang-belum-selesai-pending': {
+    id: 'laporan-pemeriksaan-yang-belum-selesai-pending',
+    menuKey: 'laboratorium',
+    submenuId: 'laporan-pemeriksaan-yang-belum-selesai-pending',
+    itemTitle: 'Laporan Pemeriksaan yang Belum Selesai (Pending)',
+    steps: [
+      {
+        id: 'laporan-pemeriksaan-yang-belum-selesai-pending-step-1',
+        number: 1,
+        title: 'Laporan Pemeriksaan yang Belum Selesai (Pending)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (Home) klik tab Report',
+          'Klik Choose Module',
+          'Kemudian pilih LAB',
+          'Klik menu report',
+          'Pilih Pending List',
+          'Pilih tanggal sesuai dengan periode yang dibutuhkan (sampai dengan 30 hari)',
+          'Ubah Laboratory : Laboratorium Patologi Klinik',
+          'Klik View Report',
+          'Pindahkan ke tampilan Excel dengan memilih ikon excel',
+          'Maka akan tampil Laporan Pending List sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'laporan-turn-around-time-tat': {
+    id: 'laporan-turn-around-time-tat',
+    menuKey: 'laboratorium',
+    submenuId: 'laporan-turn-around-time-tat',
+    itemTitle: 'Laporan Turn Around Time (TAT)',
+    steps: [
+      {
+        id: 'laporan-turn-around-time-tat-step-1',
+        number: 1,
+        title: 'Laporan Turn Around Time (TAT)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (Home) klik tab Report',
+          'Klik choose module',
+          'Kemudian pilih LAB',
+          'Klik menu report',
+          'Pilih Turn Around Time (hrs) Summary',
+          'Pilih tanggal sesuai dengan periode yang dibutuhkan (sampai dengan 31 hari)',
+          'Ubah Laboratory : Laboratorium Patologi Klinik',
+          'Klik View Report',
+          'Pindahkan ke tampilan Excel dengan memilih ikon excel',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-19/11/2025 */
+
+
+
+
+
+  /* Maul-20/11/2025 */
+
+  'penerimaan-pendaftaran-pasien-rawat-jalan-fisioterapi-dan-ktk': {
+    id: 'penerimaan-pendaftaran-pasien-rawat-jalan-fisioterapi-dan-ktk',
+    menuKey: 'fisioterapi',
+    submenuId: 'penerimaan-pendaftaran',
+    itemTitle: 'Penerimaan Pendaftaran Pasien Rawat Jalan Fisioterapi dan KTK',
+    steps: [
+      {
+        id: 'penerimaan-pendaftaran-pasien-rawat-jalan-fisioterapi-dan-ktk-step-1',
+        number: 1,
+        title: 'Penerimaan Pendaftaran Pasien Rawat Jalan Fisioterapi dan KTK',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada halaman awal, klik tab preference',
+          'Pilih departement : Fisioterapi      Pilih location : Nurse station (NS) Fisioterapi & Rehab Medik',
+          'Klik tombol ok',
+          'Maka akan tampil informasi “Preference updated successfully”',
+          'Klik Apps, pilih menu Ambulatory Care',
+          'Pilih menu appointment pada sisi bilah kiri',
+          'Klik bay management',
+          'Pilih Departement : Fisioterapi',
+          'Pilih Unit : Fisioterapi dan Pilih consultant : disesuaikan',
+          'Cari nama pasien, lalu klik select',
+          'Pilih Mark as arrived (dikarenakan status pasien masih Not Arrived)',
+          'Maka akan tampil informasi “Patient marked as arrived”',
+          'Kemudian klik select, pilih start consultation',
+          'Maka akan tampil informasi “Consultation started for…. “',
+          'Kemudian klik select, pilih Patient chart',
+          'Pilih widget CPPT, klik ikon tambah (+)',
+          'Select encounter yang tersedia',
+          'Lengkapi form add note (Title dan Note)',
+          'Klik save & publish',
+          'Maka akan tampil informasi “Clinical noted saved successfully” ',
+          'Klik processed',
+          'Kemudian pilih widget Vitals, klik ikon tambah (+) ',
+          'Lengkapi form vitals, lalu klik save ',
+          'Setelah itu pilih widget Orders, klik ikon tambah (+) ',
+          'Cari nama order di kolom search',
+          'Kemudian akan tampil daftar order sesuai kata pencarian ',
+          'Beri tanda centang item order yang dipilih',
+          'Setelah item order dipilih, maka akan tampil keterangan dari item tersebut ',
+          'Di dalam keterangan tersebut,  dapat ditambahkan catatan ',
+          'Lalu klik save',
+          'Maka akan tampil informasi “Service order saved successfully”',
+          'Lalu akan tampil data yang sudah diorder',
+          'Kembali ke Apps, pilih menu Inpatient',
+          'Pilih menu transactions pada sisi bilah kiri, ',
+          'klik Service order processor',
+          'Kemudian klik search ',
+          'Kemudian lakukan pencarian dengan search criteria',
+          'Pilih order date, klik search',
+          'Maka akan tampil data pasien yang sudah diorder sebelumnya, tetapi keterangan pada kolom finance cleareance masih tanda silang (x)',
+          'Jika demikian, pasien tersebut harus melakukan pembayaran terlebih dahulu',
+          'Jika pasien sudah membayar maka tanda ( x ) akan berubah menjadi tombol centang, ',
+          'Setelah itu beri tanda centang di kolom process, lalu klik save',
+        ],
+      }
+    ]
+  },
+
+  'transaksi-resep-rawat-jalan': {
+    id: 'transaksi-resep-rawat-jalan',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-jalan',
+    itemTitle: 'Transaksi Resep Rawat Jalan',
+    steps: [
+      {
+        id: 'transaksi-resep-rawat-jalan-step-1',
+        number: 1,
+        title: 'Transaksi Resep Rawat Jalan',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Pharmacy kemudian klik OP Pharmacy ',
+          'Masuk ke halaman menu pending / partially processed ordered untuk melihat order yang masih belum diproses atau baru diproses sebagian',
+          'Klik tombol search',
+          'Pada tab “Processed Orders” jika hanya ingin melihat order yang sudah selesai diproses',
+          'Pada tab “Rejected / cancel orders jika hanya ingin melihat order yang dibatalkan',
+          'Layar search criteria akan muncul  untuk dapat melakukan pencarian dengan menggunakan berbagai informasi dasar',
+          'Pencarian dapat dilakukan dengan menggunakan beberapa parameter pencarian',
+          {type : 'text', content : 'Store Name (Nama Gudang) : Untuk memfilter pencarian semua order yang berhubungan dengan suatu nama gudang', level: 3 },
+          {type : 'text', content : 'Ordered location (Lokasi Order)  : untuk memfilter pencarian semua order yang berhubungan dengan suatu lokasi order', level: 3 },
+          {type : 'text', content : 'Order Status (Status Order) : untuk memfilter pencarian semua order yang berhubungan dengan suatu status order', level: 3 },
+          {type : 'text', content : 'Order No (Nomor Order) : untuk memfilter pencarian semua order yang berhubungan dengan nomor sebuah order', level: 3 },
+          {type : 'text', content : 'Consulting Doctor (Dokter yang melakukan Order) : untuk memfilter pencarian semua order yang berhubungan dengan nama seorang dokter', level: 3 },
+          {type : 'text', content : 'Ordered Date From (Tanggal Order) : untuk memfilter pencarian semua order yang berhubungan dengan tanggal order', level: 3 },
+          'Jika sudah tampil data pasien klik Print prescription ',
+          'Kemudian klik tombol select, pilih Dispense',
+          'Masuk ke halaman “Issue drugs againts order” lalu muncul daftar pesanan untuk pasien rawat jalan',
+          'Ketik “%” untuk menampilkan daftar batch untuk item yang dipesan',
+          'Perhatikan item ordered apakah sudah sesuai, isi Frequency, Issue quantity dan Instructions',
+          'Jika jumlah stok mencukupi maka jumlah yang di dispense akan sesuai jumlah yang dipesan',
+          'Jika pesanan siap untuk di dispense maka klik tombol confirm dispense (Dispense adalah untuk memproses resep)',
+          'Jika item obat tidak ada ',
+          'Jika obat tidak ada maka dapat diganti di kolom item issued dengan mengklik tombol ceklis dan mencari item obat yang sesuai konfirmasi',
+          'Jika tidak mencukupi /  mengurangi jumlah obat maka di ganti pada I.Qty',
+          'Jika pesanan tersebut perlu disimpan sebelum didispense maka klik tombol “save as draft” draft pesanan akan muncul di layar “Pending / Partially processed order”',
+          'Jika resep hanya didispense sebagian saja dan pasien ingin membeli sisanya di luar, maka klik tombol “Print Prescription untuk mencetak resep yang akan menandakan ada sejumlah obat yang belum didispense sepenuhnya',
+        ],
+      }
+    ]
+  },
+
+  'transaksi-resep-umum': {
+    id: 'transaksi-resep-umum',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-jalan',
+    itemTitle: 'Transaksi Resep Umum',
+    steps: [
+      {
+        id: 'transaksi-resep-umum-step-1',
+        number: 1,
+        title: 'Transaksi Resep Umum',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Pharmacy lalu pada bilah sisi kiri pilih menu Transactions',
+          'Kemudian pilih “Issue on demand” ',
+          'Masuk ke halaman issue on demand, lalu klik tombol “Issue on demand” ',
+          'Beri tanda centang di “External patient” untuk isi biodata pasien',
+          'Isi form, kolom dengan tanda ( * ) wajib diisi',
+          'Apabila data pasien sudah lengkap, klik tombol update',
+          'Pilih item obat yang ingin dibeli, kemudian isi “Issue quantity” dan “Instructions”',
+          'Jika pesanan siap untuk di dispense maka klik tombol “Confirm dispense”',
+          'Setelah itu akan muncul informasi “Drugs dispense successfully” '
+        ],
+      }
+    ]
+  },
+
+  'transaksi-resep-parsial-rawat-jalan': {
+    id: 'transaksi-resep-parsial-rawat-jalan',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-jalan',
+    itemTitle: 'Transaksi Resep Parsial Rawat Jalan',
+    steps: [
+      {
+        id: 'transaksi-resep-parsial-rawat-jalan-step-1',
+        number: 1,
+        title: 'Transaksi Resep Parsial Rawat Jalan',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Fitur ini untuk kondisi dimana pasien poliklinik mendapatkan Resep obat yang cukup banyak, beberapa pasien akan menebus obatnya sebagian. ',
+          'Apabila di kemudian hari, pasien ingin menebus sebagian dari sisa resep obatnya, maka pasien tidak perlu bertemu kembali dengan dokter.  Mereka dapat langsung ke Farmasi dengan menunjukkan Copy Resep. ',
+          'Staff Farmasi dapat melihatnya di menu OP Pharmacy > pada tab Pending / Partially Processed Orders. ',
+          'Lakukan Pencarian dengan Criteria : Order Status is Partially Processed dan Ordered Date From Greater than or equal to [tanggal yang tertera di copy resep].',
+          'Kemudian lakukan Dispense seperti proses pelayanan transaksi Resep Rawat Jalan.'
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-e-tiket-rawat-jalan': {
+    id: 'pembuatan-e-tiket-rawat-jalan',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-jalan',
+    itemTitle: 'Pembuatan E Tiket Rawat Jalan',
+    steps: [
+      {
+        id: 'pembuatan-e-tiket-rawat-jalan-step-1',
+        number: 1,
+        title: 'Pembuatan E Tiket Rawat Jalan',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Pharmacy kemudian klik pilih OP Pharmacy ',
+          'Masuk ke halaman menu pending / partially processed ordered',
+          'Pilih tanggal “Order date from” kemudian klik search ',
+          'Jika sudah tampil data pasien kemudian klik tombol select ',
+          'Masuk ke halaman “Issue drugs againts order” yaitu data pasien',
+          'Klik “Re-print label” untuk mencetak label obat'
+        ],
+      }
+    ]
+  },
+
+  'cek-harga-jual-satuan-obat': {
+    id: 'cek-harga-jual-satuan-obat',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-jalan',
+    itemTitle: 'Cek Harga Jual Satuan Obat',
+    steps: [
+      {
+        id: 'cek-harga-jual-satuan-obat-step-1',
+        number: 1,
+        title: 'Cek Harga Jual Satuan Obat',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Pharmacy ',
+          'Pilih menu transactions pada bilah sisi kiri',
+          'Lalu pilih menu “Pharmacy estimate”',
+          'Pilih item name obat yang dicari',
+          'Isi kolom quantity obat',
+          'Lalu akan tampil jumlah harga obatnya'
+        ],
+      }
+    ]
+  },
+
+  'transaksi-resep-rawat-inap': {
+    id: 'transaksi-resep-rawat-inap',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-inap',
+    itemTitle: 'Transaksi Resep Rawat Inap',
+    steps: [
+      {
+        id: 'transaksi-resep-rawat-inap-step-1',
+        number: 1,
+        title: 'Transaksi Resep Rawat Inap',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Pharmacy kemudian klik IP Pharmacy',
+          'Masuk ke halaman menu pending / partially processed ordered untuk melihat order yang masih belum diproses atau baru diproses sebagian',
+          'Klik tombol search',
+          {type : 'text', content : 'Pada tab “Processed Orders” jika hanya ingin melihat order yang sudah selesai diproses', level: 3 },
+          {type : 'text', content : 'Pada tab “Rejected / cancel orders jika hanya ingin melihat order yang dibatalkan', level: 3 },
+          'Layar search criteria akan muncul  untuk dapat melakukan pencarian dengan menggunakan berbagai informasi dasar',
+          'Pencarian dapat dilakukan dengan menggunakan beberapa parameter pencarian',
+          {type : 'text', content : 'Store Name (Nama Gudang) : Untuk memfilter pencarian semua order yang berhubungan dengan suatu nama gudang', level: 3 },
+          {type : 'text', content : 'Ordered location (Lokasi Order)  : untuk memfilter pencarian semua order yang berhubungan dengan suatu lokasi order', level: 3 },
+          {type : 'text', content : 'Order Status (Status Order) : untuk memfilter pencarian semua order yang berhubungan dengan suatu status order', level: 3 },
+          {type : 'text', content : 'Order No (Nomor Order) : untuk memfilter pencarian semua order yang berhubungan dengan nomor sebuah order', level: 3 },
+          {type : 'text', content : 'Consulting Doctor (Dokter yang melakukan Order) : untuk memfilter pencarian semua order yang berhubungan dengan nama seorang dokter', level: 3 },
+          {type : 'text', content : 'Ordered Date From (Tanggal Order) : untuk memfilter pencarian semua order yang berhubungan dengan tanggal order', level: 3 },
+          'Jika sudah tampil data pasien  klik Print prescription ',
+          'Kemudian klik tombol select, pilih Dispense',
+          'Masuk ke halaman “Issue drugs againts order” lalu muncul daftar pesanan untuk pasien rawat inap',
+          'Ketik “%” untuk menampilkan daftar batch untuk item yang dipesan',
+          'Perhatikan item ordered apakah sudah sesuai, isi Frequency, Issue quantity dan Instructions',
+          'Jika jumlah stok mencukupi maka jumlah yang didispense akan sesuai jumlah yang dipesan',
+          'Jika pesanan siap untuk di dispense maka klik tombol confirm dispense (Dispense adalah untuk memproses resep)',
+          'Jika item obat tidak ada ',
+          'Jika obat tidak ada maka dapat diganti di kolom item issued dengan mengklik tombol ceklis dan mencari item obat yang sesuai konfirmasi',
+          'Jika tidak mencukupi /  mengurangi jumlah obat maka di ganti pada I.Qty',
+          'Jika pesanan tersebut perlu disimpan sebelum didispense maka klik tombol “save as draft” draft pesanan akan muncul di layar “pending/partially processed order”',
+          'Jika resep hanya didispense sebagian saja dan pasien ingin membeli sisanya di luar, maka klik tombol “Print Prescription untuk mencetak resep yang akan menandakan ada sejumlah obat yang belum didispense sepenuhnya'
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-e-tiket-rawat-inap': {
+    id: 'pembuatan-e-tiket-rawat-inap',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-inap',
+    itemTitle: 'Pembuatan E Tiket Rawat Inap',
+    steps: [
+      {
+        id: 'transaksi-resep-rawat-inap-step-1',
+        number: 1,
+        title: ' Pembuatan E Tiket Rawat Inap',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, Pilih Pharmacy kemudian klik pilih IP Pharmacy ',
+          'Masuk ke halaman menu pending / partially processed ordered',
+          'Pilih tanggal “Order date from” kemudian klik search ',
+          'Jika sudah tampil data pasien kemudian klik tombol select',
+          'Masuk ke halaman “Issue drugs againts order” yaitu data pasien',
+          'Klik “Re-print label” untuk mencetak label obat'
+        ],
+      }
+    ]
+  },
+
+  'case-2-clearing-resep-farmasi-rawat-inap': {
+    id: 'case-2-clearing-resep-farmasi-rawat-inap',
+    menuKey: 'farmasi',
+    submenuId: 'e-prescription-rawat-inap',
+    itemTitle: 'Case 2 : Clearing Resep Farmasi Rawat Inap',
+    steps: [
+      {
+        id: 'case-2-clearing-resep-farmasi-rawat-inap-step-1',
+        number: 1,
+        title: ' Case 2 : Clearing Resep Farmasi Rawat Inap',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Masalah yang sering terjadi di saat transaksi pemulangan pasien rawat inap adalah adanya Pending Farmasi. Ada kalanya permintaan obat dari ruang perawatan tidak seluruhnya diberikan kepada pasien, misalnya yang diorder oleh perawat ada obat sebanyak 5 tablet sedangkan yang diconfirm dispense oleh Farmasi hanya 1 tablet. Hal ini akan menyebabkan terjadi Partially Processed order farmasi untuk pasien tersebut sebanyak 4 tablet.',
+          'Maka, apabila benar obat tersebut tidak diberikan kepada pasien sampai akhir masa perawatannya, sisa jumlah item tersebut di-Reject.'
+        ],
+      }
+    ]
+  },
+
+  'retur-transaksi-resep-rawat-jalan': {
+    id: 'retur-transaksi-resep-rawat-jalan',
+    menuKey: 'farmasi',
+    submenuId: 'retur-transaksi',
+    itemTitle: 'Retur Transaksi Resep Rawat Jalan',
+    steps: [
+      {
+        id: 'retur-transaksi-resep-rawat-jalan-step-1',
+        number: 1,
+        title: 'Retur Transaksi Resep Rawat Jalan',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, pilih Pharmacy',
+          'Klik menu transactions pada sisi bilah kiri',
+          'Pilih direct return',
+          'Cari pasien berdasarkan informasi nama atau no.MRN ',
+          'Kemudian tampil data pasien',
+          'Pilih return store',
+          'Klik Add items',
+          'Tampil  form dispense items',
+          'Isi field item name dan issue no',
+          'Klik search',
+          'Maka item yang dipilih akan  tampil',
+          'Klik ikon tambah (+)',
+          'Jika tidak ada item yang ingin ditambahkan lagi, klik close',
+          'Tampil data item obat',
+          'Isi jumlah yang diterur pada kolom Dis. Sale Qty  (disesuaikan) ',
+          'Pilih drug return reason',
+          'Klik save',
+          'Maka akan tampil informasi “Drug return saved successfully”'
+        ],
+      }
+    ]
+  },
+
+  'drug-return-request-retur-obat-pasien-rawat-inap': {
+    id: 'drug-return-request-retur-obat-pasien-rawat-inap',
+    menuKey: 'farmasi',
+    submenuId: 'retur-transaksi',
+    itemTitle: 'Drug Return Request(Retur Obat Pasien Rawat Inap)',
+    steps: [
+      {
+        id: 'drug-return-request-retur-obat-pasien-rawat-inap-step-1',
+        number: 1,
+        title: 'Drug Return Request(Retur Obat Pasien Rawat Inap)',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Drug Return Request  dilakukan oleh perawat ruangan ',
+          
+          'Pada menu Apps, pilih Pharmacy',
+          'Klik menu transactions pada sisi bilah kiri',
+          'Pilih Drug return request',
+          'Klik Create Return request',
+          'Cari pasien berdasarkan informasi nama atau no.MRN ',
+          'Tampil data pasien, kemudian pilih visit (isi IP)',
+          'Pilih return store',
+          'Klik add items',
+          'Tampil  form dispense items',
+          'Isi field item name dan issue no',
+          'Klik search',
+          'Jika item obat yang dicari sudah tampil, klik ikon tambah',
+          'Lalu klik close, jika tidak ada item yang ingin ditambahkan lagi',
+          'Tampil data item obat',
+          'Isi jumlah yang akan diretur pada kolom dis.return Qty (disesuaikan) ',
+          'Pilih drug return reason',
+          'Klik create return request',
+          'Maka akan tampil informasi “Return request saved successfully”'
+        ],
+      }
+    ]
+  },
+
+  'receive-store-pasien-rawat-inap': {
+    id: 'receive-store-pasien-rawat-inap',
+    menuKey: 'farmasi',
+    submenuId: 'retur-transaksi',
+    itemTitle: 'Receive Store Pasien Rawat Inap',
+    steps: [
+      {
+        id: 'receive-store-pasien-rawat-inap-step-1',
+        number: 1,
+        title: 'Receive Store Pasien Rawat Inap',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Receive Store  dilakukan oleh petugas farmasi ',
+          'Pada menu Apps, pilih Pharmacy ',
+          'Klik menu transactions pada sisi bilah kiri',
+          'Pilih Receive store',
+          'Cari nama pasien, klik select',
+          'Pilih drug return',
+          'Tampil data pasien',
+          'Cek pada kolom return qty ',
+          'Jika sudah sesuai klik save',
+          'Maka akan tampil informasi “Drug Return Saved Successfully” ',
+          'Kemudian klik print',
+          'Maka akan tampil laporan sebagai berikut :'
+        ],
+      }
+    ]
+  },
+
+  'case-1-pending-farmasi-return-request': {
+    id: 'case-1-pending-farmasi-return-request',
+    menuKey: 'farmasi',
+    submenuId: 'retur-transaksi',
+    itemTitle: 'Case 1 : Pending Farmasi Return Request',
+    steps: [
+      {
+        id: 'case-1-pending-farmasi-return-request-step-1',
+        number: 1,
+        title: 'Case 1 : Pending Farmasi Return Request',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada menu Apps, pilih Pharmacy',
+          'Kemudian pilih menu transactions pada sisi bilah kiri, klik receive store',
+          'Masuk ke halaman receive store, lalu klik search',
+          'Setelah itu cari pasien berdasarkan search criteria, pada request status pilih partially closed',
+          'Lalu klik search',
+          'Setelah pasien ditemukan klik select, pilih drug return',
+          'Masuk ke halaman data pasien, cek kembali item obat yang ingin direturn',
+          'Jika sudah sesuai lalu klik save'
+        ],
+      }
+    ]
+  },
+
+  'pending-dispense-request': {
+    id: 'pending-dispense-request',
+    menuKey: 'farmasi',
+    submenuId: 'pending-dispense',
+    itemTitle: 'Pending Dispense Request',
+    steps: [
+      {
+        id: 'pending-dispense-request-step-1',
+        number: 1,
+        title: 'Pending Dispense Request',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada halaman utama (home) klik Apps, pilih pharmacy',
+          'Klik menu transactions pada sisi bilah kiri',
+          'Pilih Pending dispense request',
+          'Pada halaman Pending dispense request di kolom FC Clearance terdapat keterangan sebagai berikut :',
+          'False artinya : Pasien belum melakukan pelunasan transaksi di kasir',
+          'True Artinya : Pasien sudah melakukan pelunasan transaksi di kasir',
+          'Ketika obat akan diserahkan klik select, pilih dispense',
+          'Klik cancel pada kolom action ketika FC Clearance “False” lebih dari 1x 24 jam',
+          'Tujuannya ada stock kembali ke gudang farmasi'
+        ],
+      }
+    ]
+  },
+
+  'pembuatan-laporan-resep-dan-sub-resep-farmasi': {
+    id: 'pembuatan-laporan-resep-dan-sub-resep-farmasi',
+    menuKey: 'farmasi',
+    submenuId: 'pending-dispense',
+    itemTitle: 'Pembuatan Laporan Resep dan Sub Resep Farmasi',
+    steps: [
+      {
+        id: 'pembuatan-laporan-resep-dan-sub-resep-farmasi-step-1',
+        number: 1,
+        title: 'Pembuatan Laporan Resep dan Sub Resep Farmasi',
+        description: 'Login ke aplikasi SIMRS Hinai',
+        details: [
+          'Pada halaman utama klik tab Reports',
+          'Kemudian pilih menu Pharmacy pada sisi bilah kiri, lalu pilih menu MIS ',
+          'Klik patient wise pharmacy consumption',
+          'Lalu akan tampil halaman patient wise consumption',
+          'Pilih tanggal, Branch, Departement dan pilih Store (pilih sesuai kebutuhan, pada contoh ini yaitu memilih Farmasi Reguler)',
+          'Kemudian klik view report',
+          'Maka akan tampil report resep dan sub resep farmasi',
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1Qp1npZXNeKjYOYZChojir1DvoI2lZP__/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+
+  /* Maul-20/11/2025 */
 
 };

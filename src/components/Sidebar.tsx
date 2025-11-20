@@ -146,7 +146,10 @@ const toggleTheme = () => {
       label: 'Farmasi',
       icon: Pill,
       submenus: [
-        { id: 'e-prescription', label: 'E-Prescription' },
+        /* Maul-20/11/2025 */
+        { id: 'e-prescription-rawat-jalan', label: 'E-Prescription Rawat Jalan' },
+        { id: 'e-prescription-rawat-inap', label: 'E-Prescription Rawat Inap' },
+        /* Maul-20/11/2025 */
         { id: 'retur-transaksi', label: 'Retur Transaksi' },
         { id: 'pending-dispense', label: 'Pending Dispense Request' },
         { id: 'laporan-farmasi', label: 'Laporan' }

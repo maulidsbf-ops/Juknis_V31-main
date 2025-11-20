@@ -306,11 +306,13 @@ export const menuData: MenuData = {
     {
       id: 'rujuk-lab',
       title: 'Merujuk Pemeriksaan Lab Ke Luar Antar Cabang Hermina dan Lab Rujukan Lainnya',
-      items: ['Merujuk Pemeriksaan Lab Ke Luar Antar Cabang Hermina dan Lab Rujukan Lainnya']
+      items: ['Rujuk ke Laboratorium Antar cabang pengguna HINAI',
+        'Rujuk ke Laboratorium Antar Cabang Bukan Pengguna HINAI dan Lab Rujukan Lainnya'
+      ]
     },
     {
       id: 'terima-order-lab-eksternal',
-      title: 'Terima Order Pasien Eksternal',
+      title: 'Terima Order Lab Pasien Eksternal',
       items: ['Terima Order Pasien Eksternal']
     },
     {
@@ -325,19 +327,37 @@ export const menuData: MenuData = {
     
   ],
   'farmasi': [
+    /* Maul-20/11/2025 */
     {
-      id: 'e-prescription',
+      id: 'e-prescription-rawat-jalan',
       title: 'E-Prescription',
-      items: ['Rawat Jalan', 'Rawat Inap']
+      items: [
+        'Transaksi Resep Rawat Jalan', 
+        'Transaksi Resep Umum',
+        'Transaksi Resep Parsial Rawat Jalan',
+        'Pembuatan E Tiket Rawat Jalan',
+        'Cek Harga Jual Satuan Obat'
+      ]
     },
+    {
+      id: 'e-prescription-rawat-inap',
+      title: 'E-Prescription',
+      items: [
+        'Transaksi Resep Rawat Inap', 
+        'Pembuatan E Tiket Rawat Inap',
+        'Case 2 Clearing Resep Farmasi Rawat Inap'
+      ]
+    },
+    /* Maul-20/11/2025 */
+
     {
       id: 'retur-transaksi',
       title: 'Retur Transaksi',
       items: [
         'Retur Transaksi Resep Rawat Jalan',
-        'Drug Return Request(Retur Obat Pasien Rawat Inap)',
-        'Receive Store(Penerimaan Returan Resep Pasien Rawat Inap)',
-        'Case 1 : Pending Farmasi Return Request'
+        'Drug Return Request Retur Obat Pasien Rawat Inap',
+        'Receive Store Pasien Rawat Inap',
+        'Case 1 Pending Farmasi Return Request'
       ]
     },
     {
