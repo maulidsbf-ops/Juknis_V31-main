@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { menuData } from '../data/menuData';
 import { contentData } from '../data/contentData';
 import DetailedContent from './DetailedContent';
@@ -10,6 +10,12 @@ interface ContentAreaProps {
 
 const ContentArea = ({ menuKey, submenuId }: ContentAreaProps) => {
   const [selectedItem, setSelectedItem] = useState<string | null>(null);
+
+    // Reset selectedItem ketika submenuId berubah (user klik submenu lain)
+  // Ini memastikan detail content tertutup dan menampilkan list menu baru
+  useEffect(() => {
+    setSelectedItem(null);
+  }, [submenuId]);
 
   if (menuKey === 'home') {
     return (

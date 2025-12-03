@@ -615,23 +615,68 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih inpatient',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/1.png'
+          },
           'Pilih admission request',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/2.png'
+          },
           'Masuk ke halaman admission request browser, klik create',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/3.png'
+          },
           'Kemudian cari pasien berdasarkan nama atau no.MRN',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/4.png'
+          },
           'Tampil data pasien, isi form selengkap-lengkapnya. Kolom dengan tanda (*) wajib diisi',
           'Lengkapi form pada kolom sebagai berikut :',
-          'Pilih departement, ',
-          'Consulting doctor',
-          'Admission category',
-          'Surgery date',
-          'Est length of stay  ',
-          'Admission type',
+          { type: 'text', content: 'Pilih departement, ', level: 3 },
+          { type: 'text', content: 'Consulting doctor', level: 3 },
+          { type: 'text', content: 'Admission category', level: 3 },
+          { type: 'text', content: 'Surgery date', level: 3 },
+          { type: 'text', content: 'Est length of stay  ', level: 3 },
+          { type: 'text', content: 'Admission type', level: 3 },
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/5.png'
+          },
           'Untuk menjadwalkan operasi, pilih tanggal pada halaman OT availability',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/6.png'
+          },
           'Tampil form schedule details, pilih procedure kemudian tentukan waktu penjadwalan operasi',
           'Klik tombol schedule',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/7.png'
+          },
           'Tampil jadwal operasi yang sudah ditentukan ',
           'Klik create admision request',
-          'Maka akan tampil informasi  “Admission request saved successfully”'
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/8.png'
+          },
+          'Maka akan tampil informasi  “Admission request saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/rawat_inap/pendaftaran_pasien_operasi_elektif/9.png'
+          },
         ],
       }
     ]
@@ -651,19 +696,64 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih Ambulatory care',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/1.png'
+          },
           'Klik appoitment, pada sisi bilah kiri pilih Daycare patient',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/2.png'
+          },
           'Pilih New',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/3.png'
+          },
           'Cari nama pasien berdasarkan no. MRN atau nama',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/4.png'
+          },
           'Pilih departemen sesuai dengan spesialisasi',
           'Pilih ward sesuai dengan ruang one day care',
           'Pilih consulting doctor sesuai dengan DPJP',
           'Cari bed, klik icon kaca pembesar',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/5.png'
+          },
           'Pilih ward, bed status : available bed category : day care Gender (disesuaikan)',
           'Klik tombol search',
           'Kemudian klik bed yang tersedia',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/6.png'
+          },
           'Lalu klik tombol block',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/7.png'
+          },
           'Jika sudah memilih kamar, klik save',
-          'Maka akan tampil informasi “Record saved successfully”'
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/8.png'
+          },
+          'Maka akan tampil informasi “Record saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/one_day_care/9.png'
+          },
         ],
       }
     ]
@@ -718,22 +808,72 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih emergency',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/1.png'
+          },
           'Pilih menu registration',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/2.png'
+          },
           'Isi form selengkap-lengkapnya, kolom dengan tanda ( * ) wajib diisi',
           'Klik tombol register',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/3.png'
+          },
           'Nomor MRN akan otomatis terbentuk oleh sistem dan akan langsung mencetak sticker untuk pasien ',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/4.png'
+          },
           'Maka akan tampil notifikasi “Registration Saved Successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/5.png'
+          },
           'Kembali ke emergency, pilih menu emergency patient ',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/6.png'
+          },
           'Data pasien yang sudah diregistrasi akan terlihat di tab emergency patient list',
           'Klik walkin ER',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/7.png'
+          },
           'Cari nama pasien berdasarkan nama atau no MRN',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/8.png'
+          },
           'Lengkapi form pada kolom sebagai berikut :',
           'Pilih service center dengan IGD',
           'Pilih unit dengan IGD',
           'Pilih consultant',
           'Pilih triage category',
           'Klik tombol walkin',
-          'Maka akan tampil notifikasi “The Patient Received Successfully”'
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/9.png'
+          },
+          'Maka akan tampil notifikasi “The Patient Received Successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/instalasi_gawat_darurat/10.png'
+          },
         ],
       }
     ]
@@ -7641,5 +7781,821 @@ export const contentData: Record<string, ContentItem> = {
       ]
     },
       /* heru-26/11/2025 */
+
+       /* heru-27/11/2025 */
+       'laporan-tunai-dan-card-tanpa-detail': {
+        id: 'laporan-tunai-dan-card-tanpa-detail',
+        menuKey: 'keuangan',
+        submenuId: 'laporan',
+        itemTitle: 'Laporan Tunai dan Card Tanpa Detail',
+        steps: [
+          {
+            id: 'laporan-tunai-dan-card-tanpa-detail-step-1',
+            number: 1,
+            title: 'Laporan Tunai dan Card Tanpa Detail',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu halaman utama klik Reports',
+                      'Pilih menu Billing',
+                      'Klik counter wise collection reports',
+                      'Pilih tanggal',
+                      'Isi field user',
+                      'Klik report dalam bentuk pdf',
+                      'Maka akan tampil laporan sebagai berikut :',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'laporan-pendapatan-asuransi': {
+        id: 'laporan-pendapatan-asuransi',
+        menuKey: 'keuangan',
+        submenuId: 'laporan',
+        itemTitle: 'Laporan Pendapatan Asuransi',
+        steps: [
+          {
+            id: 'laporan-pendapatan-asuransi-step-1',
+            number: 1,
+            title: 'Laporan Pendapatan Asuransi',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu halaman utama klik Reports',
+                      'Pilih menu Billing',
+                      'Klik sponsor invoice statement',
+                      'Pilih tanggal',
+                      'Klik ikon report dalam bentuk ms.excel, html, pdf atau klik view report',
+                      'Maka akan tampil laporan sebagai berikut :',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'laporan-transaksi-detail': {
+        id: 'laporan-transaksi-detail',
+        menuKey: 'keuangan',
+        submenuId: 'laporan',
+        itemTitle: 'Laporan Transaksi Detail',
+        steps: [
+          {
+            id: 'laporan-transaksi-detail-step-1',
+            number: 1,
+            title: 'Laporan Transaksi Detail',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu halaman utama klik Reports',
+                      'Pilih menu Billing',
+                      'Pilih menu MIS',
+                      'Klik collection Details',
+                      'Pilih tanggal (From date - To Date)',
+                      'Klik ikon ms.Excel',
+                      'Maka akan tampil laporan sebagai berikut :',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'laporan-rekap-pembatalan-transaksi': {
+        id: 'laporan-rekap-pembatalan-transaksi',
+        menuKey: 'keuangan',
+        submenuId: 'laporan',
+        itemTitle: 'Laporan Rekap Pembatalan Transaksi',
+        steps: [
+          {
+            id: 'laporan-rekap-pembatalan-transaksi-step-1',
+            number: 1,
+            title: 'Laporan Rekap Pembatalan Transaksi',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps, pilih Hospital account',
+                      'Pilih menu Billing, klik invoice billing',
+                      'Pilih tab Credit memo',
+                      'Klik search',
+                      'Lakukan pencarian berdasarkan kriteria',
+                      'search kriteria : Invoice date -> Less than or equal to -> pilih tanggal',
+                      'Klik search',
+                      'Lalu klik Excel',
+                      'Lalu akan tampil laporan sebagai berikut :',
+                      'Lakukan filter data (disesuaikan)',
+                      'Untuk melihat alasan pembatalan transaksi ada di kolom Reason for cancellation',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'report-recap-card-seluruh-user': {
+        id: 'report-recap-card-seluruh-user',
+        menuKey: 'keuangan',
+        submenuId: 'laporan',
+        itemTitle: 'Report Recap Card Seluruh User',
+        steps: [
+          {
+            id: 'report-recap-card-seluruh-user-step-1',
+            number: 1,
+            title: 'Report Recap Card Seluruh User',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada halaman utama pilih menu Reports',
+                      'Pilih menu Billing pada sisi bilah kiri',
+                      'Klik menu reports',
+                      'Pilih Recap report user wise',
+                      'Pilih tanggal disesuaikan (from date - to date)',
+                      'Pilih Branch',
+                      'Pada kolom user tidak perlu diisi (karena untuk menampilkan laporan seluruh user)',
+                      'Klik view report',
+                      'Maka akan tampil laporan sebagai berikut:',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+              'report-recap-card-per-user': {
+        id: 'report-recap-card-per-user',
+        menuKey: 'keuangan',
+        submenuId: 'laporan',
+        itemTitle: 'Report Recap Card Per User',
+        steps: [
+          {
+            id: 'report-recap-card-per-user-step-1',
+            number: 1,
+            title: 'Report Recap Card Per User',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada halaman utama pilih menu Reports',
+                      'Pilih menu Billing pada sisi bilah kiri',
+                      'Klik menu reports',
+                      'Pilih Recap report user wise',
+                      'Pilih tanggal disesuaikan (from date - to date)',
+                      'Pilih Branch',
+                      'Pilih user (disesuaikan)',
+                      'Klik view report',
+                      'Maka akan tampil laporan sebagai berikut:',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'rawat-inap-pasien-pribadi': {
+        id: 'rawat-inap-pasien-pribadi',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Rawat Inap Pasien Pribadi',
+        steps: [
+          {
+            id: 'rawat-inap-pasien-pribadi-step-1',
+            number: 1,
+            title: 'Rawat Inap Pasien Pribadi',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada Menu Home ',
+                      'Klik pada Jumlah Group Task',
+                      'Maka akan masuk ke halaman Group Tasks',
+                      'Kemudian Klik pada Perform',
+                      'Kemudian kembali ke Menu Home',
+                      'Kemudian Klik pada Jumlah Pending Tasks',
+                      'Maka akan masuk ke halaman Personal Tasks',
+                      'Kemudian pilih data yang ingin di lunasi, lalu klik View pada kolom Task Detail',
+                      'Maka tampil Alur Task Detail, kemudian klik tombol Complete',
+                      'Kemudian ke Menu App, lalu pilih Hospital Accounts',
+                      'Kemudian pilih Invoice',
+                      'Kemudian Klik tombol New, kemudian pilih Draft',
+                      'Cari nama pasien berdasarkan informasi MRN',
+                      'Kemudian klik tombol Save As Draft',
+                      'Kemudian muncul invoice Perincian Kwitansi Pasien',
+                      'Kemudian kembali ke Home ',
+                      'Klik pada setting, pilih workflow kemudian pilih Pending Tasks',
+                      'Kemudian klik pada tab Pending Group Tasks',
+                      'Kemudian klik edit',
+                      'Kemudian pilih pada New Assignee, lalu klik update',
+                      'Kemudian klik pada Menu Home, lalu klik pada Pending Tasks',
+                      'Kemudian klik pada Form pada kolom Go To',
+                      'Isi pada Payor Name',
+                      'Klik tombol Save And Send For Approval',
+                      'Kemudian klik pada tombol Print Preview',
+                      'Kemudian muncul invoice Perincian Kwitansi Pasien',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'pasien-pribadi-menjadi-jaminan': {
+        id: 'pasien-pribadi-menjadi-jaminan',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Pasien Pribadi Menjadi Jaminan',
+        steps: [
+          {
+            id: 'pasien-pribadi-menjadi-jaminan-step-1',
+            number: 1,
+            title: 'Pasien Pribadi Menjadi Jaminan',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps pilih menu Hospital Account',
+                      'Pilih care plan pada sisi bilah kiri,',
+                      'Klik patient policy details',
+                      'Cari pasien berdasarkan nama atau no.MRN',
+                      'Lengkapi form pada kolom sebagai berikut :',
+                      'Plan name',
+                      'Policy valid until',
+                      'Policy start date',
+                      'Group id/policy no',
+                      'Billing order',
+                      'Klik pada kolom active',
+                      'Klik tombol save',
+                      'Maka akan tampil informasi “Policy details saved successfully”',
+                      'Berikut data jaminan pasien yang sudah berhasil disimpan',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'input-nilai-jaminan-asuransi': {
+        id: 'input-nilai-jaminan-asuransi',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Input Nilai Jaminan Asuransi',
+        steps: [
+          {
+            id: 'input-nilai-jaminan-asuransi-step-1',
+            number: 1,
+            title: 'Input Nilai Jaminan Asuransi',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps pilih menu inpatients',
+                      'Kemudian pilih menu Nursing Work Bench',
+                      'Masuk ke halaman Nursing Work Bench, kemudian klik Search',
+                      'Setelah itu lakukan search criteria, pada patient status pilih Under IP Care, klik tombol search ',
+                      'Kemudian cari data pasien',
+                      'Setelah itu klik administrative, pilih view draft invoice',
+                      'Masuk ke halaman draft invoice, cek data pasien',
+                      'Kembali ke menu Apps, pilih Hospital Account',
+                      'Lalu klik menu Care Plan pada sisi bilah kiri, pilih Patient plan',
+                      'Setelah itu klik New',
+                      'Cari pasien berdasarkan no.MRN atau nama',
+                      'Kemudian pada bagian plan rule pilih type “Plan”',
+                      'Dan pada bagian Plan Rules ketik Plan pada kolom name',
+                      'Plih type plan dengan visit type IP',
+                      'Lalu isi field authorization no dan approval amount',
+                      'Setelah itu klik Add authorization ',
+                      'Jika sudah klik tombol add authorization, maka akan tampil data yang sudah diadd',
+                      'Lalu klik Update Rule',
+                      'Kemudian klik Save plan',
+                      'Maka akan tampil informasi bahwa data tersebut sudah berhasil disimpan',
+                      'Kembali ke menu Apps, Pilih Hospital Account',
+                      'Kemudian pilih menu Nursing Work Bench',
+                      'Masuk ke halaman Nursing Work Bench, kemudian klik Search',
+                      'Setelah itu lakukan search criteria, pada patient status pilih Under IP Care, klik tombol search ',
+                      'Kemudian cari data pasien',
+                      'Setelah itu klik administrative, pilih view draft invoice',
+                      'Kemudian cek data pasien pada bagian sponsor, nilai plan yang sebelumnya ditambahkan sekarang sudah tampil di data pasien tersebut',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'pasien-jaminan-a-berubah-menjadi-b': {
+        id: 'pasien-jaminan-a-berubah-menjadi-b',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Pasien Jaminan A Berubah Menjadi B',
+        steps: [
+          {
+            id: 'pasien-jaminan-a-berubah-menjadi-b-step-1',
+            number: 1,
+            title: 'Pasien Jaminan A Berubah Menjadi B',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps pilih menu inpatients',
+                      'Kemudian pilih menu Nursing Work Bench',
+                      'Masuk ke halaman Nursing Work Bench, kemudian klik Search',
+                      'Setelah itu lakukan search criteria, pada patient status pilih Under IP Care, klik tombol search ',
+                      'Kemudian cari data pasien (cari no.MRN Pasien)',
+                      'Kembali ke menu Apps, pilih Hospital Account',
+                      'Lalu klik menu Care Plan pada sisi bilah kiri, pilih Patient Policy Details',
+                      'Di halaman patient policy details isi form, kolom dengan tanda bintang (*) wajib diisi',
+                      'Setelah itu klik save',
+                      'Maka akan muncul informasi “Patient policy details saved successfully”',
+                      'Dan data telah tersimpan di bagian policy details',
+                      'Untuk menonaktifkan salah satu plan jika terdapat beberapa plan pada data pasien tersebut ',
+                      'Klik edit pada kolom action, setelah itu hilangkan tanda centang pada field active',
+                      'Lalu klik save',
+                      'Kembali ke menu Apps, Pilih Hospital Account',
+                      'Kemudian pilih menu Nursing Work Bench',
+                      'Masuk ke halaman Nursing Work Bench, kemudian klik Search',
+                      'Setelah itu lakukan search criteria, pada patient status pilih Under IP Care, klik tombol search ',
+                      'Kemudian cari data pasien, jika sudah menemukan pasien tersebut',
+                      'Cek pada bagian kolom sponsor untuk plan yang sebelumnya plan A diganti menjadi plan B',
+                      'Dan data sudah berhasil berubah menjadi plan B',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'posting-transaksi-rwi-jaminan-dicover-semua': {
+        id: 'posting-transaksi-rwi-jaminan-dicover-semua',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Posting Transaksi RWI Jaminan Dicover Semua',
+        steps: [
+          {
+            id: 'posting-transaksi-rwi-jaminan-dicover-semua-step-1',
+            number: 1,
+            title: 'Posting Transaksi RWI Jaminan Dicover Semua',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada halaman Apps, klik setting',
+                      'Klik menu workflow, pilih pending task',
+                      'Klik tab pending group tasks',
+                      'Cari nama pasien klik edit',
+                      'Tampil form update task',
+                      'Pilih new assigne, klik update',
+                      'Setelah itu klik Home',
+                      'Lalu klik jumlah Pending tasks',
+                      'Cari nama pasien, lalu klik view',
+                      'Kemudian klik complete',
+                      'Kembali ke menu Apps',
+                      'Pilih Hospital account',
+                      'Klik menu Billing, pilih invoice billing',
+                      'Klik New, pilih draft',
+                      'Cari pasien berdasarkan nama atau no. MRN',
+                      'Berikut data pasien',
+                      'Kemudian isi payor name dengan nama jaminan ',
+                      'Klik save as draft',
+                      'Maka akan tampil informasi “Invoice saved as draft successfully”',
+                      'Kembali ke halaman utama (home)',
+                      'Klik jumlah group tasks',
+                      'Cari nama pasien',
+                      'Cek keterangan pasien pada bagian description',
+                      'Lalu klik setting',
+                      'Klik menu workflow, pilih pending task',
+                      'Klik pending grup tasks',
+                      'Cari nama pasien, klik edit',
+                      'Tampil form update tasks',
+                      'Pilih new assignee',
+                      'Klik update',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'pasien-jaminan-selisih-bayar-rawat-inap': {
+        id: 'pasien-jaminan-selisih-bayar-rawat-inap',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Pasien Jaminan Selisih Bayar Rawat Inap',
+        steps: [
+          {
+            id: 'pasien-jaminan-selisih-bayar-rawat-inap-step-1',
+            number: 1,
+            title: 'Pasien Jaminan Selisih Bayar Rawat Inap',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Setelah berhasil login pada halaman awal klik Settings',
+                      'Klik menu Workflow, pilih Pending task',
+                      'Kemudian klik tab Pending grup task, pilih task lalu klik edit',
+                      'Pilih new assigne, lalu klik update',
+                      'Kemudian klik tab home',
+                      'Klik jumlah pending task',
+                      'Masuk ke halaman personal task, pilih task lalu klik view',
+                      'Berikut tampilan task yang dipilih kemudian klik back',
+                      'Lalu pilih tab Home',
+                      'Setelah klik jumlah pending task kembali',
+                      'Kemudian klik form',
+                      'Masuk ke halaman data pasien, lalu isi field payor name ',
+                      'Jika sudah sesuai klik Save and send for approval',
+                      'Kemudian akan tampil laporan perincian kwitansi pasien',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'bpjs-ada-selisih-bayar': {
+        id: 'bpjs-ada-selisih-bayar',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'BPJS Ada Selisih Bayar',
+        steps: [
+          {
+            id: 'bpjs-ada-selisih-bayar-step-1',
+            number: 1,
+            title: 'BPJS Ada Selisih Bayar',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps, pilih Inpatient',
+                      'Kemudian pilih Nursing work bench',
+                      'Kemudian klik search',
+                      'Setelah itu lakukan search criteria, pada patient status pilih Mark for discharge',
+                      'Lalu klik tombol search',
+                      'Cari nama pasien, kemudian klik administrative pilih view draft invoice ',
+                      'Masuk ke halaman data pasien, lalu cek data pasien tersebut',
+                      'Setelah itu kembali ke menu Apps, pilih Hospital Account ',
+                      'Klik menu care plan pada sisi bilah kiri, lalu pilih patient plan ',
+                      'Setelah itu klik New ',
+                      'Kemudian cari pasien berdasarkan no.MRN atau nama pasien ',
+                      'Pada bagian plan rule, field type pilih plan ',
+                      'Dan pada kolom name isi field dengan plan',
+                      'Kemudian klik plan pada bagian bawah',
+                      'Setelah itu isi field authorization no dan approval amount',
+                      'Jika sudah klik tombol add authorization',
+                      'Maka data akan tampil setelah tersimpan',
+                      'Setelah itu klik Update Role',
+                      'Lalu klik Save plan',
+                      'Maka akan muncul informasi bahwa data berhasil disimpan',
+                      'Maka akan muncul informasi bahwa data berhasil disimpan',
+                      'Kembali ke menu Apps, kemudian pilih Inpatient',
+                      'Kemudian pilih Nursing work bench ',
+                      'Kemudian klik search ',
+                      'Setelah itu lakukan search criteria, pada patient status pilih Mark for discharge',
+                      'Lalu klik tombol search',
+                      'Cari nama pasien, kemudian klik administrative pilih view draft invoice',
+                      'Masuk ke halaman data pasien, cek data pasien tersebut',
+                      'Setelah itu kembali ke menu Apps, pilih Hospital Account ',
+                      'Pilih menu billing pada sisi bilah kiri, kemudian klik invoice billing',
+                      'Masuk ke halaman invoice, lalu klik tombol New',
+                      'Pilih new',
+                      'Cari pasien berdasarkan no.MRN atau nama pasien ',
+                      'Lalu klik Add service package',
+                      'Tampil form add new service, Isi field service dan consultant',
+                      'Kemudian klik Add service ',
+                      'Kemudian tampil data service yang sudah ditambahkan pada form add service',
+                      'Lalu klik ikon berwarna kuning',
+                      'Tampil form package details, sesuaikan tanggal ',
+                      'Setelah itu klik Apply',
+                      'Setelah itu beri tanda centang pada data yang diperlukan',
+                      'Kemudian klik Move to, pilih BPJS Package',
+                      'Lalu isi kolom service price sesuai nominal ',
+                      'Jika sudah klik tombol save as draft',
+                      'Maka akan tampil perincian kwitansi pasien ',
+                      'Dan akan tampil informasi “Invoice saved as draft successfully”',
+                      'Setelah itu klik settings',
+                      'Lalu klik menu Workflow, pilih pending tasks ',
+                      'Pilih tab pending group tasks, lalu pilih task',
+                      'Setelah itu klik edit',
+                      'Tampil form update task, pilih new assignee, lalu klik Update',
+                      'Kemudian klik tab Home',
+                      'Lalu klik jumlah pending task',
+                      'Masuk ke halaman personal tasks, lalu klik view ',
+                      'Kemudian klik complete ',
+                      'Setelah itu klik jumlah grup tasks ',
+                      'Masuk ke halaman grup tasks, pilih task',
+                      'Lalu klik assign to me perform',
+                      'Cek kembali data pasien tersebut, jika seudah sesuai klik Save and send for approval',
+                      'Maka akan muncul informasi “Invoice saved successfully”',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'input-transaksi-direct-service-materai-pantry': {
+        id: 'input-transaksi-direct-service-materai-pantry',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Input Transaksi Direct service (Materai, Pantry)',
+        steps: [
+          {
+            id: 'input-transaksi-direct-service-materai-pantry-step-1',
+            number: 1,
+            title: 'Input Transaksi Direct service (Materai, Pantry)',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps, pilih menu Inpatient',
+                      'Pilih nursing work bench',
+                      'Cari nama pasien, salin no. mrn pasien',
+                      'Kembali ke menu Apps',
+                      'Pilih hospital account',
+                      'Klik invoice',
+                      'Pada halaman Invoice Klik New, pilih Draft',
+                      'Cari nama pasien berdasarkan nama atau no.Mrn',
+                      'Tampil data pasien ',
+                      'Lalu klik Add service package',
+                      'Isi field Service dan tarif',
+                      'Lalu klik Add service',
+                      'Maka service berhasil ditambahkan',
+                      'Setelah itu klik save as draft',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'pasien-pribadi-pulang': {
+        id: 'pasien-pribadi-pulang',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Pasien Pribadi Pulang',
+        steps: [
+          {
+            id: 'pasien-pribadi-pulang-step-1',
+            number: 1,
+            title: 'Pasien Pribadi Pulang',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps, pilih menu Inpatient',
+                      'Pilih nursing work bench',
+                      'Cari nama pasien, salin no. mrn pasien',
+                      'Lalu klik settings',
+                      'Klik menu workflow',
+                      'Pilih pending tasks',
+                      'Klik tab Pending grup tasks',
+                      'Cari nama pasien, lalu klik edit',
+                      'Tampil form update tasks, pilih new assignee',
+                      'Klik update',
+                      'Kembali ke menu home',
+                      'Klik jumlah pending tasks',
+                      'Cari nama pasien, lalu klik view',
+                      'Lalu klik complete',
+                      'Kembali ke menu home',
+                      'Klik jumlah group tasks',
+                      'Cari nama pasien, klik assign to me',
+                      'Maka akan tampil informasi “Task is added to personal task”',
+                      'Kembali ke menu home',
+                      'Klik jumlah pending tasks',
+                      'Cari nama pasien, lalu klik form',
+                      'Tampil data pasien',
+                      'Cek data tersebut',
+                      'Lalu klik save and send for approval',
+                      'Maka akan tampil informasi “Invoice saved successfully”',
+                      'Maka akan tampil laporan sebagai berikut :',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'cara-input-nilai-yang-dicover-asuransi': {
+        id: 'cara-input-nilai-yang-dicover-asuransi',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Cara Input Nilai yang Dicover Asuransi',
+        steps: [
+          {
+            id: 'cara-input-nilai-yang-dicover-asuransi-step-1',
+            number: 1,
+            title: 'Cara Input Nilai yang Dicover Asuransi',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada menu Apps, pilih Inpatient',
+                      'Pilih nursing work bench',
+                      'Cari nama pasien, salin no. mrn pasien',
+                      'Lalu klik menu Apps',
+                      'Pilih menu Hospital Accounts',
+                      'Klik menu care plan pada sisi bilah kiri',
+                      'Pilih patient plan ',
+                      'Lalu klik new',
+                      'Cari pasien berdasarkan nama atau no.MRN',
+                      'Tampil data pasien, kemudian pada bagian plan rule pilih tipe dengan plan ',
+                      'Klik ikon kaca pembesar ',
+                      'Ketik “plan” pada kolom name',
+                      'Kemudian klik plan dengan visit type IP',
+                      'Maka visit type telah terisi dengan keterangan IP',
+                      'Lalu isi field authrization dan approve amount',
+                      'Klik Add Authrization',
+                      'Maka data berhasil disimpan',
+                      'Lalu klik Update rule',
+                      'Klik save plan ',
+                      'Maka akan tampil informasi jaminan telah berhasi disimpan',
+                      'Cara Pelunasan Pasien Ada Selisih Bayar ',
+                      'Kembali ke menu Apps, pilih Inpatient',
+                      'Pilih nursing work bench',
+                      'Cari nama pasien, klik admiistrative',
+                      'Pilih view draft invoice',
+                      'Berikut tampil data pasien',
+                      'Lalu klik settings',
+                      'Klik menu workflow, pilih pending task',
+                      'Klik tab pending group tasks',
+                      'Cari nama pasien, klik edit',
+                      'Tampil form update task',
+                      'Pilih new assigne, klik update',
+                      'Kembali ke Home',
+                      'Lalu klik jumlah Pending tasks',
+                      'Cari nama pasien, lalu klik view',
+                      'Kemudian klik complete',
+                      'Lalu klik Home',
+                      'Klik jumlah group tasks',
+                      'Cari nama pasien',
+                      'Cek keterangan pasien pada bagian description',
+                      'Lalu klik setting',
+                      'Maka akan tampil informasi “Task is added to personal task” ',
+                      'Kembali ke Home',
+                      'Klik klik jumlah Pending tasks',
+                      'Cari nama pasien, lalu klik form',
+                      'Maka akan tampil data pasien',
+                      'Cek data pasien tersebut, ',
+                      'jika sudah sesuai maka klik save and send for approval',
+                      'Maka akan tampil laporan sebagai berikut :',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+    
+            'pembuatan-surat-tagihan-rawat-inap': {
+        id: 'pembuatan-surat-tagihan-rawat-inap',
+        menuKey: 'keuangan',
+        submenuId: 'admin-rawat-inap',
+        itemTitle: 'Pembuatan Surat Tagihan Rawat Inap',
+        steps: [
+          {
+            id: 'pembuatan-surat-tagihan-rawat-inap-step-1',
+            number: 1,
+            title: 'Pembuatan Surat Tagihan Rawat Inap',
+            description: 'Buka aplikasi dan pilih menu Apps',
+            details: [
+                      'Pada halaman utama (home) klik Apps',
+                      'Pilih menu Hospital account pada sisi bilah kiri',
+                      'Klik menu care plan pada sisi bilah kiri',
+                      'Pilih sponsor invoice',
+                      'Lakukan pencarian, klik search',
+                      'Pilih tanggal invoice, klik search',
+                      'Cari nama pasien, klik select pilih print',
+                      'Maka akan tampil surat tagihan rawat inap sebagai berikut :',
+             {
+                type: 'image',
+                title: 'Contoh Gambar',
+                content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+              },
+    
+              {
+                type: 'video',
+                title: 'Lihat Video Tutorial',
+                content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+              }
+            ],
+          }
+        ]
+      },
+        /* heru-27/11/2025 */
 
 };

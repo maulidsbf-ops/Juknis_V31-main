@@ -564,6 +564,7 @@ export const menuData: MenuData = {
         'Pasien Jaminan A Berubah Menjadi B',
         'Posting Transaksi RWI Jaminan Dicover Semua',
         'Pasien Jaminan Selisih Bayar Rawat Inap',
+        'BPJS Ada Selisih Bayar',
         'Input Transaksi Direct service (Materai, Pantry)',
         'Pasien Pribadi Pulang',
         'Cara Input Nilai yang Dicover Asuransi',
