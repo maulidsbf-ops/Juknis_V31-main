@@ -87,6 +87,12 @@ export const contentData: Record<string, ContentItem> = {
             type: 'image',
             title: 'Contoh Gambar',
             content: '/images/front_office/registrasi_pasien/pendaftaran_pasien_baru/7.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1jACU-s5JSkRQAxgdyAL3qiDhAgi2VP1h/preview'
           }
         ]
       }
@@ -150,6 +156,12 @@ export const contentData: Record<string, ContentItem> = {
             type: 'image',
             title: 'Contoh Gambar',
             content: '/images/front_office/registrasi_pasien/mengubah_rincian_pasien/7.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1EKTg3-ZSDMiT8W_5n-RmII_BqyFgzFv7/preview'
           }
 
         ]
