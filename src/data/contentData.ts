@@ -282,6 +282,11 @@ export const contentData: Record<string, ContentItem> = {
             type: 'image',
             title: 'Contoh Gambar',
             content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/5.png'
+          },
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1My_z_dcG0nic4G0vE8N2_936G7rNXs_e/preview'
           }
         ],
                 
@@ -338,6 +343,11 @@ export const contentData: Record<string, ContentItem> = {
             title: 'Contoh Gambar',
             content: '/images/front_office/rawat_jalan/pendaftaran_rwj_dengan_janji/5.png'
           },
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1020b7NKs8nGO067AS06zfTdfrTRBudli/preview'
+          }
         ],
       }
     ]
@@ -390,6 +400,11 @@ export const contentData: Record<string, ContentItem> = {
             title: 'Contoh Gambar',
             content: '/images/front_office/rawat_jalan/pendaftaran_rwj_tanpa_janji/5.png'
           },
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1vMT6HkUw1G3MbT1EjJ3SB77AhGOtEACX/preview'
+          }
         ],
       }
     ]
@@ -1375,9 +1390,9 @@ export const contentData: Record<string, ContentItem> = {
   },
   /* Maul-17/11/2025 */
 
-  /* heru-17/11/2025 */
+   /* heru-17/11/2025 & heru-8/12/2025*/
 
-  'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan': {
+   'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan': {
     id: 'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan',
     menuKey: 'perawat',
     submenuId: 'perawat-rawat-jalan',
@@ -1390,36 +1405,98 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih ambulatory care',
-          'Lalu pilih menu Bay management, klik View patients',
-          'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant ',
-          'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
-          'Jika sudah menemukan pasien tersebut,  lalu klik select, pilih Mark as Arrived',
-          'Kemudian akan muncul informasi “Patient Marked As Arrived”',
-          'Setelah itu klik select pada list pasien tersebut, lalu pilih patient chart ',
-          'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes ',
-          'Lalu pilih consultant pada form select encounter',
-          'Setelah itu tampil form isian notes perawat, Isi kolom title dan notes',
-          'Jika sudah klik tombol Save dan publish',
-          'Kemudian muncul notifikasi, klik tombol processed',
-          'Setelah itu akan tampil informasi “Clinical notes saved successfully”',
-          'Berikut tampilan Clinical notes keperawatan yang sudah disave',
-          'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
-          'Lengkapi informasi pada form vital, jika sudah klik tombol save',
-          'Berikut tampilan informasi vitals yang sudah disave',
-          'Kemudian klik tombol tambah ( + ) pada menu Allergies',
-          'Lengkapi informasi pada form Allergy, jika sudah klik tombol save',
-          'Lalu akan muncul informasi “Allergen saved successfully”, ',
-          'Setelah itu klik Back to Patient List ',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/1.png'
+          },
+          'Lalu pilih menu Bay management, klik View patients',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/2.png'
+          },
+          'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant ',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/3.png'
+          },          
+          'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
+          'Jika sudah menemukan pasien tersebut,  lalu klik select, pilih Mark as Arrived',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/4.png'
+          },          
+          'Kemudian akan muncul informasi “Patient Marked As Arrived”',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/5.png'
+          },          
+          'Setelah itu klik select pada list pasien tersebut, lalu pilih patient chart ',
+          'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes ',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/6.png'
+          },          
+          'Lalu pilih consultant pada form select encounter',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/7.png'
+          },          
+          'Setelah itu tampil form isian notes perawat, Isi kolom title dan notes',
+          'Jika sudah klik tombol Save dan publish',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/8.png'
+          },
+          'Kemudian muncul notifikasi, klik tombol proceed & akan tampil informasi “Clinical notes saved successfully”',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/9.png'
+          },
+          'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/10.png'
+          },
+          'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/10a.png'
+          },
+          'Lengkapi informasi pada form vital, jika sudah klik tombol save',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/11.png'
+          },
+          'Berikut tampilan informasi vitals yang sudah disave',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/12.png'
+          },
+          'Kemudian klik tombol tambah ( + ) pada menu Allergies',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/13.png'
+          },
+          'Lengkapi informasi pada form Allergy, jika sudah klik tombol save',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/14.png'
+          },
+          'Lalu akan muncul informasi “Allergen saved successfully”, ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/15.png'
+          },
+          'Setelah itu klik Back to Patient List ',
+         {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/16.png'
           },
 
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/Penerimaan Pasien Di Nurse Station Rawat Jalan.mp4'
           }
         ],
       }
@@ -1441,39 +1518,83 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih ambulatory care',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/1.png'
+          },
           'Lalu pilih menu Bay management, klik View patients',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/2.png'
+          },
           'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/3.png'
+          },
           'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
           'Jika sudah menemukan pasien tersebut, kemudian klik ikon berwarna kuning untuk OnCall dokter',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/4.png'
+          },
           'Kemudian akan muncul informasi “Patient is Called for consultation”',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/6.png'
+          },
           'Setelah itu klik select, pilih patient Chart ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/7.png'
+          },
           'Pilih menu Orders, lalu klik tombol tambah ( + ) ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/8.png'
+          },
           'Lalu pilih consultant pada form select encounter',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/9.png'
+          },
           'Setelah itu tampil form isian notes perawat, Isi kolom title dan notes',
           {type : 'text', content : '1. Masuk ke halaman Add orders, pastikan nama dokter yang tercantum di kolom nama dokter pada kotak sudut kanan atas sesuai', level: 2 },
           {type : 'text', content : '2. Isi kata kunci pada kolom pencarian', level: 2 },
           {type : 'text', content : '3. Kemudian beri tanda centang pada item yang ingin dipilih', level: 2 },
-          'Kemudian cek kembali untuk item order yang sudah dipilih, ',
-          'Pastikan prefered service center seesuai dengan spesialisasi ',
-          'Jika sudah sesuai lalu klik tombol save ',
-          'Kemudian akan muncul informasi “Service Order saved successfully” ',
-          'Setelah itu klik Back to Patient List',
-          {
+                    {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/10.png'
           },
-
+          'Kemudian cek kembali untuk item order yang sudah dipilih, ',
+          'Pastikan prefered service center sesuai dengan spesialisasi ',
+          'Jika sudah sesuai lalu klik tombol save ',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/11.png'
+          },
+          'Kemudian akan muncul informasi “Service Order saved successfully” ',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/12.png'
+          },
+          'Setelah itu klik Back to Patient List',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/13.png'
+          },
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/Prosedur Asisten Dokter di Kamar Praktek Dokter.mp4'
           }
         ],
       }
     ]
  },
+ /*heru-8/12/2025*/
 
+  /*heru-9/12/2025*/
   'prosedur-penerimaan-pasien-baru': {
     id: 'prosedur-penerimaan-pasien-baru',
     menuKey: 'perawat',
@@ -1487,44 +1608,132 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada menu Apps, pilih menu Inpatients',
-            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
-            'Masuk ke halaman Nursing work bench, kemudian klik search',
-            'Setelah itu cari pasien berdasarkan search criteria, pada patient status pilih Billing cleared',
-            'Lalu klik tombol search',
-            'Setelah pasien ditemukan kemudian klik Administrative, pilih Receive patient',
-            'Muncul form data pasien, isi remarks bila ada keterangan setelah itu klik tombol save',
-            'Lalu akan muncul informasi “Patient reported successfully”',
-            'Kembali ke halaman list patient, setelah itu lakukan kembali pencarian berdasarkan status pasien (patient status)',
-            'Pilih Under IP  lalu klik tombol search',
-            'Setelah pasien ditemukan lalu klik Clinical, pilih patient chart',
-            'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes',
-            'Setelah itu tampil form isian note perawat, Isi kolom title dan note',
-            'Jika sudah klik tombol Save dan publish',
-            'Kemudian muncul notifikasi, klik tombol processed',
-            'Setelah itu akan muncul informasi “Clinical notes saved successfully”',
-            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
-            'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
-            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
-            'Berikut tampilan Vitalls keperawatan yang sudah disave',
-            'Selanjutnya pilih menu Allergies, lalu klik ikon tambah  ( + ) ',
-            'Lengkapi informasi pada form alergi jika sudah klik tombol save',
-            'Setelah itu klik Keperawatan pada menu CPPT',
-            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
-            'Jika sudah klik Save dan Publish',
-            'Kemudian muncul notifikasi, klik tombol processed',
-            'Setelah itu akan muncul informasi “Clinical note saved successfully”',
-            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
-            'Setelah itu klik Back to patient list',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/1.png'
+          },
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/2.png'
+          },
+            'Masuk ke halaman Nursing work bench, kemudian klik search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/3.png'
+          },
+            'Setelah itu cari pasien berdasarkan search criteria, pada patient status pilih Billing cleared',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/5.png'
+          },
+            'Lalu klik tombol search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/4.png'
+          },
+            'Setelah pasien ditemukan kemudian klik Administrative, pilih Receive patient',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/6.png'
+          },
+            'Muncul form data pasien, isi remarks bila ada keterangan setelah itu klik tombol save',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/7.png'
+          },
+            'Lalu akan muncul informasi “Patient reported successfully”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/8.png'
+          },
+            'Kembali ke halaman list patient, setelah itu lakukan kembali pencarian berdasarkan status pasien (patient status)',
+            'Pilih Under IP  lalu klik tombol search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/9.png'
+          },
+            'Setelah pasien ditemukan lalu klik Clinical, pilih patient chart',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/10.png'
+          },
+            'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/11.png'
+          },
+            'Setelah itu tampil form isian note perawat, Isi kolom title dan note',
+            'Jika sudah klik tombol Save dan publish',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/12.png'
+          },
+            'Kemudian muncul notifikasi, klik tombol proceed',
+            'Setelah itu akan muncul informasi “Clinical notes saved successfully”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/13.png'
+          },
+            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/14.png'
+          },
+            'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/15.png'
+          },
+            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/16.png'
+          },
+            'Berikut tampilan Vitalls keperawatan yang sudah disave',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/17.png'
+          },
+            'Selanjutnya pilih menu Allergies, lalu klik ikon tambah  ( + ) ',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/17.png'
+          },
+            'Lengkapi informasi pada form alergi jika sudah klik tombol save',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/18.png'
+          },
+            'Setelah itu klik Keperawatan pada menu CPPT',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/19.png'
+          },
+            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
+            'Jika sudah klik Save dan Publish',
+                     {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/20.png'
           },
 
+            'Kemudian muncul notifikasi, klik tombol proceed',
+                     {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/21.png'
+          },
+            'Setelah itu akan muncul informasi “Clinical note saved successfully”',
+            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+                     {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/22.png'
+          },
+
+            'Setelah itu klik Back to patient list',
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/Prosedur Penerimaan Pasien Baru.mp4'
           }
         ],
       }

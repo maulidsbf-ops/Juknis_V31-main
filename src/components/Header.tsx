@@ -8,8 +8,8 @@ const Header = () => {
           <div className="d-flex align-items-center">
             <FileText size={32} className="header-icon" />
             <div className="ms-3">
-              <h1 className="header-title mb-0">JUKNIS Rumah Sakit</h1>
-              <p className="header-subtitle mb-0">Petunjuk Teknis Sistem Informasi</p>
+              <h1 className="header-title mb-0">PETUNJUK TEKNIS SIMRS HINAI</h1>
+              <p className="header-subtitle mb-0">Petunjuk Teknis Sistem Informasi Manajemen Rumah Sakit</p>
             </div>
           </div>
         </div>

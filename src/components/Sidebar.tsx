@@ -46,14 +46,6 @@ const toggleTheme = () => {
 };
 
 
-  <button
-  className="theme-toggle-modern"
-  onClick={toggleTheme}
->
-  {isDark ? <Sun size={18} /> : <Moon size={18} />}
-</button>
-
-
   const menus = [
     { key: 'home', label: 'Home', icon: Home, submenus: [] },
     {
@@ -224,26 +216,7 @@ const toggleTheme = () => {
       <div className="sidebar-header" role="banner">
   <h4 className="text-center py-3 mb-0"></h4>
 
-  {/* ===== THEME TOGGLE BUTTON ===== */}
-  <button
-    className="theme-toggle-btn"
-    onClick={() => {
-      document.body.classList.toggle("dark-mode");
-
-      if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
-      } else {
-        localStorage.setItem("theme", "light");
-      }
-    }}
-    aria-label="Toggle theme"
-  >
-    {document.body.classList.contains("dark-mode") ? (
-      <Sun size={20} />
-    ) : (
-      <Moon size={20} />
-    )}
-  </button>
+  
 </div>
 
 
@@ -295,6 +268,27 @@ const toggleTheme = () => {
             </div>
           );
         })}
+
+        {/* ===== THEME TOGGLE BUTTON ===== */}
+  <button
+    className="theme-toggle-btn"
+    onClick={() => {
+      document.body.classList.toggle("dark-mode");
+
+      if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+    }}
+    aria-label="Toggle theme"
+  >
+    {document.body.classList.contains("dark-mode") ? (
+      <Sun size={20} />
+    ) : (
+      <Moon size={20} />
+    )}
+  </button>
       </div>
     </nav>
   );
